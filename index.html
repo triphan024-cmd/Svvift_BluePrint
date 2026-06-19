@@ -11,6 +11,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">
+                <img src="logo.png" alt="Svvift Logo" class="logo-img">
+                The <span style="color: var(--text-muted); font-weight: 500;">Blue Print</span>
+            </div>
+            <div class="nav-links">
+                <a href="#purpose">Objective</a>
+                <a href="#benefit">Value</a>
+                <a href="#how">Approach</a>
+                <a href="#process" class="nav-demo-btn">Execution</a>
+            </div>
+        </div>
+    </nav>
+
     <div class="ambient-background">
         <div class="blob blob-1"></div>
         <div class="blob blob-2"></div>
@@ -18,12 +34,13 @@
 
     <main class="container">
         <!-- Hero Section -->
-        <section class="hero observe">
+        <section class="hero observe" style="margin-top: 4rem;">
             <div class="hero-content">
-                <div class="company-logo" style="margin-bottom: 2rem;">
-                    <img src="logo.png" alt="Svvift Logo" style="height: 54px; width: auto; mix-blend-mode: multiply;">
-                </div>
-                <h1 class="title" style="margin-bottom: 1.5rem;">Manufacturing <br><span class="gradient-text">Operational Systems</span></h1>
+                <h1 class="title" style="margin-bottom: 1.5rem;">
+                    Manufacturing <br>
+                    <span class="gradient-text">Operational</span> <br>
+                    <span class="gradient-text">Systems</span>
+                </h1>
                 <p class="subtitle" style="font-size: 1.25rem; line-height: 1.6; max-width: 700px; margin: 0 auto;">A <strong style="color: var(--accent-primary);">new chapter</strong> in operational upgrades and establishing the robust systems necessary to move the plant into a phase of scaling up has begun.</p>
                 <p class="subtitle-vn" style="font-size: 1.1rem; line-height: 1.6; color: var(--text-secondary); max-width: 700px; margin: 0.5rem auto 0 auto; font-style: italic;">Một <strong style="color: var(--accent-primary);">chương mới</strong> về nâng cấp vận hành, thiết lập hệ thống vững chắc cần thiết để đưa nhà máy bước vào giai đoạn mở rộng quy mô.</p>
                 <div class="badge" style="margin-top: 2rem; margin-bottom: 0;">Phase I: The Blue Print</div>
@@ -31,7 +48,7 @@
         </section>
 
         <!-- 1. Purpose -->
-        <section class="purpose observe">
+        <section id="purpose" class="purpose observe">
             <div class="section-header">
                 <p class="section-meta">01. The Objective</p>
                 <h2 class="section-title">Purpose</h2>
@@ -89,7 +106,7 @@
         </section>
 
         <!-- 2. Benefit -->
-        <section class="benefit observe">
+        <section id="benefit" class="benefit observe">
             <div class="section-header">
                 <p class="section-meta">02. Value Proposition</p>
                 <h2 class="section-title">Benefit</h2>
@@ -117,7 +134,7 @@
         </section>
 
         <!-- 3. How -->
-        <section class="how observe">
+        <section id="how" class="how observe">
             <div class="section-header">
                 <p class="section-meta">03. The Approach</p>
                 <h2 class="section-title">How We Do It</h2>
@@ -151,7 +168,7 @@
         </section>
 
         <!-- 4. Process (Detailed Tab Layout like Svvift Meeting) -->
-        <section class="process observe">
+        <section id="process" class="process observe">
             <div class="section-header">
                 <p class="section-meta">04. Execution</p>
                 <h2 class="section-title">The Process</h2>
