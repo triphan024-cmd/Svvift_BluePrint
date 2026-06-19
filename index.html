@@ -272,75 +272,77 @@
             
             <div style="max-width: 1200px; margin: 0 auto;">
                 <div class="obj-card-v2 card-benefit">
-                    <div style="display: flex; gap: 2rem; align-items: center; margin-bottom: 2.5rem;">
-                        <!-- Book Image -->
-                        <div style="flex-shrink: 0; border-radius: 8px; overflow: hidden; box-shadow: 0 15px 30px -5px rgba(0,0,0,0.2);">
-                            <img src="https://cdn1.fahasa.com/media/flashmagazine/images/page_images/feel_good_productivity/2025_07_18_16_39_38_1-390x510.png" alt="Feel Good Productivity" style="width: 130px; height: auto; display: block;">
-                        </div>
-                        <div>
-                            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 0.5rem;">
+                    <div class="scaleup-grid" style="align-items: start; gap: 4rem; grid-template-columns: 2fr 3fr;">
+                        
+                        <!-- Left Column: Book and Subtitle -->
+                        <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+                            <!-- Book Image -->
+                            <div style="border-radius: 8px; overflow: hidden; box-shadow: 0 20px 40px -10px rgba(0,0,0,0.25); margin-bottom: 2rem;">
+                                <img src="https://cdn1.fahasa.com/media/flashmagazine/images/page_images/feel_good_productivity/2025_07_18_16_39_38_1-390x510.png" alt="Feel Good Productivity" style="width: 260px; height: auto; display: block;">
+                            </div>
+                            <div style="display: flex; align-items: center; justify-content: center; gap: 1rem; margin-bottom: 1rem;">
                                 <div class="card-icon-wrapper" style="margin-bottom: 0; width: 48px; height: 48px; font-size: 1.5rem; background: rgba(16, 185, 129, 0.1); color: #10b981; border-radius: 12px;">✨</div>
                                 <h3 style="font-size: 1.8rem; margin: 0; font-weight: 800; color: var(--text-primary);">Feel Good Productivity</h3>
                             </div>
-                            <div style="font-size: 1rem; font-weight: 500; color: var(--text-secondary); line-height: 1.6; max-width: 800px;">
+                            <div style="font-size: 1.05rem; font-weight: 500; color: var(--text-secondary); line-height: 1.6; max-width: 400px;">
                                 Building a system designed for mental clarity, flow, and sustainable performance. <br>
-                                <span style="font-style: italic; color: var(--text-muted);">(Xây dựng một hệ thống tối ưu cho sự minh mẫn, dòng chảy công việc và hiệu suất bền vững.)</span>
+                                <span style="font-style: italic; color: var(--text-muted); display: block; margin-top: 0.5rem;">(Xây dựng một hệ thống tối ưu cho sự minh mẫn, dòng chảy công việc và hiệu suất bền vững.)</span>
                             </div>
                         </div>
-                    </div>
 
-                    <div style="width: 100%; height: 1px; background: rgba(0,0,0,0.05); margin-bottom: 2.5rem;"></div>
+                        <!-- Right Column: Philosophies -->
+                        <div style="display: flex; flex-direction: column;">
+                            <!-- English -->
+                            <div style="margin-bottom: 3rem;">
+                                <p style="color: var(--text-primary); font-size: 1.05rem; font-weight: 700; margin-bottom: 1.5rem; text-transform: uppercase; letter-spacing: 1px;">Core Philosophies</p>
+                                <ul class="obj-list">
+                                    <li>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                        <div>
+                                            <strong style="color: var(--text-primary);">Work Smart (Instead of Work Hard):</strong> <span style="color: var(--text-secondary);">Focusing on intelligent workflows and process optimization to achieve more with less friction.</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                        <div>
+                                            <strong style="color: var(--text-primary);">Energized Execution:</strong> <span style="color: var(--text-secondary);">Creating an environment that triggers 3 natural energy drivers: Play, Power, and Purpose.</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                        <div>
+                                            <strong style="color: var(--text-primary);">Recharge & Sustain:</strong> <span style="color: var(--text-secondary);">Preventing burnout through proactive rest and dedicated relaxation spaces to maintain long-term peak performance.</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
 
-                    <div class="scaleup-grid">
-                        <!-- Left: English -->
-                        <div class="scaleup-col" style="display: flex; flex-direction: column;">
-                            <p style="color: var(--text-primary); font-size: 1.05rem; font-weight: 700; margin-bottom: 1.5rem; text-transform: uppercase; letter-spacing: 1px;">Core Philosophies</p>
-                            <ul class="obj-list">
-                                <li>
-                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-                                    <div>
-                                        <strong style="color: var(--text-primary);">Work Smart (Instead of Work Hard):</strong> <span style="color: var(--text-secondary);">Focusing on intelligent workflows and process optimization to achieve more with less friction.</span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-                                    <div>
-                                        <strong style="color: var(--text-primary);">Energized Execution:</strong> <span style="color: var(--text-secondary);">Creating an environment that triggers 3 natural energy drivers: Play, Power, and Purpose.</span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-                                    <div>
-                                        <strong style="color: var(--text-primary);">Recharge & Sustain:</strong> <span style="color: var(--text-secondary);">Preventing burnout through proactive rest and dedicated relaxation spaces to maintain long-term peak performance.</span>
-                                    </div>
-                                </li>
-                            </ul>
+                            <!-- Vietnamese -->
+                            <div>
+                                <p style="color: var(--text-primary); font-size: 1.05rem; font-weight: 700; margin-bottom: 1.5rem; text-transform: uppercase; letter-spacing: 1px;">Triết lý Cốt lõi</p>
+                                <ul class="obj-list">
+                                    <li>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                        <div>
+                                            <strong style="color: var(--text-primary);">Work Smart (Instead of Work Hard):</strong> <span style="color: var(--text-secondary);">Tập trung vào dòng chảy công việc thông minh, tối ưu quy trình.</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                        <div>
+                                            <strong style="color: var(--text-primary);">Energized Execution (Năng lượng thực thi):</strong> <span style="color: var(--text-secondary);">Tạo môi trường kích hoạt 3 động lực năng lượng tự nhiên (Play - Chơi/Khám phá, Power - Tự chủ, Purpose - Mục đích).</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                        <div>
+                                            <strong style="color: var(--text-primary);">Recharge & Sustain (Tái tạo & Bền vững):</strong> <span style="color: var(--text-secondary);">Ngăn ngừa kiệt sức (Burnout) bằng cách chủ động nghỉ ngơi, tạo không gian thư giãn để duy trì hiệu suất đỉnh cao dài hạn.</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
 
-                        <!-- Right: Vietnamese -->
-                        <div class="scaleup-col" style="display: flex; flex-direction: column;">
-                            <p style="color: var(--text-primary); font-size: 1.05rem; font-weight: 700; margin-bottom: 1.5rem; text-transform: uppercase; letter-spacing: 1px;">Triết lý Cốt lõi</p>
-                            <ul class="obj-list">
-                                <li>
-                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-                                    <div>
-                                        <strong style="color: var(--text-primary);">Work Smart (Instead of Work Hard):</strong> <span style="color: var(--text-secondary);">Tập trung vào dòng chảy công việc thông minh, tối ưu quy trình.</span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-                                    <div>
-                                        <strong style="color: var(--text-primary);">Energized Execution (Năng lượng thực thi):</strong> <span style="color: var(--text-secondary);">Tạo môi trường kích hoạt 3 động lực năng lượng tự nhiên (Play - Chơi/Khám phá, Power - Tự chủ, Purpose - Mục đích).</span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-                                    <div>
-                                        <strong style="color: var(--text-primary);">Recharge & Sustain (Tái tạo & Bền vững):</strong> <span style="color: var(--text-secondary);">Ngăn ngừa kiệt sức (Burnout) bằng cách chủ động nghỉ ngơi, tạo không gian thư giãn để duy trì hiệu suất đỉnh cao dài hạn.</span>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
             </div>
