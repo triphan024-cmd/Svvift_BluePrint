@@ -36,11 +36,56 @@
                 <p class="section-meta">01. The Objective</p>
                 <h2 class="section-title">Purpose</h2>
             </div>
-            <div class="glass-panel purpose-card">
-                <div class="card-icon">🎯</div>
-                <h3>Svvift 2 Years</h3>
-                <p>Foundation done, moving on to the scale & growth stage. Therefore, we need to build a stronger system and streamline processes for the team to achieve operational excellence.</p>
+            
+            <div class="objective-layout" style="display: grid; grid-template-columns: 1fr auto 1fr; gap: 2rem; align-items: center; max-width: 1000px; margin: 0 auto;">
+                
+                <!-- Left: Foundation -->
+                <div class="glass-panel obj-card" style="padding: 2.5rem; text-align: left;">
+                    <div class="card-icon" style="margin-bottom: 1.5rem; font-size: 2.5rem; padding: 1rem;">🧱</div>
+                    <h3 style="font-size: 1.8rem; color: var(--text-primary); margin-bottom: 0.25rem;">The Foundation</h3>
+                    <div style="font-size: 0.85rem; font-weight: 800; color: var(--text-muted); letter-spacing: 2px; text-transform: uppercase; margin-bottom: 1.5rem;">Svvift Past 2 Years</div>
+                    <p style="color: var(--text-primary); font-weight: 600; margin-bottom: 1.5rem; font-size: 1.1rem;">Trạng thái: Ổn định cốt lõi (Stable)</p>
+                    <ul style="list-style: none; display: flex; flex-direction: column; gap: 1rem;">
+                        <li style="position: relative; padding-left: 1.5rem; color: var(--text-secondary); font-size: 0.95rem;">
+                            <span style="position: absolute; left: 0; color: var(--accent-secondary);">■</span>
+                            <strong>Vận hành:</strong> Xây dựng thành công đội ngũ cơ bản, quy trình chủ yếu dựa vào kinh nghiệm cá nhân.
+                        </li>
+                        <li style="position: relative; padding-left: 1.5rem; color: var(--text-secondary); font-size: 0.95rem;">
+                            <span style="position: absolute; left: 0; color: var(--accent-secondary);">■</span>
+                            <strong>Nút thắt:</strong> Phụ thuộc nhiều vào con người, quy trình thủ công dễ gây quá tải khi sản lượng tăng.
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Middle Arrow -->
+                <div class="obj-arrow" style="display: flex; align-items: center; justify-content: center; color: var(--accent-primary); opacity: 0.4;">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 16 16 12 12 8"></polyline><line x1="8" y1="12" x2="16" y2="12"></line></svg>
+                </div>
+
+                <!-- Right: Scale Up -->
+                <div class="glass-panel obj-card" style="padding: 2.5rem; text-align: left; border-top: 4px solid var(--accent-primary); background: rgba(255,255,255,0.95);">
+                    <div class="card-icon" style="margin-bottom: 1.5rem; font-size: 2.5rem; padding: 1rem; background: rgba(30, 58, 138, 0.08); color: var(--accent-primary);">🚀</div>
+                    <h3 style="font-size: 1.8rem; color: var(--accent-primary); margin-bottom: 0.25rem;">The Scale-Up</h3>
+                    <div style="font-size: 0.85rem; font-weight: 800; color: var(--accent-primary); letter-spacing: 2px; text-transform: uppercase; margin-bottom: 1.5rem;">Next Chapter (Growth)</div>
+                    <p style="color: var(--text-primary); font-weight: 600; margin-bottom: 1.5rem; font-size: 1.1rem;">Trạng thái: Bứt phá & Mở rộng (Growth)</p>
+                    <ul style="list-style: none; display: flex; flex-direction: column; gap: 1rem;">
+                        <li style="position: relative; padding-left: 1.5rem; color: var(--text-secondary); font-size: 0.95rem;">
+                            <span style="position: absolute; left: 0; color: var(--accent-primary);">■</span>
+                            <strong>Hệ thống hóa:</strong> Chuyển đổi số và chuẩn hóa luồng công việc bằng công nghệ (MES, Digital SOPs).
+                        </li>
+                        <li style="position: relative; padding-left: 1.5rem; color: var(--text-secondary); font-size: 0.95rem;">
+                            <span style="position: absolute; left: 0; color: var(--accent-primary);">■</span>
+                            <strong>Mục tiêu:</strong> Làm việc thông minh (Work Smart), tuân thủ 100%, sẵn sàng nhân bản và tự chủ.
+                        </li>
+                    </ul>
+                </div>
             </div>
+            <style>
+                @media (max-width: 900px) {
+                    .objective-layout { grid-template-columns: 1fr !important; }
+                    .obj-arrow { transform: rotate(90deg); margin: 1rem 0; }
+                }
+            </style>
         </section>
 
         <!-- 2. Benefit -->
