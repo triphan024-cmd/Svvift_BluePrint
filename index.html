@@ -382,47 +382,41 @@
             </div>
             
             <div style="max-width: 1200px; margin: 0 auto;">
-                <div class="obj-card-v2" style="padding: 2.5rem; background: rgba(255, 255, 255, 0.9); border: 1px solid rgba(0, 0, 0, 0.05); border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
-                    <div class="scaleup-grid" style="align-items: center; gap: 4rem; grid-template-columns: 2fr 3fr;">
+                <div class="obj-card-v2" style="position: relative; padding: 4rem 3rem; border-radius: 20px; box-shadow: 0 15px 40px rgba(0,0,0,0.15); overflow: hidden; background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDR8n-zeZGUnNAT-c2E5hykUPX9H9d5pG04JEISuusdikSS3yLhUqSuivpBNUHurE3IL3Ap5ISeLyHA0TcFEBJE4N0ZuXeThEDoSyJS3MXy5XvOjGUJa6B7MLIcL5P37uJtjacnVwG7m_IsSSH65WB1tJj3sQJxcBarIg0v-t8ILfDc7GFSkHw-tgpbUc/s1680/image1.jpeg') center/cover no-repeat;">
+                    
+                    <!-- Dark Overlay for readability -->
+                    <div style="position: absolute; inset: 0; background: linear-gradient(135deg, rgba(15, 23, 42, 0.85) 0%, rgba(15, 23, 42, 0.4) 100%); z-index: 1;"></div>
+
+                    <!-- Content Container (Overlaying Background) -->
+                    <div style="position: relative; z-index: 2; display: flex; flex-direction: column; gap: 1.5rem; max-width: 750px; margin-left: auto;">
                         
-                        <!-- Left Column: Blueprint Image -->
-                        <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
-                            <div style="border-radius: 12px; overflow: hidden; box-shadow: 0 20px 40px -10px rgba(0,0,0,0.25);">
-                                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDR8n-zeZGUnNAT-c2E5hykUPX9H9d5pG04JEISuusdikSS3yLhUqSuivpBNUHurE3IL3Ap5ISeLyHA0TcFEBJE4N0ZuXeThEDoSyJS3MXy5XvOjGUJa6B7MLIcL5P37uJtjacnVwG7m_IsSSH65WB1tJj3sQJxcBarIg0v-t8ILfDc7GFSkHw-tgpbUc/s1680/image1.jpeg" alt="Strategic Blueprint" style="width: 100%; max-width: 320px; height: auto; display: block; border: 2px solid rgba(37, 99, 235, 0.1);">
+                        <!-- Item 1 -->
+                        <div style="display: flex; align-items: flex-start; gap: 1.25rem; padding: 1.5rem; background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.4); border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);">
+                            <div style="width: 45px; height: 45px; border-radius: 50%; background: rgba(37, 99, 235, 0.1); color: var(--accent-primary); display: flex; align-items: center; justify-content: center; font-weight: 800; flex-shrink: 0; font-size: 1.2rem;">1</div>
+                            <div>
+                                <p style="margin: 0 0 0.5rem 0; font-size: 1.05rem; line-height: 1.5;"><strong style="color: var(--text-primary);">Technology as an Enabler:</strong> <span style="color: var(--text-secondary);">Inspired by Steve Jobs, we blend technology with humanity to amplify potential. Digital tools are deployed to empower the workforce, acting as a catalyst for efficiency rather than a mechanism for control.</span></p>
+                                <p style="margin: 0; font-size: 1.05rem; color: var(--text-secondary); line-height: 1.5; font-style: italic;"><strong style="color: var(--text-primary);">Công nghệ là Trợ lực:</strong> Lấy cảm hứng từ triết lý Steve Jobs, kết hợp công nghệ và con người để khuếch đại tiềm năng. Các công cụ số được triển khai để trao quyền, làm chất xúc tác cho hiệu suất thay vì công cụ kiểm soát.</p>
                             </div>
                         </div>
 
-                        <!-- Right Column: 3 Core Principles -->
-                        <div style="display: flex; flex-direction: column; gap: 1.25rem;">
-                            
-                            <!-- Item 1 -->
-                            <div style="display: flex; align-items: flex-start; gap: 1.25rem; padding: 1.25rem; background: #fff; border: 1px solid rgba(0,0,0,0.05); border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.02);">
-                                <div style="width: 40px; height: 40px; border-radius: 50%; background: rgba(37, 99, 235, 0.1); color: var(--accent-primary); display: flex; align-items: center; justify-content: center; font-weight: 800; flex-shrink: 0; font-size: 1.2rem;">1</div>
-                                <div>
-                                    <p style="margin: 0 0 0.5rem 0; font-size: 1.05rem; line-height: 1.5;"><strong style="color: var(--text-primary);">Technology as an Enabler:</strong> <span style="color: var(--text-secondary);">Inspired by Steve Jobs, we blend technology with humanity to amplify potential. Digital tools are deployed to empower the workforce, acting as a catalyst for efficiency rather than a mechanism for control.</span></p>
-                                    <p style="margin: 0; font-size: 1.05rem; color: var(--text-secondary); line-height: 1.5; font-style: italic;"><strong style="color: var(--text-primary);">Công nghệ là Trợ lực:</strong> Lấy cảm hứng từ triết lý Steve Jobs, kết hợp công nghệ và con người để khuếch đại tiềm năng. Các công cụ số được triển khai để trao quyền, làm chất xúc tác cho hiệu suất thay vì công cụ kiểm soát.</p>
-                                </div>
+                        <!-- Item 2 -->
+                        <div style="display: flex; align-items: flex-start; gap: 1.25rem; padding: 1.5rem; background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.4); border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);">
+                            <div style="width: 45px; height: 45px; border-radius: 50%; background: rgba(37, 99, 235, 0.1); color: var(--accent-primary); display: flex; align-items: center; justify-content: center; font-weight: 800; flex-shrink: 0; font-size: 1.2rem;">2</div>
+                            <div>
+                                <p style="margin: 0 0 0.5rem 0; font-size: 1.05rem; line-height: 1.5;"><strong style="color: var(--text-primary);">Kaizen-Driven Improvement:</strong> <span style="color: var(--text-secondary);">Rooted in small, daily incremental changes. We empower frontline operators to continuously refine workflows, naturally eliminating waste and micro-stops from the ground up.</span></p>
+                                <p style="margin: 0; font-size: 1.05rem; color: var(--text-secondary); line-height: 1.5; font-style: italic;"><strong style="color: var(--text-primary);">Cải tiến theo Kaizen:</strong> Dựa trên những thay đổi nhỏ mỗi ngày. Trao quyền cho nhân sự tuyến đầu liên tục tinh chỉnh luồng công việc, tự nhiên triệt tiêu hao phí và lỗi dừng vặt từ nền tảng.</p>
                             </div>
-
-                            <!-- Item 2 -->
-                            <div style="display: flex; align-items: flex-start; gap: 1.25rem; padding: 1.25rem; background: #fff; border: 1px solid rgba(0,0,0,0.05); border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.02);">
-                                <div style="width: 40px; height: 40px; border-radius: 50%; background: rgba(37, 99, 235, 0.1); color: var(--accent-primary); display: flex; align-items: center; justify-content: center; font-weight: 800; flex-shrink: 0; font-size: 1.2rem;">2</div>
-                                <div>
-                                    <p style="margin: 0 0 0.5rem 0; font-size: 1.05rem; line-height: 1.5;"><strong style="color: var(--text-primary);">Kaizen-Driven Improvement:</strong> <span style="color: var(--text-secondary);">Rooted in small, daily incremental changes. We empower frontline operators to continuously refine workflows, naturally eliminating waste and micro-stops from the ground up.</span></p>
-                                    <p style="margin: 0; font-size: 1.05rem; color: var(--text-secondary); line-height: 1.5; font-style: italic;"><strong style="color: var(--text-primary);">Cải tiến theo Kaizen:</strong> Dựa trên những thay đổi nhỏ mỗi ngày. Trao quyền cho nhân sự tuyến đầu liên tục tinh chỉnh luồng công việc, tự nhiên triệt tiêu hao phí và lỗi dừng vặt từ nền tảng.</p>
-                                </div>
-                            </div>
-
-                            <!-- Item 3 -->
-                            <div style="display: flex; align-items: flex-start; gap: 1.25rem; padding: 1.25rem; background: #fff; border: 1px solid rgba(0,0,0,0.05); border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.02);">
-                                <div style="width: 40px; height: 40px; border-radius: 50%; background: rgba(37, 99, 235, 0.1); color: var(--accent-primary); display: flex; align-items: center; justify-content: center; font-weight: 800; flex-shrink: 0; font-size: 1.2rem;">3</div>
-                                <div>
-                                    <p style="margin: 0 0 0.5rem 0; font-size: 1.05rem; line-height: 1.5;"><strong style="color: var(--text-primary);">Sharing, Not Judgment (No Barriers):</strong> <span style="color: var(--text-secondary);">Fostering a psychologically safe environment where every idea counts. We use metrics purely for collaborative problem-solving, replacing the fear of judgment with a culture of open sharing.</span></p>
-                                    <p style="margin: 0; font-size: 1.05rem; color: var(--text-secondary); line-height: 1.5; font-style: italic;"><strong style="color: var(--text-primary);">Chia sẻ, Không Phán xét:</strong> Nuôi dưỡng môi trường an toàn tâm lý "Không rào cản", nơi mọi ý tưởng đều có giá trị. Các chỉ số chỉ dùng để cùng giải quyết vấn đề, thay nỗi sợ phán xét bằng văn hóa cởi mở.</p>
-                                </div>
-                            </div>
-
                         </div>
+
+                        <!-- Item 3 -->
+                        <div style="display: flex; align-items: flex-start; gap: 1.25rem; padding: 1.5rem; background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.4); border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);">
+                            <div style="width: 45px; height: 45px; border-radius: 50%; background: rgba(37, 99, 235, 0.1); color: var(--accent-primary); display: flex; align-items: center; justify-content: center; font-weight: 800; flex-shrink: 0; font-size: 1.2rem;">3</div>
+                            <div>
+                                <p style="margin: 0 0 0.5rem 0; font-size: 1.05rem; line-height: 1.5;"><strong style="color: var(--text-primary);">Sharing, Not Judgment (No Barriers):</strong> <span style="color: var(--text-secondary);">Fostering a psychologically safe environment where every idea counts. We use metrics purely for collaborative problem-solving, replacing the fear of judgment with a culture of open sharing.</span></p>
+                                <p style="margin: 0; font-size: 1.05rem; color: var(--text-secondary); line-height: 1.5; font-style: italic;"><strong style="color: var(--text-primary);">Chia sẻ, Không Phán xét:</strong> Nuôi dưỡng môi trường an toàn tâm lý "Không rào cản", nơi mọi ý tưởng đều có giá trị. Các chỉ số chỉ dùng để cùng giải quyết vấn đề, thay nỗi sợ phán xét bằng văn hóa cởi mở.</p>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
