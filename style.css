@@ -453,6 +453,21 @@ section {
     margin-bottom: 0.25rem;
 }
 
+.bullet-list.frameless li {
+    background: transparent;
+    border: none;
+    padding: 0 0 0 1.5rem;
+}
+
+.bullet-list.frameless li::before {
+    left: 0;
+    top: 0;
+}
+
+.bullet-list.frameless li strong {
+    display: inline;
+}
+
 /* Footer */
 footer {
     text-align: center;
