@@ -17,7 +17,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const observeElements = document.querySelectorAll('.observe');
     observeElements.forEach(el => observer.observe(el));
 
-    // 2. Tab Navigation Logic for Section 4 (Process)
+    // 2. Tab Navigation Logic for Section 4 (Process) (Disabled to prevent clicking)
+    /*
     const tabNodes = document.querySelectorAll('.tab-node');
     const tabPanels = document.querySelectorAll('.tab-panel');
 
@@ -35,6 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById(targetId).classList.add('active');
         });
     });
+    */
 
     // 3. Optional: Mouse parallax effect for blobs
     const blobs = document.querySelectorAll('.blob');
