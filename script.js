@@ -109,6 +109,19 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // 3.5. Header Nav Phase Clicks
+    const navPhaseBtns = document.querySelectorAll('.nav-phase-btn');
+    navPhaseBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            const targetPhase = btn.getAttribute('data-target-phase');
+            const targetBtn = document.querySelector(`.phase-btn[data-phase="${targetPhase}"]`);
+            if (targetBtn) {
+                targetBtn.click();
+            }
+        });
+    });
+
     // 4. Mouse parallax effect for blobs
     const blobs = document.querySelectorAll('.blob');
     document.addEventListener('mousemove', (e) => {
