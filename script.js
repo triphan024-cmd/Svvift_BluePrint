@@ -46,8 +46,32 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Add inline transitions helper
     [phase1Content, phase2Content].forEach(el => {
-        el.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
+        if (el) el.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
     });
+
+    // Function to explicitly set Phase I as default on page load
+    function setPhaseIDefault() {
+        phaseBtns.forEach(b => b.classList.remove('active'));
+        const phase1Btn = document.querySelector('.phase-btn[data-phase="1"]');
+        if (phase1Btn) phase1Btn.classList.add('active');
+        if (phaseSwitcher) phaseSwitcher.classList.remove('phase-2-active');
+
+        if (phase1Content) {
+            phase1Content.style.display = 'block';
+            phase1Content.style.opacity = '1';
+            phase1Content.style.transform = 'translateY(0)';
+        }
+        if (phase2Content) {
+            phase2Content.style.display = 'none';
+            phase2Content.style.opacity = '0';
+            phase2Content.style.transform = 'translateY(15px)';
+        }
+        if (navLinksPhase1) navLinksPhase1.style.display = 'flex';
+        if (navLinksPhase2) navLinksPhase2.style.display = 'none';
+    }
+
+    // Always load Phase I as default when entering the website
+    setPhaseIDefault();
 
     phaseBtns.forEach(btn => {
         btn.addEventListener('click', () => {
