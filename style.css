@@ -976,3 +976,270 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+/* =========================================
+   PHASE 2: DATA COLLECTION UI (FROM SWIFT MEETING)
+   ========================================= */
+
+/* --- SURVEY BENTO GRID --- */
+.survey-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.survey-card {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 8px 32px rgba(30, 58, 138, 0.05), inset 0 1px 0 rgba(255, 255, 255, 1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    display: flex;
+    flex-direction: column;
+}
+
+.survey-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(30, 58, 138, 0.08), inset 0 1px 0 rgba(255, 255, 255, 1);
+    border-color: rgba(30, 58, 138, 0.15);
+}
+
+.survey-watermark {
+    position: absolute;
+    top: -20px;
+    right: -10px;
+    font-size: 8rem;
+    font-weight: 900;
+    color: rgba(30, 58, 138, 0.03);
+    z-index: 0;
+    line-height: 1;
+    pointer-events: none;
+    user-select: none;
+}
+
+.survey-card-header {
+    padding: 1.25rem 1.5rem;
+    background: rgba(255, 255, 255, 0.4);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+    font-weight: 700;
+    color: var(--text-primary);
+    font-size: 1.1rem;
+    position: relative;
+    z-index: 1;
+}
+
+.survey-card-body {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    position: relative;
+    z-index: 1;
+    flex-grow: 1;
+}
+
+.survey-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 1rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.bottleneck-block {
+    border-left: 3px solid #F59E0B;
+    background: linear-gradient(90deg, rgba(245,158,11,0.08) 0%, transparent 100%);
+}
+.badge-orange {
+    background: #F59E0B;
+    color: #FFFFFF;
+    border: none;
+    box-shadow: 0 2px 8px rgba(245,158,11,0.3);
+}
+
+.rootcause-block {
+    border-left: 3px solid #EF4444;
+    background: linear-gradient(90deg, rgba(239,68,68,0.08) 0%, transparent 100%);
+}
+.badge-red {
+    background: #EF4444;
+    color: #FFFFFF;
+    border: none;
+    box-shadow: 0 2px 8px rgba(239,68,68,0.3);
+}
+
+.consequence-block {
+    border-left: 3px solid #8B5CF6;
+    background: linear-gradient(90deg, rgba(139,92,246,0.08) 0%, transparent 100%);
+}
+.badge-purple {
+    background: #8B5CF6;
+    color: #FFFFFF;
+    border: none;
+    box-shadow: 0 2px 8px rgba(139,92,246,0.3);
+}
+
+.suggestion-block {
+    border-left: 3px solid #3B82F6;
+    background: linear-gradient(90deg, rgba(59,130,246,0.08) 0%, transparent 100%);
+}
+.badge-blue {
+    background: #3B82F6;
+    color: #FFFFFF;
+    border: none;
+    box-shadow: 0 2px 8px rgba(59,130,246,0.3);
+}
+
+.survey-badge {
+    display: inline-block;
+    padding: 0.25rem 0.6rem;
+    border-radius: 100px;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+}
+
+.survey-list {
+    margin: 0;
+    padding-left: 1.25rem;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+.survey-list li {
+    margin-bottom: 0.25rem;
+}
+.survey-list li:last-child {
+    margin-bottom: 0;
+}
+
+/* --- INTERVIEW MATRIX --- */
+.interview-table {
+    margin-top: 1rem;
+    background: var(--bg-surface);
+    border-radius: 12px;
+    border: 1px solid rgba(0,0,0,0.05);
+    overflow: hidden;
+}
+
+.interview-header {
+    background: rgba(30, 58, 138, 0.02);
+}
+
+.interview-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr);
+    gap: 2rem;
+    padding: 1.5rem;
+    border-bottom: 1px solid rgba(0,0,0,0.04);
+    transition: all 0.2s ease;
+}
+
+.interview-row:last-child {
+    border-bottom: none;
+}
+
+.interview-row:hover {
+    background: linear-gradient(90deg, rgba(30, 58, 138, 0.02) 0%, transparent 100%);
+    border-left: 3px solid var(--accent-primary);
+    padding-left: calc(1.5rem - 3px);
+}
+
+.row-cause {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.cause-title {
+    font-weight: 700;
+    color: var(--text-primary);
+    font-size: 1rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    white-space: nowrap;
+}
+
+.cause-num {
+    color: var(--accent-secondary);
+    font-weight: 800;
+}
+
+.cause-desc {
+    font-weight: 500;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin-left: 1.25rem;
+}
+
+.row-consequence {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    display: flex;
+    align-items: flex-start;
+}
+
+.interview-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0.5rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+.interview-list li {
+    position: relative;
+    padding-left: 1.5rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+.interview-list li::before {
+    content: '✖';
+    position: absolute;
+    left: 0;
+    top: 0.1rem;
+    color: #DC2626;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.row-consequence .interview-list li::before {
+    content: '⚠';
+    color: #F59E0B;
+    font-size: 0.9rem;
+    top: 0.2rem;
+}
+
+@media (max-width: 768px) {
+    .survey-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .interview-header {
+        display: none !important;
+    }
+    
+    .interview-row {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 1.25rem;
+    }
+    
+    .cause-desc {
+        margin-left: 0;
+    }
+
+    .cause-title {
+        white-space: normal;
+    }
+}

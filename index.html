@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -27,7 +27,10 @@
             </div>
             <div class="nav-links" id="nav-links-phase2" style="display: none;">
                 <a href="#" class="nav-phase-btn" data-target-phase="1">Phase I</a>
-                <a href="#" class="nav-phase-btn nav-demo-btn" data-target-phase="2">Phase II</a>
+                <a href="#phase2-survey">Survey</a>
+                <a href="#phase2-interview">Interview</a>
+                <a href="#phase2-actionplan">New Boat</a>
+                <a href="#phase2-execution" class="nav-demo-btn">Execution</a>
             </div>
         </div>
     </nav>
@@ -603,16 +606,773 @@
         </section>
         </div> <!-- End of phase-1-content -->
 
-        <!-- Phase 2 content wrapper -->
+                <!-- Phase 2 content wrapper -->
         <div id="phase-2-content" class="phase-content-wrapper" style="display: none;">
-            <div style="min-height: 50vh; display: flex; align-items: center; justify-content: center; text-align: center; padding: 2rem;">
-                <div class="glass-panel" style="max-width: 600px; padding: 4rem 2rem; border: 1px dashed rgba(16, 185, 129, 0.2); background: rgba(255, 255, 255, 0.6);">
-                    <div style="font-size: 3rem; margin-bottom: 1.5rem;">🏗️</div>
-                    <h2 class="gradient-text" style="font-size: 2rem; font-weight: 800; margin-bottom: 1rem;">Phase II: Restructuring & Action Plan</h2>
-                    <p style="font-size: 1.1rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 0.5rem;">Phase II content is currently being drafted.</p>
-                    <p style="font-size: 1rem; color: var(--text-muted); font-style: italic;">Nội dung của Phase II đang được xây dựng và sẽ được cập nhật sau.</p>
+<section class="section phase2-section" id="phase2-section" style="background-color: var(--bg-base); padding-top: 2rem; padding-bottom: 5rem; border-top: 1px solid rgba(0,0,0,0.05); display: none;">
+            <div class="section-container">
+                <div class="phase2-grid" style="max-width: 1000px; margin-inline: auto; display: flex; flex-direction: column; gap: 4rem;">
+                    
+                    <!-- Item 1: Survey - Interview - Observation -->
+                    <div class="phase2-block-wrapper" id="phase2-survey" style="scroll-margin-top: 120px; display: flex; flex-direction: column; gap: 0.5rem;">
+                        <div class="section-header" style="text-align: left; display: flex; flex-direction: column; gap: 0.5rem; max-width: 1000px; margin-inline: 0; padding: 0; margin-bottom: 0.5rem;">
+                            <div>
+                                <p class="section-meta" style="margin-bottom: 0.25rem;">1. DATA COLLECTION</p>
+                                <h2 class="section-title" style="margin: 0; font-size: 2rem;">A. Survey <span class="accent-text">Summary</span></h2>
+                                <p class="bp-desc" style="font-weight: 500; color: var(--text-secondary); margin-top: 0.25rem; max-width: 800px; line-height: 1.6;">The following findings represent the unfiltered voices of the employees. This data is derived directly from self-reported surveys, presented exactly as submitted without any alteration.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- 1. Survey Data -->
+                        <div style="margin-bottom: 0.5rem;">
+                            
+                            <div class="survey-grid">
+                                <!-- Accounting & Finance -->
+                                <div class="survey-card">
+                                    <div class="survey-watermark">01</div>
+                                    <div class="survey-card-header">
+                                        Accounting & Finance
+                                    </div>
+                                    <div class="survey-card-body">
+                                        <div class="survey-block bottleneck-block">
+                                            <strong class="survey-badge badge-orange">Bottleneck</strong>
+                                            <ul class="survey-list">
+                                                <li>Constant recalculation of product costing.</li>
+                                                <li>Frequent rework of reports due to data discrepancies.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="survey-block rootcause-block">
+                                            <strong class="survey-badge badge-red">Rootcause</strong>
+                                            <ul class="survey-list">
+                                                <li>Inaccurate data input from the Warehouse (wrong cost allocations, mismatched quantities).</li>
+                                                <li>Lack of cross-departmental collaboration and support.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="survey-block consequence-block">
+                                            <strong class="survey-badge badge-purple">Consequence</strong>
+                                            <ul class="survey-list">
+                                                <li>Delayed financial closing and reporting.</li>
+                                                <li>Lacks real-time financial visibility, paralyzing critical decision-making.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="survey-block suggestion-block">
+                                            <strong class="survey-badge badge-blue">Suggestion</strong>
+                                            <ul class="survey-list">
+                                                <li>Establish a clearly defined <strong>organizational chart</strong>.</li>
+                                                <li>Set <strong>strict boundaries of authority</strong>, especially for Factory Management.</li>
+                                                <li>Foster a <strong>fair, objective, and collaborative</strong> work environment.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Human Resources -->
+                                <div class="survey-card">
+                                    <div class="survey-watermark">02</div>
+                                    <div class="survey-card-header">
+                                        Human Resources
+                                    </div>
+                                    <div class="survey-card-body">
+                                        <div class="survey-block bottleneck-block">
+                                            <strong class="survey-badge badge-orange">Bottleneck</strong>
+                                            <ul class="survey-list">
+                                                <li>Manual payroll reconciliation and data adjustments.</li>
+                                                <li>Continuous internal conflict resolution between departments.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="survey-block rootcause-block">
+                                            <strong class="survey-badge badge-red">Rootcause</strong>
+                                            <ul class="survey-list">
+                                                <li>Undefined management boundaries causing cross-departmental interference.</li>
+                                                <li>Rigid systems lacking automation for special cases.</li>
+                                                <li>Below-market compensation structures for male workers.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="survey-block consequence-block">
+                                            <strong class="survey-badge badge-purple">Consequence</strong>
+                                            <ul class="survey-list">
+                                                <li>Toxic, uncooperative workplace culture.</li>
+                                                <li>High turnover of essential factory workers.</li>
+                                                <li>Opaque, overlapping, and chaotic payroll structure.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="survey-block suggestion-block">
+                                            <strong class="survey-badge badge-blue">Suggestion</strong>
+                                            <ul class="survey-list">
+                                                <li>Implement capable, <strong>data-driven leadership</strong>.</li>
+                                                <li><strong>Clarify roles urgently</strong> to stop departmental interference.</li>
+                                                <li><strong>Adjust compensation structures</strong> to retain talent.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Purchasing -->
+                                <div class="survey-card">
+                                    <div class="survey-watermark">03</div>
+                                    <div class="survey-card-header">
+                                        Purchasing
+                                    </div>
+                                    <div class="survey-card-body">
+                                        <div class="survey-block bottleneck-block">
+                                            <strong class="survey-badge badge-orange">Bottleneck</strong>
+                                            <ul class="survey-list">
+                                                <li>Manually cross-checking repetitive and disorganized material requests.</li>
+                                                <li>Processing fragmented, urgent Purchase Orders (POs).</li>
+                                            </ul>
+                                        </div>
+                                        <div class="survey-block rootcause-block">
+                                            <strong class="survey-badge badge-red">Rootcause</strong>
+                                            <ul class="survey-list">
+                                                <li>Production bypassing standard lead times.</li>
+                                                <li>Requests submitted without clear technical specifications (SPEC).</li>
+                                                <li>Failure to define actual "Need Dates."</li>
+                                            </ul>
+                                        </div>
+                                        <div class="survey-block consequence-block">
+                                            <strong class="survey-badge badge-purple">Consequence</strong>
+                                            <ul class="survey-list">
+                                                <li>Sub-optimal vendor pricing.</li>
+                                                <li>Increased logistics costs due to missed free-shipping thresholds.</li>
+                                                <li>Reactive, inefficient supply chain causing friction.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="survey-block suggestion-block">
+                                            <strong class="survey-badge badge-blue">Suggestion</strong>
+                                            <ul class="survey-list">
+                                                <li>Standardize the <strong>Material Request process</strong>.</li>
+                                                <li>Mandate <strong>clear technical specs</strong> and true "Need Dates."</li>
+                                                <li>Cultivate a <strong>data-driven, process-oriented</strong> professional culture.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!-- Logistics -->
+                                <div class="survey-card">
+                                    <div class="survey-watermark">04</div>
+                                    <div class="survey-card-header">
+                                        Logistics (Import/Export)
+                                    </div>
+                                    <div class="survey-card-body">
+                                        <div class="survey-block bottleneck-block">
+                                            <strong class="survey-badge badge-orange">Bottleneck</strong>
+                                            <ul class="survey-list">
+                                                <li>Correcting inaccurate export documentation (weights, CBM).</li>
+                                                <li>Missing vessel schedules and critical payment deadlines.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="survey-block rootcause-block">
+                                            <strong class="survey-badge badge-red">Rootcause</strong>
+                                            <ul class="survey-list">
+                                                <li>Lack of a locked data system; allows undocumented, manual data changes.</li>
+                                                <li>Over-reliance on external vendors due to poor internal oversight.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="survey-block consequence-block">
+                                            <strong class="survey-badge badge-purple">Consequence</strong>
+                                            <ul class="survey-list">
+                                                <li>Severe shipping and customs clearance delays.</li>
+                                                <li>High risk of compliance penalties, leading to immediate blame-shifting.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="survey-block suggestion-block">
+                                            <strong class="survey-badge badge-blue">Suggestion</strong>
+                                            <ul class="survey-list">
+                                                <li>Deploy a <strong>locked, traceable system</strong> for all shipping documents.</li>
+                                                <li>Enforce <strong>strict accountability</strong> and clear compliance policies.</li>
+                                                <li>Standardize workflows to eliminate the need for <strong>investor micro-management</strong>.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Production -->
+                                <div class="survey-card">
+                                    <div class="survey-watermark">05</div>
+                                    <div class="survey-card-header">
+                                        Production
+                                    </div>
+                                    <div class="survey-card-body">
+                                        <div class="survey-block bottleneck-block">
+                                            <strong class="survey-badge badge-orange">Bottleneck</strong>
+                                            <ul class="survey-list">
+                                                <li>Redundant dual-data entry (Excel vs. MISA).</li>
+                                                <li>Daily firefighting of material mismatches and shortages.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="survey-block rootcause-block">
+                                            <strong class="survey-badge badge-red">Rootcause</strong>
+                                            <ul class="survey-list">
+                                                <li>Absence of a strictly enforced centralized data system.</li>
+                                                <li>Reliance on single-source suppliers for critical parts (e.g., mechanical).</li>
+                                                <li>Lack of standardized export data protocols.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="survey-block consequence-block">
+                                            <strong class="survey-badge badge-purple">Consequence</strong>
+                                            <ul class="survey-list">
+                                                <li>Operational delays and inefficient output.</li>
+                                                <li>Chronic material shortages disrupting production lines.</li>
+                                                <li>Manual, error-prone reporting requiring endless re-verification.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="survey-block suggestion-block">
+                                            <strong class="survey-badge badge-blue">Suggestion</strong>
+                                            <ul class="survey-list">
+                                                <li>Deploy a <strong>unified, company-wide data system</strong> with <strong>digitized approvals</strong>.</li>
+                                                <li><strong>Transferring HR and Purchasing</strong> to Production management.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Warehouse -->
+                                <div class="survey-card">
+                                    <div class="survey-watermark">06</div>
+                                    <div class="survey-card-header">
+                                        Warehouse
+                                    </div>
+                                    <div class="survey-card-body">
+                                        <div class="survey-block bottleneck-block">
+                                            <strong class="survey-badge badge-orange">Bottleneck</strong>
+                                            <ul class="survey-list">
+                                                <li>Extensive physical recounting of individual inventory items.</li>
+                                                <li>Struggling to operate with severely faulty, hazardous equipment.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="survey-block rootcause-block">
+                                            <strong class="survey-badge badge-red">Rootcause</strong>
+                                            <ul class="survey-list">
+                                                <li>Unstandardized units of measurement across departments (buying in kg vs. counting in pieces).</li>
+                                                <li>Delayed maintenance execution for critical machinery.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="survey-block consequence-block">
+                                            <strong class="survey-badge badge-purple">Consequence</strong>
+                                            <ul class="survey-list">
+                                                <li>Crippled material flow to Production.</li>
+                                                <li>Immediate, high-risk safety liability (forklift electrical/brake failure).</li>
+                                            </ul>
+                                        </div>
+                                        <div class="survey-block suggestion-block">
+                                            <strong class="survey-badge badge-blue">Suggestion</strong>
+                                            <ul class="survey-list">
+                                                <li>Immediate authorization for <strong>equipment repair (forklift)</strong>.</li>
+                                                <li><strong>Stop using MISA</strong> & use 1 system for <strong>real-time inventory reconciliation</strong>.</li>
+                                                <li><strong>Unify the import/export reporting system</strong> and review working hours (Saturday off).</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 2. Interview & Observation -->
+                        <div id="phase2-interview" style="margin-top: 4rem; scroll-margin-top: 120px;">
+                            <div class="section-header" style="text-align: left; display: flex; flex-direction: column; gap: 0.5rem; max-width: 1000px; margin-inline: 0; padding: 0; margin-bottom: 0.5rem;">
+                                <div>
+                                    <h2 class="section-title" style="margin: 0; font-size: 2rem;">B. Interview & <span class="accent-text">Observation</span></h2>
+                                    <p class="bp-desc" style="font-weight: 500; color: var(--text-secondary); margin-top: 0.25rem; max-width: 800px; line-height: 1.6;">This diagnostic is an objective <strong>reality check, not a complaint</strong>. The truth may be <strong>uncomfortable</strong>, but confronting it head-on is mandatory to <strong>resolve conflicts, drive continuous improvement, and scale efficiency</strong>.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="phase2-card glass-card" style="padding: 2.5rem; border-radius: 12px; background: white; border: 1px solid rgba(0,0,0,0.05); box-shadow: 0 10px 40px rgba(0,0,0,0.04);">
+                            <!-- Diagnostic Result Grid -->
+                            <!-- Diagnostic Result Grid -->
+                            <div class="interview-table" style="display: flex; flex-direction: column;">
+                                <div class="interview-header" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr); gap: 2rem; padding: 1rem 1.5rem; border-bottom: 2px solid rgba(0,0,0,0.1); font-weight: 700; font-size: 0.85rem; color: var(--text-secondary); letter-spacing: 1px;">
+                                    <div>ROOT CAUSE</div>
+                                    <div>OPERATIONAL CONSEQUENCE</div>
+                                </div>
+                                
+                                <!-- Finding 1 -->
+                                <div class="interview-row">
+                                    <div class="row-cause">
+                                        <div class="cause-title">
+                                            <span class="cause-num">1.</span> Leadership Void
+                                        </div>
+                                        <div class="cause-desc">
+                                            <ul class="interview-list">
+                                                <li>Absence of a definitive on-site <strong>"Captain"</strong> to drive execution and make final decisions.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row-consequence">
+                                        <ul class="interview-list">
+                                            <li>Issues are <strong>never solved</strong> "once and for all."</li>
+                                            <li>Results in a <strong>lack of consistency</strong>, endless unprepared meetings, and <strong>zero actionable conclusions</strong>.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <!-- Finding 2 -->
+                                <div class="interview-row">
+                                    <div class="row-cause">
+                                        <div class="cause-title">
+                                            <span class="cause-num">2.</span> Process Vacuum (Missing SOPs)
+                                        </div>
+                                        <div class="cause-desc">
+                                            <ul class="interview-list">
+                                                <li><strong>No standard</strong> operating guidelines.</li>
+                                                <li>Personnel invent <strong>ad-hoc, improvised processes</strong> to suit their own convenience.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row-consequence">
+                                        <ul class="interview-list">
+                                            <li>Rampant <strong>blame-shifting</strong> and malicious compliance.</li>
+                                            <li>When crises ("smoke") occur, efforts are spent <strong>inflating the issue</strong> to blame others rather than extinguishing the fire.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <!-- Finding 3 -->
+                                <div class="interview-row">
+                                    <div class="row-cause">
+                                        <div class="cause-title">
+                                            <span class="cause-num">3.</span> Information Hoarding & Data Asymmetry
+                                        </div>
+                                        <div class="cause-desc">
+                                            <ul class="interview-list">
+                                                <li><strong>Zero transparency.</strong></li>
+                                                <li>Work progress is hidden, and critical data is <strong>siloed locally</strong> on individual computers.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row-consequence">
+                                        <ul class="interview-list">
+                                            <li>Incomplete data and unverified information sharing cause critical misunderstandings.</li>
+                                            <li>The Board <strong>operates blindly</strong>, unable to assess real performance or make fact-based, objective decisions.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <!-- Finding 4 -->
+                                <div class="interview-row">
+                                    <div class="row-cause">
+                                        <div class="cause-title">
+                                            <span class="cause-num">4.</span> Fragmented Communication & Overcomplication
+                                        </div>
+                                        <div class="cause-desc">
+                                            <ul class="interview-list">
+                                                <li>Proliferation of <strong>unstructured group chats</strong>.</li>
+                                                <li>Tasks are <strong>intentionally overcomplicated</strong> by individuals to inflate their own importance.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row-consequence">
+                                        <ul class="interview-list">
+                                            <li>High <strong>information noise</strong> and deep departmental silos.</li>
+                                            <li>Personnel waste energy <strong>fighting against each other</strong> instead of aligning with overarching company goals.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <!-- Finding 5 -->
+                                <div class="interview-row">
+                                    <div class="row-cause">
+                                        <div class="cause-title">
+                                            <span class="cause-num">5.</span> Self-Centric Culture
+                                        </div>
+                                        <div class="cause-desc">
+                                            <ul class="interview-list">
+                                                <li>A <strong>"themselves first, company second"</strong> mindset.</li>
+                                                <li>Personnel prioritize <strong>individual convenience</strong> and departmental territory over shared objectives.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row-consequence">
+                                        <ul class="interview-list">
+                                            <li><strong>Defensive</strong> decision-making.</li>
+                                            <li>Collective effort is destroyed by <strong>internal conflicts</strong> and time wasted on defending personal territories.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <!-- Finding 6 -->
+                                <div class="interview-row">
+                                    <div class="row-cause">
+                                        <div class="cause-title">
+                                            <span class="cause-num">6.</span> Severe Capability Gaps
+                                        </div>
+                                        <div class="cause-desc">
+                                            <ul class="interview-list">
+                                                <li>The current team lacks the <strong>baseline professional expertise</strong> required.</li>
+                                                <li>They are relying on <strong>"learning along the way"</strong> rather than executing proven methodologies.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row-consequence">
+                                        <ul class="interview-list">
+                                            <li>Execution is <strong>messy, slow, and highly error-prone</strong>.</li>
+                                            <li><strong>Costly mistakes</strong> are continuously repeated due to this trial-and-error approach, draining company resources.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                 <!-- Conclusion -->
+                                <div class="conclusion-block" style="margin-top: 2rem; padding: 1.5rem 2rem; border-radius: 8px; background: linear-gradient(135deg, rgba(16, 185, 129, 0.05) 0%, rgba(16, 185, 129, 0.1) 100%); border-left: 4px solid #10B981;">
+                                    <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+                                        <span style="font-size: 1.25rem;">✨</span>
+                                        <strong style="color: #047857; font-size: 1.1rem; letter-spacing: 0.5px;">The Opportunity (Positive)</strong>
+                                    </div>
+                                    <ul style="margin: 0; padding-left: 1.25rem; color: var(--text-secondary); line-height: 1.7; font-size: 0.95rem; display: flex; flex-direction: column; gap: 0.75rem;">
+                                        <li>
+                                            <strong style="color: var(--text-primary);">The Asset:</strong> A young, highly energetic, and responsible team. Their active, self-guided problem-solving demonstrates raw capability and a strong foundation of accountability.
+                                        </li>
+                                        <li>
+                                            <strong style="color: var(--text-primary);">Unified Corporate Mindset:</strong> The perfect timing to train a new "Company First, Not Individual" mindset, breaking down personal silos to unify the workforce into a cohesive "SVVIFT Family."
+                                        </li>
+                                        <li>
+                                            <strong style="color: var(--text-primary);">Guided Expertise Development:</strong> Equipped with clear SOPs, modern tools, and professional leadership, this adaptable workforce will rapidly bridge their skill gaps and elevate execution.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                                                                                <!-- Item 2: Action Plan -->
+                    <div class="phase2-block-wrapper" id="phase2-actionplan" style="scroll-margin-top: 120px; display: flex; flex-direction: column; gap: 0.5rem;">
+                        <div class="section-header" style="text-align: left; display: flex; flex-direction: column; gap: 0.5rem; max-width: 1000px; margin-inline: 0; padding: 0;">
+                            <div>
+                                <p class="section-meta" style="margin-bottom: 0.25rem;">2. ACTION PLAN</p>
+                                <h2 class="section-title" style="margin: 0; font-size: 2rem;">The Blue Print</h2>
+                            </div>
+                        </div>
+                        
+                        <div class="phase2-card glass-card" style="padding: 2.5rem; border-radius: 12px; background: white; border: 1px solid rgba(0,0,0,0.05); box-shadow: 0 10px 40px rgba(0,0,0,0.04);">
+                            
+                            <!-- I. 3 Pillars of Restructuring -->
+                            <div style="margin-bottom: 4rem;">
+                                <h4 style="font-size: 1.15rem; font-weight: 800; color: var(--text-primary); margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.5px;">I. A New BOAT: 3 Pillars of Restructuring</h4>
+                                <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 1.5rem; line-height: 1.6;">
+                                    To operate the factory at a higher standard, the restructuring will be built upon three core pillars:
+                                </p>
+                                
+                                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
+                                    <div class="glass-card hover-lift" style="padding: 1.75rem 1.5rem; border-radius: 10px; background: rgba(30,58,138,0.02); border: 1px solid rgba(30,58,138,0.08); position: relative; overflow: hidden;">
+                                        <div style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: var(--accent-primary);"></div>
+                                        <strong style="display: flex; align-items: center; gap: 12px; color: var(--accent-primary); font-size: 1.1rem; margin-bottom: 1rem;">
+                                            <span style="background: var(--accent-primary); color: white; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.95rem; font-weight: bold; box-shadow: 0 4px 10px rgba(30,58,138,0.2);">S</span> System (SOP)
+                                        </strong>
+                                        <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6; list-style-type: disc;">
+                                            <li style="margin-bottom: 0.25rem;">Establishing standardized policies and clear procedural guidelines.</li>
+                                            <li style="margin-bottom: 0.25rem;">Defining absolute clarity in Roles & Responsibilities (R&R).</li>
+                                            <li>Applying SMART criteria (Specific, Measurable, Achievable, Relevant, Time-bound) to eliminate operational guesswork.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="glass-card hover-lift" style="padding: 1.75rem 1.5rem; border-radius: 10px; background: rgba(180,83,9,0.02); border: 1px solid rgba(180,83,9,0.08); position: relative; overflow: hidden;">
+                                        <div style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: var(--accent-secondary);"></div>
+                                        <strong style="display: flex; align-items: center; gap: 12px; color: var(--accent-secondary); font-size: 1.1rem; margin-bottom: 1rem;">
+                                            <span style="background: var(--accent-secondary); color: white; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.95rem; font-weight: bold; box-shadow: 0 4px 10px rgba(180,83,9,0.2);">T</span> Tool (App)
+                                        </strong>
+                                        <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6; list-style-type: disc;">
+                                            <li style="margin-bottom: 0.25rem;">Deploying one centralized App to govern the entire company-wide ecosystem.</li>
+                                            <li style="margin-bottom: 0.25rem;">Utilizing the "right tool for the right job" tailored to each specific module.</li>
+                                            <li>Ensuring all daily operations are seamlessly executed, measurable, and fully trackable.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="glass-card hover-lift" style="padding: 1.75rem 1.5rem; border-radius: 10px; background: rgba(5,150,105,0.02); border: 1px solid rgba(5,150,105,0.08); position: relative; overflow: hidden;">
+                                        <div style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: #059669;"></div>
+                                        <strong style="display: flex; align-items: center; gap: 12px; color: #059669; font-size: 1.1rem; margin-bottom: 1rem;">
+                                            <span style="background: #059669; color: white; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.95rem; font-weight: bold; box-shadow: 0 4px 10px rgba(5,150,105,0.2);">P</span> People (Training)
+                                        </strong>
+                                        <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6; list-style-type: disc;">
+                                            <li style="margin-bottom: 0.25rem;">Equipping the team with precise professional skills for flawless execution.</li>
+                                            <li style="margin-bottom: 0.25rem;">Cultivating a proactive, open-minded, and solution-oriented culture.</li>
+                                            <li>Enforcing strict discipline and uncompromising compliance with the SOPs.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="hover-lift" style="background: linear-gradient(135deg, rgba(30,58,138,0.04) 0%, rgba(30,58,138,0.08) 100%); border-left: 4px solid var(--accent-primary); border-radius: 6px; padding: 1.5rem 2rem;">
+                                    <strong style="display: block; font-size: 0.95rem; color: var(--accent-primary); margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.5px;">Solution: The Hybrid Approach</strong>
+                                    <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.95rem; color: var(--text-primary); line-height: 1.6; font-weight: 500; list-style-type: disc;">
+                                        <li style="margin-bottom: 0.5rem;"><strong style="color: var(--accent-primary);">Simultaneous Development:</strong> Building the Process (SOP) and developing the App concurrently, module by module.</li>
+                                        <li style="margin-bottom: 0.5rem;"><strong style="color: var(--accent-primary);">Immediate Deployment:</strong> Enabling departments to deploy and use their specific module the moment it is built.</li>
+                                        <li><strong style="color: var(--accent-primary);">Seamless Integration ("Lego Blocks"):</strong> Connecting subsequent modules to existing ones seamlessly - snapping together exactly like Lego blocks until the entire system is fully unified.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <hr style="border: 0; height: 1px; background: rgba(0,0,0,0.06); margin: 3rem 0;">
+                            
+                            <!-- II. Execution Strategy -->
+                            <div style="margin-bottom: 1.5rem;">
+                                <h4 style="font-size: 1.3rem; font-weight: 800; color: var(--text-primary); margin-bottom: 2.5rem; text-transform: uppercase; letter-spacing: 0.5px;">II. Execution Strategy</h4>
+                                
+                                <!-- 1. Timing -->
+                                <div style="margin-bottom: 3.5rem;">
+                                    <h5 style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary); margin-bottom: 1.25rem; display: flex; align-items: center; gap: 8px;"><span style="color: var(--accent-secondary);">1.</span> TIMING: WHY RESTRUCTURE NOW? <span style="font-size: 0.75rem; font-weight: 600; color: #DC2626; background: rgba(220,38,38,0.1); padding: 2px 8px; border-radius: 12px; margin-left: auto;">NO NEED TO WAIT UNTIL MID-AUG</span></h5>
+                                    <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 1.5rem; line-height: 1.6;">Time is money. Waiting means wasting capital and losing efficiency. We must initiate this immediately for four strategic reasons:</p>
+                                    
+                                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 1.25rem;">
+                                        <div class="hover-lift" style="padding: 1.5rem; border-radius: 8px; background: var(--bg-surface); border: 1px solid rgba(0,0,0,0.04); border-top: 3px solid var(--accent-secondary);">
+                                            <strong style="display: block; font-size: 1rem; color: var(--text-primary); margin-bottom: 0.75rem;">Momentum</strong>
+                                            <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6; list-style-type: disc;">
+                                                <li style="margin-bottom: 0.25rem;">The recent salary increase has created significant financial motivation.</li>
+                                                <li style="margin-bottom: 0.25rem;">Combining this with a "new Captain on a new boat" creates the perfect starting point.</li>
+                                                <li>Waiting will only cool down the team's excitement and drain their morale.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="hover-lift" style="padding: 1.5rem; border-radius: 8px; background: var(--bg-surface); border: 1px solid rgba(0,0,0,0.04); border-top: 3px solid #059669;">
+                                            <strong style="display: block; font-size: 1rem; color: var(--text-primary); margin-bottom: 0.75rem;">Team Readiness</strong>
+                                            <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6; list-style-type: disc;">
+                                                <li style="margin-bottom: 0.25rem;">The personnel are fully primed for restructuring.</li>
+                                                <li style="margin-bottom: 0.25rem;">They are excited about the new journey and happy to work under new direction.</li>
+                                                <li>The team has absolute belief in the Captain's operational capabilities.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="hover-lift" style="padding: 1.5rem; border-radius: 8px; background: var(--bg-surface); border: 1px solid rgba(0,0,0,0.04); border-top: 3px solid #DC2626;">
+                                            <strong style="display: block; font-size: 1rem; color: var(--text-primary); margin-bottom: 0.75rem;">Founder Focus (Fay & Scot)</strong>
+                                            <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6; list-style-type: disc;">
+                                                <li style="margin-bottom: 0.25rem;">Free up 100% of time by permanently eliminating daily operational firefighting.</li>
+                                                <li style="margin-bottom: 0.25rem;">Focus purely on driving Sales and Product Improvement (R&D).</li>
+                                                <li style="margin-bottom: 0.25rem;">Expand aggressively into new markets (US, China, etc.).</li>
+                                                <li>Optimize the strategic supply chain for global scalability.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="hover-lift" style="padding: 1.5rem; border-radius: 8px; background: var(--bg-surface); border: 1px solid rgba(0,0,0,0.04); border-top: 3px solid #7C3AED;">
+                                            <strong style="display: block; font-size: 1rem; color: var(--text-primary); margin-bottom: 0.75rem;">Operations Leadership (Tri & Cong)</strong>
+                                            <div style="display: flex; flex-direction: column; gap: 0.75rem; font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6;">
+                                                <div>
+                                                    <strong style="color: var(--text-primary); display: block; margin-bottom: 0.25rem;">Operations Captain : Tri</strong>
+                                                    <ul style="margin: 0; padding-left: 1.25rem; list-style-type: disc;">
+                                                        <li><strong>Build & Execute:</strong> Simultaneously architect the "New Boat" (new system) while actively running it.</li>
+                                                    </ul>
+                                                </div>
+                                                <div>
+                                                    <strong style="color: var(--text-primary); display: block; margin-bottom: 0.25rem;">Transition Support : Cong</strong>
+                                                    <ul style="margin: 0; padding-left: 1.25rem; list-style-type: disc;">
+                                                        <li><strong>Operational Stability:</strong> Handle all day-to-day factory operations to ensure zero disruption during the transition.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 2. Execution Focus -->
+                                <div id="phase2-execution" style="margin-bottom: 3.5rem; scroll-margin-top: 120px;">
+                                    <h5 style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary); margin-bottom: 1.25rem; display: flex; align-items: center; gap: 8px;"><span style="color: var(--accent-secondary);">II.</span> STRATEGIC EXECUTION FOCUS</h5>
+                                    <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 2rem; line-height: 1.6;">During the transition phase, my execution will be ruthlessly prioritized around two core pillars:</p>
+                                    
+                                    <div style="margin-bottom: 2.5rem;">
+                                        <strong style="display: inline-block; font-size: 1rem; color: var(--accent-primary); margin-bottom: 1rem; background: rgba(30,58,138,0.05); padding: 4px 12px; border-radius: 6px;">1. "The ONE Thing" - Right People, Right Job (R&R)</strong>
+                                        <p style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 1.5rem;">Every department is strictly aligned with a singular, non-negotiable metric of success to drive peak performance:</p>
+                                        
+                                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem;">
+                                            <div class="glass-card hover-lift" style="padding: 1.5rem; border-radius: 8px; border-top: 4px solid var(--accent-primary);">
+                                                <h6 style="color: var(--accent-primary); font-weight: 800; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase;">Warehouse</h6>
+                                                <strong style="display: block; color: var(--text-primary); margin-bottom: 0.5rem; font-size: 0.95rem;">Asset Management</strong>
+                                                <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6; list-style-type: disc;">
+                                                    <li style="margin-bottom: 0.25rem;">Ensure absolute asset integrity and real-time visibility.</li>
+                                                    <li style="margin-bottom: 0.25rem;">Maintain 100% inventory accuracy.</li>
+                                                    <li>Guarantee zero disruptions to the production line.</li>
+                                                </ul>
+                                            </div>
+                                            <div class="glass-card hover-lift" style="padding: 1.5rem; border-radius: 8px; border-top: 4px solid var(--accent-secondary);">
+                                                <h6 style="color: var(--accent-secondary); font-weight: 800; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase;">Purchasing</h6>
+                                                <strong style="display: block; color: var(--text-primary); margin-bottom: 0.5rem; font-size: 0.95rem;">Cost Management</strong>
+                                                <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6; list-style-type: disc;">
+                                                    <li style="margin-bottom: 0.25rem;">Evaluate and develop strategic supplier partnerships to continuously drive optimal cost and superior quality.</li>
+                                                    <li style="margin-bottom: 0.25rem;">Deepen procurement expertise to thoroughly understand material specifications and product behavior.</li>
+                                                    <li>Eliminate supply chain bottlenecks by ensuring the right inputs at the right time.</li>
+                                                </ul>
+                                            </div>
+                                            <div class="glass-card hover-lift" style="padding: 1.5rem; border-radius: 8px; border-top: 4px solid #059669;">
+                                                <h6 style="color: #059669; font-weight: 800; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase;">Production</h6>
+                                                <strong style="display: block; color: var(--text-primary); margin-bottom: 0.5rem; font-size: 0.95rem;">Operational Excellence</strong>
+                                                <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6; list-style-type: disc;">
+                                                    <li style="margin-bottom: 0.25rem;">Elevate labor productivity through targeted upskilling and capacity building.</li>
+                                                    <li style="margin-bottom: 0.25rem;">Drive an aggressive reduction in COGS (Cost of Goods Sold) while maintaining stringent quality standards.</li>
+                                                    <li>Enforce strict adherence to On-Time In-Full (OTIF) delivery to serve as the core engine.</li>
+                                                </ul>
+                                            </div>
+                                            <div class="glass-card hover-lift" style="padding: 1.5rem; border-radius: 8px; border-top: 4px solid #D97706;">
+                                                <h6 style="color: #D97706; font-weight: 800; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase;">Logistics</h6>
+                                                <strong style="display: block; color: var(--text-primary); margin-bottom: 0.5rem; font-size: 0.95rem;">Schedule Integrity</strong>
+                                                <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6; list-style-type: disc;">
+                                                    <li style="margin-bottom: 0.25rem;">Master delivery schedules to ensure 100% on-time fulfillment and eliminate idle time.</li>
+                                                    <li style="margin-bottom: 0.25rem;">Synchronize transportation workflows with production outputs to prevent dispatch delays.</li>
+                                                    <li>Optimize routing and distribution networks for maximum reliability and cost-effectiveness.</li>
+                                                </ul>
+                                            </div>
+                                            <div class="glass-card hover-lift" style="padding: 1.5rem; border-radius: 8px; border-top: 4px solid #7C3AED;">
+                                                <h6 style="color: #7C3AED; font-weight: 800; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase;">Accounting</h6>
+                                                <strong style="display: block; color: var(--text-primary); margin-bottom: 0.5rem; font-size: 0.95rem;">Financial Optimization</strong>
+                                                <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6; list-style-type: disc;">
+                                                    <li style="margin-bottom: 0.25rem;">Maximize cash flow efficiency and ensure highly strategic capital deployment.</li>
+                                                    <li style="margin-bottom: 0.25rem;">Eradicate non-essential overheads and operational waste to protect profit margins.</li>
+                                                    <li>Leverage preferential policies and financial incentives to maximize corporate savings.</li>
+                                                </ul>
+                                            </div>
+                                            <div class="glass-card hover-lift" style="padding: 1.5rem; border-radius: 8px; border-top: 4px solid #DC2626;">
+                                                <h6 style="color: #DC2626; font-weight: 800; font-size: 1.1rem; margin-bottom: 0.75rem; text-transform: uppercase;">HR - GA</h6>
+                                                <strong style="display: block; color: var(--text-primary); margin-bottom: 0.5rem; font-size: 0.95rem;">Talent & Compliance</strong>
+                                                <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6; list-style-type: disc;">
+                                                    <li style="margin-bottom: 0.25rem;">Overhaul current frameworks to establish a clean, highly structured operational foundation.</li>
+                                                    <li style="margin-bottom: 0.25rem;">Enforce a transparent, performance-based reward & penalty system to drive absolute accountability.</li>
+                                                    <li>Foster robust internal cohesion by enhancing both material benefits and mental well-being.</li>
+                                                </ul>
+                                            </div>
+                                    </div>
+                                    <div class="hover-lift" style="margin-top: 4rem; background: linear-gradient(135deg, rgba(30,58,138,0.02) 0%, rgba(30,58,138,0.06) 100%); border: 1px solid rgba(30,58,138,0.1); padding: 2rem; border-radius: 12px; position: relative; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.03);">
+                                        <div style="position: absolute; top: 0; left: 0; width: 4px; height: 100%; background: var(--accent-primary);"></div>
+                                        <strong style="display: inline-block; font-size: 1.1rem; color: var(--accent-primary); margin-bottom: 1.25rem; text-transform: uppercase; letter-spacing: 0.5px;">2. Strategic Capital Allocation</strong>
+                                        <ul style="margin: 0; padding-left: 1.5rem; font-size: 0.95rem; color: var(--text-secondary); line-height: 1.7; list-style-type: none;">
+                                            <li style="margin-bottom: 0.75rem; position: relative;">
+                                                <span style="position: absolute; left: -1.5rem; color: var(--accent-primary); font-weight: bold;">✓</span>
+                                                <strong style="color: var(--text-primary);">Product-Centric Allocation:</strong> Direct funds strictly toward essential areas that directly impact the core product (critical machine, skilled workers, essential materials).
+                                            </li>
+                                            <li style="margin-bottom: 0.75rem; position: relative;">
+                                                <span style="position: absolute; left: -1.5rem; color: var(--accent-primary); font-weight: bold;">✓</span>
+                                                <strong style="color: var(--text-primary);">Cash Flow:</strong> Enforce rigorous and disciplined cash flow management.
+                                            </li>
+                                            <li style="position: relative;">
+                                                <span style="position: absolute; left: -1.5rem; color: var(--accent-primary); font-weight: bold;">✓</span>
+                                                <strong style="color: var(--text-primary);">Profit Maximization:</strong> Eradicate operational waste to maximize overall profit margins.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <!-- 3. Roadmap -->
+                                <div>
+                                    <h5 style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary); margin-bottom: 1.25rem; display: flex; align-items: center; gap: 8px;"><span style="color: var(--accent-secondary);">III.</span> DEEP DIVE ROADMAP: AUGUST & SEPTEMBER</h5>
+                                    <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 2rem; line-height: 1.6;">To ensure absolute quality and flawless execution of the Hybrid Approach, we will dedicate exactly <strong style="color: var(--accent-primary);">ONE full week to ONE specific department.</strong> This allows us to deeply audit the process, build the SOP, develop the App module, and deploy that <strong style="color: var(--accent-primary);">"Lego block"</strong> immediately without rushing.</p>
+                                    
+                                    <div style="position: relative; padding-left: 2rem; margin-top: 2rem; margin-bottom: 2rem;">
+                                        <!-- Vertical Line -->
+                                        <div style="position: absolute; left: 0; top: 0; bottom: 0; width: 2px; background: rgba(0,0,0,0.1); transform: translateX(-50%);"></div>
+
+                                        <!-- AUGUST SECTION -->
+                                        <div style="margin-bottom: 2.5rem;">
+                                            <div style="margin-bottom: 1.5rem;">
+                                                <strong style="display: inline-block; background: var(--text-primary); color: white; padding: 6px 16px; border-radius: 4px; font-size: 1.1rem; position: relative; z-index: 2; letter-spacing: 2px;">AUG</strong>
+                                            </div>
+                                            
+                                            <!-- Week 1 -->
+                                            <div style="position: relative; margin-bottom: 1.5rem;" class="hover-lift">
+                                                <div style="position: absolute; left: -2rem; width: 16px; height: 16px; border-radius: 50%; background: #DC2626; border: 3px solid white; box-shadow: 0 0 0 1px rgba(0,0,0,0.1); transform: translateX(-50%); top: 8px; z-index: 2;"></div>
+                                                <div style="background: white; border: 1px solid rgba(0,0,0,0.05); padding: 1.5rem; border-radius: 8px; border-left: 4px solid #DC2626; box-shadow: 0 4px 15px rgba(220,38,38,0.06);">
+                                                    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem;">
+                                                        <strong style="color: #DC2626; font-family: monospace; font-size: 1.1rem;">Week 1 - Warehouse</strong>
+                                                        <span style="font-size: 0.7rem; color: #DC2626; background: rgba(220,38,38,0.1); padding: 4px 8px; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 800;">Top Priority</span>
+                                                    </div>
+                                                    <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 0.5rem; line-height: 1.6;"><strong style="color: var(--text-primary);">Focus:</strong> Physical asset audit, inventory accuracy, and storage SOP.</p>
+                                                    <p style="font-size: 0.95rem; color: var(--text-secondary); margin: 0; line-height: 1.6;"><strong style="color: var(--text-primary);">Output:</strong> Deploy the Warehouse App module. (If this foundation is weak, the rest of the supply chain breaks).</p>
+                                                </div>
+                                            </div>
+
+                                            <!-- Week 2 -->
+                                            <div style="position: relative; margin-bottom: 1.5rem;" class="hover-lift">
+                                                <div style="position: absolute; left: -2rem; width: 16px; height: 16px; border-radius: 50%; background: var(--accent-primary); border: 3px solid white; box-shadow: 0 0 0 1px rgba(0,0,0,0.1); transform: translateX(-50%); top: 8px; z-index: 2;"></div>
+                                                <div style="background: var(--bg-surface); border: 1px solid rgba(0,0,0,0.05); padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--accent-primary);">
+                                                    <div style="margin-bottom: 0.75rem;">
+                                                        <strong style="color: var(--accent-primary); font-family: monospace; font-size: 1.1rem;">Week 2 - Purchasing</strong>
+                                                    </div>
+                                                    <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 0.5rem; line-height: 1.6;"><strong style="color: var(--text-primary);">Focus:</strong> Supplier coordination, procurement SOP, and lead-time optimization.</p>
+                                                    <p style="font-size: 0.95rem; color: var(--text-secondary); margin: 0; line-height: 1.6;"><strong style="color: var(--text-primary);">Output:</strong> Deploy the Purchasing module and snap it into the Warehouse block to prevent material shortages or phantom inventory.</p>
+                                                </div>
+                                            </div>
+
+                                            <!-- Week 3 -->
+                                            <div style="position: relative; margin-bottom: 1.5rem;" class="hover-lift">
+                                                <div style="position: absolute; left: -2rem; width: 16px; height: 16px; border-radius: 50%; background: #059669; border: 3px solid white; box-shadow: 0 0 0 1px rgba(0,0,0,0.1); transform: translateX(-50%); top: 8px; z-index: 2;"></div>
+                                                <div style="background: var(--bg-surface); border: 1px solid rgba(0,0,0,0.05); padding: 1.5rem; border-radius: 8px; border-left: 4px solid #059669;">
+                                                    <div style="margin-bottom: 0.75rem;">
+                                                        <strong style="color: #059669; font-family: monospace; font-size: 1.1rem;">Week 3 - Production</strong>
+                                                    </div>
+                                                    <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 0.5rem; line-height: 1.6;"><strong style="color: var(--text-primary);">Focus:</strong> Manufacturing SOPs, tracking output, eliminating bottlenecks, and quality control (OTIF).</p>
+                                                    <p style="font-size: 0.95rem; color: var(--text-secondary); margin: 0; line-height: 1.6;"><strong style="color: var(--text-primary);">Output:</strong> Deploy the Production module, connecting secured inputs (Warehouse/Purchasing) to the manufacturing floor.</p>
+                                                </div>
+                                            </div>
+
+                                            <!-- Week 4 -->
+                                            <div style="position: relative; margin-bottom: 1.5rem;" class="hover-lift">
+                                                <div style="position: absolute; left: -2rem; width: 16px; height: 16px; border-radius: 50%; background: #D97706; border: 3px solid white; box-shadow: 0 0 0 1px rgba(0,0,0,0.1); transform: translateX(-50%); top: 8px; z-index: 2;"></div>
+                                                <div style="background: var(--bg-surface); border: 1px solid rgba(0,0,0,0.05); padding: 1.5rem; border-radius: 8px; border-left: 4px solid #D97706;">
+                                                    <div style="margin-bottom: 0.75rem;">
+                                                        <strong style="color: #D97706; font-family: monospace; font-size: 1.1rem;">Week 4 - Logistics</strong>
+                                                    </div>
+                                                    <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 0.5rem; line-height: 1.6;"><strong style="color: var(--text-primary);">Focus:</strong> Standardizing the output process, packaging, shipping, and delivery optimization.</p>
+                                                    <p style="font-size: 0.95rem; color: var(--text-secondary); margin: 0; line-height: 1.6;"><strong style="color: var(--text-primary);">Output:</strong> Deploy the Logistics module to complete the physical flow of goods.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- SEPTEMBER SECTION -->
+                                        <div style="margin-top: 1.5rem;">
+                                            <div style="margin-bottom: 1.5rem;">
+                                                <strong style="display: inline-block; background: var(--text-primary); color: white; padding: 6px 16px; border-radius: 4px; font-size: 1.1rem; position: relative; z-index: 2; letter-spacing: 2px;">SEP</strong>
+                                            </div>
+                                            
+                                            <!-- Week 5 -->
+                                            <div style="position: relative; margin-bottom: 1.5rem;" class="hover-lift">
+                                                <div style="position: absolute; left: -2rem; width: 16px; height: 16px; border-radius: 50%; background: #7C3AED; border: 3px solid white; box-shadow: 0 0 0 1px rgba(0,0,0,0.1); transform: translateX(-50%); top: 8px; z-index: 2;"></div>
+                                                <div style="background: var(--bg-surface); border: 1px solid rgba(0,0,0,0.05); padding: 1.5rem; border-radius: 8px; border-left: 4px solid #7C3AED;">
+                                                    <div style="margin-bottom: 0.75rem;">
+                                                        <strong style="color: #7C3AED; font-family: monospace; font-size: 1.1rem;">Week 5 - Accounting</strong>
+                                                    </div>
+                                                    <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 0.5rem; line-height: 1.6;"><strong style="color: var(--text-primary);">Focus:</strong> Transparent financials, cost control, and cash flow tracking.</p>
+                                                    <p style="font-size: 0.95rem; color: var(--text-secondary); margin: 0; line-height: 1.6;"><strong style="color: var(--text-primary);">Output:</strong> Deploy the Accounting module to capture real-time financial data generated from the operational changes in August.</p>
+                                                </div>
+                                            </div>
+
+                                            <!-- Week 6 -->
+                                            <div style="position: relative; margin-bottom: 1.5rem;" class="hover-lift">
+                                                <div style="position: absolute; left: -2rem; width: 16px; height: 16px; border-radius: 50%; background: #DC2626; border: 3px solid white; box-shadow: 0 0 0 1px rgba(0,0,0,0.1); transform: translateX(-50%); top: 8px; z-index: 2;"></div>
+                                                <div style="background: var(--bg-surface); border: 1px solid rgba(0,0,0,0.05); padding: 1.5rem; border-radius: 8px; border-left: 4px solid #DC2626;">
+                                                    <div style="margin-bottom: 0.75rem;">
+                                                        <strong style="color: #DC2626; font-family: monospace; font-size: 1.1rem;">Week 6 - HR</strong>
+                                                    </div>
+                                                    <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 0.5rem; line-height: 1.6;"><strong style="color: var(--text-primary);">Focus:</strong> Finalizing R&R, enforcing discipline, evaluating personnel, and targeted mindset training.</p>
+                                                    <p style="font-size: 0.95rem; color: var(--text-secondary); margin: 0; line-height: 1.6;"><strong style="color: var(--text-primary);">Output:</strong> Deploy the HR/Team management module to ensure we have the Right People doing the Right Jobs.</p>
+                                                </div>
+                                            </div>
+
+                                            <!-- Week 7 -->
+                                            <div style="position: relative; margin-bottom: 1.5rem;" class="hover-lift">
+                                                <div style="position: absolute; left: -2rem; width: 16px; height: 16px; border-radius: 50%; background: var(--accent-secondary); border: 3px solid white; box-shadow: 0 0 0 1px rgba(0,0,0,0.1); transform: translateX(-50%); top: 8px; z-index: 2;"></div>
+                                                <div style="background: var(--bg-surface); border: 1px solid rgba(0,0,0,0.05); padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--accent-secondary);">
+                                                    <div style="margin-bottom: 0.75rem;">
+                                                        <strong style="color: var(--accent-secondary); font-family: monospace; font-size: 1.1rem;">Week 7 - System Integration</strong>
+                                                    </div>
+                                                    <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 0.5rem; line-height: 1.6;"><strong style="color: var(--text-primary);">Focus:</strong> Connecting all 6 developed Lego blocks. Testing data flow from Purchasing all the way to Logistics and Accounting.</p>
+                                                    <p style="font-size: 0.95rem; color: var(--text-secondary); margin: 0; line-height: 1.6;"><strong style="color: var(--text-primary);">Output:</strong> A unified, communicative ecosystem where no department works in a silo.</p>
+                                                </div>
+                                            </div>
+
+                                            <!-- Week 8 -->
+                                            <div style="position: relative; margin-bottom: 0;" class="hover-lift">
+                                                <div style="position: absolute; left: -2rem; width: 16px; height: 16px; border-radius: 50%; background: var(--text-primary); border: 3px solid white; box-shadow: 0 0 0 1px rgba(0,0,0,0.1); transform: translateX(-50%); top: 8px; z-index: 2;"></div>
+                                                <div style="background: var(--text-primary); border: 1px solid rgba(0,0,0,0.05); padding: 1.5rem; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                                                    <div style="margin-bottom: 0.75rem;">
+                                                        <strong style="color: white; font-family: monospace; font-size: 1.1rem;">Week 8 - Final Review & Refinement</strong>
+                                                    </div>
+                                                    <p style="font-size: 0.95rem; color: rgba(255,255,255,0.8); margin-bottom: 0.5rem; line-height: 1.6;"><strong style="color: white;">Focus:</strong> Fixing any remaining bugs, fine-tuning the SOPs based on actual usage, and full deployment validation.</p>
+                                                    <p style="font-size: 0.95rem; color: rgba(255,255,255,0.8); margin: 0; line-height: 1.6;"><strong style="color: white;">Output:</strong> The "New Boat" operates smoothly and automatically.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </section>
         </div> <!-- End of phase-2-content -->
         
         <footer>
