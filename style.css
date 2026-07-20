@@ -611,7 +611,7 @@ footer {
 .phase-switcher-container {
     display: flex;
     justify-content: center;
-    margin: 2rem auto 4rem;
+    margin: 0.5rem auto 3rem;
     max-width: 600px;
     width: 100%;
 }
