@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,6 +9,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Be+Vietnam+Pro:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        corePlugins: { preflight: false }
+      }
+    </script>
 </head>
 <body>
     <!-- Navigation -->
@@ -934,82 +940,129 @@
                                 <li>Chuyển hóa chiến lược thành hành động thực chiến hàng ngày thông qua Văn hóa Potato, Tiêu chuẩn SMART và Mệnh lệnh cốt lõi cho từng phòng ban.</li>
                             </ul>
 
-                            <!-- Sub-Section 1: Potato Culture (Từ dự án Potato-kickoff) -->
-                            <div id="phan5-culture" style="scroll-margin-top: 100px; margin-bottom: 2rem;">
-                                <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.25rem;">
-                                    <div style="display: flex; align-items: center; gap: 10px;">
-                                        <span style="background: rgba(245,158,11,0.1); color: #B45309; padding: 4px 10px; border-radius: 6px; font-size: 0.8rem; font-weight: 800; text-transform: uppercase;">HỆ ĐIỀU HÀNH VĂN HÓA</span>
-                                        <h4 style="font-size: 1.15rem; font-weight: 800; color: #B45309; margin: 0;">Văn Hóa Potato — Giá Trị Cốt Lõi Định Hình Hành Vi</h4>
+                                                        <!-- Sub-Section 1: Potato Culture (ÄÃºng há»‡t preview hÃ¬nh áº£nh) -->
+                            <div id="phan5-culture" style="scroll-margin-top: 100px; margin-bottom: 2.5rem;">
+                                <!-- Centered Header -->
+                                <div class="text-center mb-10 mt-2">
+                                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-100 text-blue-600 text-[10px] font-bold uppercase tracking-widest mb-2 shadow-sm">
+                                        <span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
+                                        GiÃ¡ trá»‹ cá»‘t lÃµi Ä‘á»‹nh hÃ¬nh hÃ nh vi
                                     </div>
-                                    <span style="font-size: 0.75rem; font-weight: 800; color: #B45309; background: rgba(245,158,11,0.08); padding: 3px 10px; border-radius: 12px;">POTATO CULTURE SYSTEM</span>
+                                    <h3 class="text-3xl md:text-4xl font-black text-slate-800 tracking-tight relative z-10" style="margin-top:0.5rem; margin-bottom:0.5rem;">
+                                        VÄƒn hÃ³a Potato
+                                    </h3>
+                                    <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-emerald-400 mx-auto mt-3 rounded-full opacity-80"></div>
                                 </div>
 
-                                <ul style="margin: 0 0 1.25rem 0; padding-left: 1.2rem; font-size: 0.875rem; color: var(--text-secondary); line-height: 1.6; list-style-type: disc;">
-                                    <li>Vận hành bộ não tổ chức theo 4 trụ cột giá trị cốt lõi của <strong>Văn Hóa Potato</strong>:</li>
-                                </ul>
-
-                                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.25rem;">
+                                <!-- Grid Cards -->
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                                    <!-- Card 1: TÆ° duy -->
+                                    <div class="bg-white rounded-xl p-5 shadow-sm border border-slate-100 h-full">
+                                        <div class="flex items-center justify-between group">
+                                            <div class="flex items-center gap-4">
+                                                <div class="h-10 w-10 rounded-full flex items-center justify-center bg-blue-50 text-blue-600 border border-blue-100">
+                                                    <i class="fas fa-bolt text-sm"></i>
+                                                </div>
+                                                <div>
+                                                    <span class="text-[10px] font-black uppercase tracking-wider text-blue-600 block" style="margin-bottom:0.2rem;">TÆ¯ DUY</span>
+                                                    <h3 class="text-lg font-bold text-slate-800" style="margin:0;">Tá»‘c Ä‘á»™ Ã¡nh sÃ¡ng</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="space-y-4 pt-4">
+                                            <div class="relative pl-4 border-l-2 border-slate-200 mb-2">
+                                                <p class="text-sm text-slate-500 leading-relaxed italic" style="margin:0;"><i class="fas fa-quote-left text-xs mr-1 text-slate-400"></i>Äá»«ng há»i lÃ m tháº¿ nÃ o Ä‘á»ƒ nhanh hÆ¡n hÃ´m qua. HÃ£y há»i: <strong>Trong Ä‘iá»u kiá»‡n lÃ½ tÆ°á»Ÿng tuyá»‡t Ä‘á»‘i, viá»‡c nÃ y máº¥t bao lÃ¢u?</strong> ChÃªnh lá»‡ch giá»¯a thá»±c táº¿ vÃ  lÃ½ tÆ°á»Ÿng lÃ  'Äá»™ trá»…' cáº§n loáº¡i bá».</p>
+                                            </div>
+                                            <div class="relative pl-4 border-l-2 border-blue-500 bg-blue-50/30 p-3 rounded-r-lg">
+                                                <span class="font-black text-slate-900 text-xs block mb-1">Potato Way:</span>
+                                                <ul class="text-xs text-blue-900 font-medium list-disc list-inside space-y-1" style="padding-left:1rem; margin-bottom:0;">
+                                                    <li>Giáº£i phÃ³ng khá»i nhá»¯ng quy trÃ¬nh rÆ°á»m rÃ , triá»‡t tiÃªu Ä‘á»™ trá»….</li>
+                                                    <li>Æ¯u tiÃªn tá»‘c Ä‘á»™ vÃ  sá»± cáº£i thiá»‡n liÃªn tá»¥c hÆ¡n lÃ  "Sá»± hoÃ n háº£o trÃ¬ trá»‡".</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
                                     
-                                    <!-- Pillar 1: Tư duy - Tốc độ ánh sáng -->
-                                    <div style="background: white; border: 1px solid rgba(30,58,138,0.1); border-top: 3px solid var(--accent-primary); border-radius: 10px; padding: 1.25rem; display: flex; flex-direction: column; justify-content: space-between;">
-                                        <div>
-                                            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.5rem;">
-                                                <span style="background: rgba(30,58,138,0.1); color: var(--accent-primary); font-weight: 800; font-size: 0.75rem; padding: 2px 8px; border-radius: 4px; text-transform: uppercase;">TƯ DUY</span>
+                                    <!-- Card 2: GiÃ¡ trá»‹ -->
+                                    <div class="bg-white rounded-xl p-5 shadow-sm border border-slate-100 h-full">
+                                        <div class="flex items-center justify-between group">
+                                            <div class="flex items-center gap-4">
+                                                <div class="h-10 w-10 rounded-full flex items-center justify-center bg-purple-50 text-purple-600 border border-purple-100">
+                                                    <i class="fas fa-brain text-sm"></i>
+                                                </div>
+                                                <div>
+                                                    <span class="text-[10px] font-black uppercase tracking-wider text-purple-600 block" style="margin-bottom:0.2rem;">GIÃ TRá»Š</span>
+                                                    <h3 class="text-lg font-bold text-slate-800" style="margin:0;">Trung thá»±c trÃ­ tuá»‡</h3>
+                                                </div>
                                             </div>
-                                            <h5 style="font-size: 0.95rem; font-weight: 800; color: var(--accent-primary); margin-bottom: 0.5rem;">Tốc độ ánh sáng (Speed of Light)</h5>
-                                            <p style="font-size: 0.775rem; color: var(--text-secondary); font-style: italic; margin-bottom: 0.65rem; line-height: 1.45;">"Đừng hỏi làm sao nhanh hơn hôm qua. Hãy hỏi: Trong điều kiện lý tưởng tuyệt đối, việc này mất bao lâu? Chênh lệch là 'Độ trễ' cần loại bỏ."</p>
-                                            <ul style="margin: 0; padding-left: 1.1rem; font-size: 0.8rem; color: var(--text-secondary); line-height: 1.5; list-style-type: disc;">
-                                                <li>Triệt tiêu mọi quy trình rườm rà & độ trễ.</li>
-                                                <li>Ưu tiên tốc độ hơn sự hoàn hảo trì trệ.</li>
-                                            </ul>
+                                        </div>
+                                        <div class="space-y-4 pt-4">
+                                            <div class="relative pl-4 border-l-2 border-slate-200 mb-2">
+                                                <p class="text-sm text-slate-500 leading-relaxed italic" style="margin:0;"><i class="fas fa-quote-left text-xs mr-1 text-slate-400"></i>Cháº¥p nháº­n sá»± tháº­t dÃ¹ khÃ³ nghe. Thá»«a nháº­n sai láº§m ngay láº­p tá»©c Ä‘á»ƒ tÃ¬m giáº£i phÃ¡p. KhÃ´ng giáº¥u giáº¿m, khÃ´ng Ä‘á»• lá»—i. Sá»± tháº­t luÃ´n quan trá»ng hÆ¡n cÃ¡i tÃ´i cÃ¡ nhÃ¢n.</p>
+                                            </div>
+                                            <div class="relative pl-4 border-l-2 border-purple-500 bg-purple-50/30 p-3 rounded-r-lg">
+                                                <span class="font-black text-slate-900 text-xs block mb-1">Potato Way:</span>
+                                                <ul class="text-xs text-purple-900 font-medium list-disc list-inside space-y-1" style="padding-left:1rem; margin-bottom:0;">
+                                                    <li>Äá»‘i diá»‡n sá»± tháº­t, há»c há»i tá»« sai láº§m.</li>
+                                                    <li>Tin xáº¥u cáº§n Ä‘Æ°á»£c bÃ¡o nhanh hÆ¡n tin tá»‘t.</li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
-
-                                    <!-- Pillar 2: Giá trị - Trung thực trí tuệ -->
-                                    <div style="background: white; border: 1px solid rgba(124,58,237,0.1); border-top: 3px solid #7C3AED; border-radius: 10px; padding: 1.25rem; display: flex; flex-direction: column; justify-content: space-between;">
-                                        <div>
-                                            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.5rem;">
-                                                <span style="background: rgba(124,58,237,0.1); color: #7C3AED; font-weight: 800; font-size: 0.75rem; padding: 2px 8px; border-radius: 4px; text-transform: uppercase;">GIÁ TRỊ</span>
+                                    
+                                    <!-- Card 3: Cáº¥u trÃºc -->
+                                    <div class="bg-white rounded-xl p-5 shadow-sm border border-slate-100 h-full">
+                                        <div class="flex items-center justify-between group">
+                                            <div class="flex items-center gap-4">
+                                                <div class="h-10 w-10 rounded-full flex items-center justify-center bg-rose-50 text-rose-600 border border-rose-100">
+                                                    <i class="fas fa-network-wired text-sm"></i>
+                                                </div>
+                                                <div>
+                                                    <span class="text-[10px] font-black uppercase tracking-wider text-rose-600 block" style="margin-bottom:0.2rem;">Cáº¤U TRÃšC</span>
+                                                    <h3 class="text-lg font-bold text-slate-800" style="margin:0;">One Team - MÃ´ HÃ¬nh Pháº³ng</h3>
+                                                </div>
                                             </div>
-                                            <h5 style="font-size: 0.95rem; font-weight: 800; color: #7C3AED; margin-bottom: 0.5rem;">Trung thực trí tuệ (Intellectual Honesty)</h5>
-                                            <p style="font-size: 0.775rem; color: var(--text-secondary); font-style: italic; margin-bottom: 0.65rem; line-height: 1.45;">"Chấp nhận sự thật dù khó nghe. Thừa nhận sai lầm để tìm giải pháp. Không giấu giếm, không đổ lỗi."</p>
-                                            <ul style="margin: 0; padding-left: 1.1rem; font-size: 0.8rem; color: var(--text-secondary); line-height: 1.5; list-style-type: disc;">
-                                                <li>Đối diện sự thật, học hỏi từ sai lầm.</li>
-                                                <li>Tin xấu cần được báo nhanh hơn tin tốt.</li>
-                                            </ul>
+                                        </div>
+                                        <div class="space-y-4 pt-4">
+                                            <div class="relative pl-4 border-l-2 border-slate-200 mb-2">
+                                                <p class="text-sm text-slate-500 leading-relaxed italic" style="margin:0;"><i class="fas fa-quote-left text-xs mr-1 text-slate-400"></i>KhÃ´ng chÆ¡i trÃ² 'tam sao tháº¥t báº£n'. ThÃ´ng tin tá»« chiáº¿n trÆ°á»ng pháº£i bay tháº³ng vá» tá»•ng hÃ nh dinh.</p>
+                                            </div>
+                                            <div class="relative pl-4 border-l-2 border-rose-500 bg-rose-50/30 p-3 rounded-r-lg">
+                                                <span class="font-black text-slate-900 text-xs block mb-1">Potato Way:</span>
+                                                <ul class="text-xs text-rose-900 font-medium list-disc list-inside space-y-1" style="padding-left:1rem; margin-bottom:0;">
+                                                    <li>ThÃ´ng tin xuyÃªn suá»‘t & minh báº¡ch.</li>
+                                                    <li>Báº¥t ká»³ ai cÅ©ng cÃ³ thá»ƒ tiáº¿p cáº­n quáº£n lÃ½ cáº¥p cao Ä‘á»ƒ Ä‘Ã³ng gÃ³p Ã½ kiáº¿n.</li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
-
-                                    <!-- Pillar 3: Cấu trúc - One Team Mô hình phẳng -->
-                                    <div style="background: white; border: 1px solid rgba(5,150,105,0.1); border-top: 3px solid #059669; border-radius: 10px; padding: 1.25rem; display: flex; flex-direction: column; justify-content: space-between;">
-                                        <div>
-                                            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.5rem;">
-                                                <span style="background: rgba(5,150,105,0.1); color: #059669; font-weight: 800; font-size: 0.75rem; padding: 2px 8px; border-radius: 4px; text-transform: uppercase;">CẤU TRÚC</span>
+                                    
+                                    <!-- Card 4: NguyÃªn táº¯c -->
+                                    <div class="bg-white rounded-xl p-5 shadow-sm border border-slate-100 h-full">
+                                        <div class="flex items-center justify-between group">
+                                            <div class="flex items-center gap-4">
+                                                <div class="h-10 w-10 rounded-full flex items-center justify-center bg-amber-50 text-amber-600 border border-amber-100">
+                                                    <i class="fas fa-list-ol text-sm"></i>
+                                                </div>
+                                                <div>
+                                                    <span class="text-[10px] font-black uppercase tracking-wider text-amber-600 block" style="margin-bottom:0.2rem;">NGUYÃŠN Táº®C</span>
+                                                    <h3 class="text-lg font-bold text-slate-800" style="margin:0;">5 Ä‘iá»u quan trá»ng nháº¥t</h3>
+                                                </div>
                                             </div>
-                                            <h5 style="font-size: 0.95rem; font-weight: 800; color: #059669; margin-bottom: 0.5rem;">One Team — Mô hình phẳng</h5>
-                                            <p style="font-size: 0.775rem; color: var(--text-secondary); font-style: italic; margin-bottom: 0.65rem; line-height: 1.45;">"Không chơi trò 'tam sao thất bản'. Thông tin từ chiến trường phải bay thẳng về tổng hành dinh."</p>
-                                            <ul style="margin: 0; padding-left: 1.1rem; font-size: 0.8rem; color: var(--text-secondary); line-height: 1.5; list-style-type: disc;">
-                                                <li>Thông tin xuyên suốt & minh bạch.</li>
-                                                <li>Trực tiếp tiếp cận quản lý cấp cao để góp ý.</li>
-                                            </ul>
+                                        </div>
+                                        <div class="space-y-4 pt-4">
+                                            <div class="relative pl-4 border-l-2 border-slate-200 mb-2">
+                                                <p class="text-sm text-slate-500 leading-relaxed italic" style="margin:0;"><i class="fas fa-quote-left text-xs mr-1 text-slate-400"></i>Má»—i tuáº§n, hÃ£y xÃ¡c Ä‘á»‹nh 5 Ä‘iá»u quan trá»ng nháº¥t Ä‘ang lÃ m. Viáº¿t ngáº¯n gá»n, báº¯t Ä‘áº§u báº±ng Ä‘á»™ng tá»«.</p>
+                                            </div>
+                                            <div class="relative pl-4 border-l-2 border-amber-500 bg-amber-50/30 p-3 rounded-r-lg">
+                                                <span class="font-black text-slate-900 text-xs block mb-1">Potato Way:</span>
+                                                <ul class="text-xs text-amber-900 font-medium list-disc list-inside space-y-1" style="padding-left:1rem; margin-bottom:0;">
+                                                    <li>KhÃ´ng lÃ m 100 viá»‡c dá»Ÿ dang.</li>
+                                                    <li>Táº­p trung cao Ä‘á»™ hoÃ n thÃ nh xuáº¥t sáº¯c 5 viá»‡c quan trá»ng nháº¥t.</li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
-
-                                    <!-- Pillar 4: Nguyên tắc - 5 điều quan trọng nhất -->
-                                    <div style="background: white; border: 1px solid rgba(180,83,9,0.1); border-top: 3px solid #B45309; border-radius: 10px; padding: 1.25rem; display: flex; flex-direction: column; justify-content: space-between;">
-                                        <div>
-                                            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.5rem;">
-                                                <span style="background: rgba(180,83,9,0.1); color: #B45309; font-weight: 800; font-size: 0.75rem; padding: 2px 8px; border-radius: 4px; text-transform: uppercase;">NGUYÊN TẮC</span>
-                                            </div>
-                                            <h5 style="font-size: 0.95rem; font-weight: 800; color: #B45309; margin-bottom: 0.5rem;">5 Điều quan trọng nhất (Top 5)</h5>
-                                            <p style="font-size: 0.775rem; color: var(--text-secondary); font-style: italic; margin-bottom: 0.65rem; line-height: 1.45;">"Mỗi tuần xác định 5 điều quan trọng nhất đang làm. Viết ngắn gọn, bắt đầu bằng động từ."</p>
-                                            <ul style="margin: 0; padding-left: 1.1rem; font-size: 0.8rem; color: var(--text-secondary); line-height: 1.5; list-style-type: disc;">
-                                                <li>Không làm 100 việc dở dang.</li>
-                                                <li>Tập trung cao độ hoàn thành xuất sắc Top 5.</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
                                 </div>
                             </div>
 
@@ -1044,10 +1097,10 @@
                                         <!-- Right Column: Contrast Examples (Frameless Lines) -->
                                         <div style="display: flex; flex-direction: column; gap: 0.4rem; padding-left: 0.5rem; border-left: 2px solid rgba(30,58,138,0.1);">
                                             <div style="font-size: 0.85rem; line-height: 1.5; color: var(--text-primary);">
-                                                <strong style="color: #059669; font-weight: 800;">✔ Nên nói / hỏi:</strong> "Xưởng 1 hoàn thành kiểm kê 100% mã nguyên vật liệu tồn kho trước 17:00 thứ Sáu."
+                                                <span style="color: #059669; font-weight: 900; font-size: 0.95rem; margin-right: 6px;">✔</span> "Xưởng 1 hoàn thành kiểm kê 100% mã nguyên vật liệu tồn kho trước 17:00 thứ Sáu."
                                             </div>
                                             <div style="font-size: 0.85rem; line-height: 1.5; color: var(--text-primary);">
-                                                <strong style="color: #DC2626; font-weight: 800;">✖ Không nên nói / hỏi:</strong> "Cố gắng kiểm tra kho và cải thiện tiến độ nhé."
+                                                <span style="color: #DC2626; font-weight: 900; font-size: 0.95rem; margin-right: 6px;">✖</span> "Cố gắng kiểm tra kho và cải thiện tiến độ nhé."
                                             </div>
                                         </div>
                                     </div>
@@ -1066,10 +1119,10 @@
                                         <!-- Right Column: Contrast Examples (Frameless Lines) -->
                                         <div style="display: flex; flex-direction: column; gap: 0.4rem; padding-left: 0.5rem; border-left: 2px solid rgba(5,150,105,0.1);">
                                             <div style="font-size: 0.85rem; line-height: 1.5; color: var(--text-primary);">
-                                                <strong style="color: #059669; font-weight: 800;">✔ Nên nói / hỏi:</strong> "Tỷ lệ sản phẩm đạt chuẩn QA (First Pass Yield) đạt trên 98.5% và OTIF đạt trên 98%?"
+                                                <span style="color: #059669; font-weight: 900; font-size: 0.95rem; margin-right: 6px;">✔</span> "Tỷ lệ sản phẩm đạt chuẩn QA (First Pass Yield) đạt trên 98.5% và OTIF đạt trên 98%?"
                                             </div>
                                             <div style="font-size: 0.85rem; line-height: 1.5; color: var(--text-primary);">
-                                                <strong style="color: #DC2626; font-weight: 800;">✖ Không nên nói / hỏi:</strong> "Nâng cao chất lượng hàng sản xuất và cố gắng giao hàng nhanh nhé."
+                                                <span style="color: #DC2626; font-weight: 900; font-size: 0.95rem; margin-right: 6px;">✖</span> "Nâng cao chất lượng hàng sản xuất và cố gắng giao hàng nhanh nhé."
                                             </div>
                                         </div>
                                     </div>
@@ -1088,10 +1141,10 @@
                                         <!-- Right Column: Contrast Examples (Frameless Lines) -->
                                         <div style="display: flex; flex-direction: column; gap: 0.4rem; padding-left: 0.5rem; border-left: 2px solid rgba(180,83,9,0.1);">
                                             <div style="font-size: 0.85rem; line-height: 1.5; color: var(--text-primary);">
-                                                <strong style="color: #059669; font-weight: 800;">✔ Nên nói / hỏi:</strong> "Tổ đóng gói 3 người có đủ công cụ App MES để quét 500 đơn/ca không?"
+                                                <span style="color: #059669; font-weight: 900; font-size: 0.95rem; margin-right: 6px;">✔</span> "Tổ đóng gói 3 người có đủ công cụ App MES để quét 500 đơn/ca không?"
                                             </div>
                                             <div style="font-size: 0.85rem; line-height: 1.5; color: var(--text-primary);">
-                                                <strong style="color: #DC2626; font-weight: 800;">✖ Không nên nói / hỏi:</strong> "Yêu cầu tăng 500% sản lượng ca đêm mà không cấp thêm công cụ hay nhân lực."
+                                                <span style="color: #DC2626; font-weight: 900; font-size: 0.95rem; margin-right: 6px;">✖</span> "Yêu cầu tăng 500% sản lượng ca đêm mà không cấp thêm công cụ hay nhân lực."
                                             </div>
                                         </div>
                                     </div>
@@ -1110,10 +1163,10 @@
                                         <!-- Right Column: Contrast Examples (Frameless Lines) -->
                                         <div style="display: flex; flex-direction: column; gap: 0.4rem; padding-left: 0.5rem; border-left: 2px solid rgba(124,58,237,0.1);">
                                             <div style="font-size: 0.85rem; line-height: 1.5; color: var(--text-primary);">
-                                                <strong style="color: #059669; font-weight: 800;">✔ Nên nói / hỏi:</strong> "Chuẩn hóa SOP dây chuyền này có giúp giảm trực tiếp 15% chi phí sản xuất (COGS) không?"
+                                                <span style="color: #059669; font-weight: 900; font-size: 0.95rem; margin-right: 6px;">✔</span> "Chuẩn hóa SOP dây chuyền này có giúp giảm trực tiếp 15% chi phí sản xuất (COGS) không?"
                                             </div>
                                             <div style="font-size: 0.85rem; line-height: 1.5; color: var(--text-primary);">
-                                                <strong style="color: #DC2626; font-weight: 800;">✖ Không nên nói / hỏi:</strong> "Dành nhiều thời gian làm các báo cáo thủ công không giúp tăng biên lợi nhuận."
+                                                <span style="color: #DC2626; font-weight: 900; font-size: 0.95rem; margin-right: 6px;">✖</span> "Dành nhiều thời gian làm các báo cáo thủ công không giúp tăng biên lợi nhuận."
                                             </div>
                                         </div>
                                     </div>
@@ -1132,10 +1185,10 @@
                                         <!-- Right Column: Contrast Examples (Frameless Lines) -->
                                         <div style="display: flex; flex-direction: column; gap: 0.4rem; padding-left: 0.5rem; border-left: 2px solid rgba(220,38,38,0.1);">
                                             <div style="font-size: 0.85rem; line-height: 1.5; color: var(--text-primary);">
-                                                <strong style="color: #059669; font-weight: 800;">✔ Nên nói / hỏi:</strong> "Lô hàng xuất khẩu mã #SV-2026 phải được hoàn tất đóng container trước 17:00 thứ Sáu."
+                                                <span style="color: #059669; font-weight: 900; font-size: 0.95rem; margin-right: 6px;">✔</span> "Lô hàng xuất khẩu mã #SV-2026 phải được hoàn tất đóng container trước 17:00 thứ Sáu."
                                             </div>
                                             <div style="font-size: 0.85rem; line-height: 1.5; color: var(--text-primary);">
-                                                <strong style="color: #DC2626; font-weight: 800;">✖ Không nên nói / hỏi:</strong> "Cố gắng hoàn thành lô hàng này càng sớm càng tốt nhé."
+                                                <span style="color: #DC2626; font-weight: 900; font-size: 0.95rem; margin-right: 6px;">✖</span> "Cố gắng hoàn thành lô hàng này càng sớm càng tốt nhé."
                                             </div>
                                         </div>
                                     </div>
@@ -1455,3 +1508,5 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+
