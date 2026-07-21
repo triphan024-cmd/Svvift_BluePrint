@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 180" fill="#3562A6">
+  <!-- Tata Oval -->
+  <path d="M100 10C50 10 10 32.4 10 60c0 27.6 40 50 90 50s90-22.4 90-50c0-27.6-40-50-90-50zm-6 91.5C63 99 37 87.5 22 70.5c26 1.5 58 9 72 31zm12 0c14-22 46-29.5 72-31-15 17-41 28.5-72 31zM100 23c18.5 0 36 2.6 52 7.2C137 47.5 114 71 106 94h-12c-8-23-31-46.5-46-63.8 16-4.6 33.5-7.2 52-7.2z"/>
+  <!-- Tata Text -->
+  <text x="100" y="165" font-family="'Segoe UI', Arial, sans-serif" font-weight="900" font-size="52" text-anchor="middle" letter-spacing="4" fill="#3562A6">TATA</text>
+</svg>
