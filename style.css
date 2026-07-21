@@ -1246,4 +1246,15 @@ footer {
     .cause-title {
         white-space: normal;
     }
+
+    .smart-split-row {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+.smart-split-row {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 1.25rem;
+    align-items: center;
 }
