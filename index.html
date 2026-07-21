@@ -614,31 +614,554 @@
         <div id="phase-2-content" class="phase-content-wrapper active" style="display: block;">
             <section class="section phase2-section" id="phase2-section" style="background-color: var(--bg-base); padding-top: 2rem; padding-bottom: 5rem;">
                 <div class="section-container">
-                                                <div style="position: absolute; left: -2rem; width: 16px; height: 16px; border-radius: 50%; background: var(--text-primary); border: 3px solid white; box-shadow: 0 0 0 1px rgba(0,0,0,0.1); transform: translateX(-50%); top: 8px; z-index: 2;"></div>
-                                                <div style="background: var(--text-primary); border: 1px solid rgba(0,0,0,0.05); padding: 1.5rem; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-                                                    <div style="margin-bottom: 0.75rem;">
-                                                        <strong style="color: white; font-family: monospace; font-size: 1.1rem;">Tuần 8 - Đánh giá & Tinh chỉnh Cuối cùng (Final Review & Refinement)</strong>
-                                                    </div>
-                                                    <p style="font-size: 0.95rem; color: rgba(255,255,255,0.8); margin-bottom: 0.5rem; line-height: 1.6;"><strong style="color: white;">Trọng tâm:</strong> Khắc phục bất kỳ lỗi (bug) nào còn sót lại, tinh chỉnh các SOP dựa trên thực tế sử dụng, và xác thực tính hiệu quả của toàn bộ hệ thống sau khi triển khai.</p>
-                                                    <p style="font-size: 0.95rem; color: rgba(255,255,255,0.8); margin: 0; line-height: 1.6;"><strong style="color: white;">Đầu ra:</strong> "Con thuyền mới" vận hành trơn tru và hoàn toàn tự động.</p>
+                    <div class="phase2-grid" style="max-width: 1060px; margin-inline: auto; display: flex; flex-direction: column; gap: 3.5rem;">
+                        
+                        <!-- Main Header Banner -->
+                        <div style="background: linear-gradient(135deg, rgba(15,23,42,0.95) 0%, rgba(30,41,59,0.95) 100%); color: white; padding: 3rem 2.5rem; border-radius: 16px; box-shadow: 0 20px 40px rgba(0,0,0,0.12); position: relative; overflow: hidden; border: 1px solid rgba(255,255,255,0.1);">
+                            <div style="position: absolute; top: 0; left: 0; right: 0; height: 5px; background: linear-gradient(90deg, #1E3A8A, #3B82F6, #10B981, #F59E0B);"></div>
+                            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 1rem;">
+                                <span style="background: rgba(59,130,246,0.2); color: #60A5FA; font-size: 0.75rem; font-weight: 800; padding: 4px 12px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; border: 1px solid rgba(96,165,250,0.3);">PHASE II — MASTER STRATEGY</span>
+                                <span style="background: rgba(16,185,129,0.2); color: #34D399; font-size: 0.75rem; font-weight: 800; padding: 4px 12px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; border: 1px solid rgba(52,211,153,0.3);">SVVIFT BLUEPRINT</span>
+                            </div>
+                            <h2 style="font-size: 1.85rem; font-weight: 900; line-height: 1.3; color: white; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: -0.5px;">
+                                CHIẾN LƯỢC TÁI CẤU TRÚC:<br>
+                                <span style="background: linear-gradient(90deg, #60A5FA, #34D399); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">HÀNH TRÌNH TỪ NHÀ MÁY LẮP RÁP ĐẾN HỆ SINH THÁI VẬN HÀNH TIÊU CHUẨN TOÀN CẦU</span>
+                            </h2>
+                            <p style="font-size: 0.95rem; color: #94A3B8; line-height: 1.6; margin: 0; max-width: 900px;">
+                                Chuyển đổi mô hình vận hành từ gia công thụ động thành trung tâm sản xuất tự chủ, thông minh, chuyên nghiệp theo chuẩn mực của các tập đoàn đa quốc gia.
+                            </p>
+                        </div>
+
+                        <!-- PHẦN I: NHÌN THẲNG VÀO SỰ THẬT - VỊ THẾ HIỆN TẠI CỦA CHÚNG TA -->
+                        <div id="phan1-truth" class="phase2-card glass-card hover-lift" style="padding: 2.5rem; border-radius: 14px; background: white; border: 1px solid rgba(0,0,0,0.06); border-top: 4px solid #DC2626; box-shadow: 0 10px 30px rgba(0,0,0,0.04);">
+                            <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem; border-bottom: 2px solid rgba(220,38,38,0.1); padding-bottom: 0.75rem;">
+                                <h3 style="font-size: 1.25rem; font-weight: 800; color: #DC2626; text-transform: uppercase; letter-spacing: 0.5px; margin: 0; display: flex; align-items: center; gap: 10px;">
+                                    <span>🔍</span> PHẦN I: NHÌN THẲNG VÀO SỰ THẬT — VỊ THẾ HIỆN TẠI CỦA CHÚNG TA
+                                </h3>
+                                <span style="font-size: 0.75rem; font-weight: 800; color: #DC2626; background: rgba(220,38,38,0.08); padding: 4px 12px; border-radius: 20px;">TRUTH AUDIT</span>
+                            </div>
+                            
+                            <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 1.5rem; font-style: italic; font-weight: 500;">
+                                "Trước khi nói về tương lai, chúng ta phải thành thật với nhau về hiện tại. Chuỗi giá trị hiện tại của công ty đang nằm ở đâu?"
+                            </p>
+
+                            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem;">
+                                
+                                <!-- Card 1: Bẫy gia công -->
+                                <div style="background: rgba(220,38,38,0.03); border: 1px solid rgba(220,38,38,0.15); border-radius: 10px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between;">
+                                    <div>
+                                        <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.75rem;">
+                                            <span style="background: #DC2626; color: white; width: 26px; height: 26px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 0.85rem; font-weight: bold;">1</span>
+                                            <h4 style="font-size: 1rem; font-weight: 800; color: #DC2626; margin: 0;">Cái bẫy của việc "Gia công"</h4>
+                                        </div>
+                                        <p style="font-size: 0.875rem; color: var(--text-primary); line-height: 1.6; margin: 0;">
+                                            Nhà máy Việt Nam hiện tại chỉ đang làm công việc <strong>lắp ráp và đóng gói</strong>. Đây là nấc thang thấp nhất trong chuỗi giá trị. Chúng ta đổ mồ hôi nhiều nhất, làm việc vất vả nhất, nhưng giá trị thu về chỉ là <em>"tiền lẻ"</em>.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- Card 2: Sự thật thu nhập -->
+                                <div style="background: rgba(180,83,9,0.03); border: 1px solid rgba(180,83,9,0.15); border-radius: 10px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between;">
+                                    <div>
+                                        <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.75rem;">
+                                            <span style="background: #B45309; color: white; width: 26px; height: 26px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 0.85rem; font-weight: bold;">2</span>
+                                            <h4 style="font-size: 1rem; font-weight: 800; color: #B45309; margin: 0;">Sự thật về thu nhập</h4>
+                                        </div>
+                                        <p style="font-size: 0.875rem; color: var(--text-primary); line-height: 1.6; margin: 0;">
+                                            Tất cả mọi người đều muốn tăng lương, muốn có thu nhập cao hơn, nhưng lại không chịu làm những việc khác đi để xứng đáng với điều đó. Nếu chúng ta mãi duy trì tư duy của một xưởng lắp ráp, công ty sẽ không có cơ hội phát triển, và thu nhập của các bạn cũng sẽ mãi <strong>dậm chân tại chỗ</strong>.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- Card 3: Mệnh lệnh thay đổi -->
+                                <div style="background: rgba(30,58,138,0.03); border: 1px solid rgba(30,58,138,0.15); border-radius: 10px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between;">
+                                    <div>
+                                        <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.75rem;">
+                                            <span style="background: var(--accent-primary); color: white; width: 26px; height: 26px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 0.85rem; font-weight: bold;">3</span>
+                                            <h4 style="font-size: 1rem; font-weight: 800; color: var(--accent-primary); margin: 0;">Mệnh lệnh thay đổi</h4>
+                                        </div>
+                                        <p style="font-size: 0.875rem; color: var(--text-primary); line-height: 1.6; margin: 0;">
+                                            Nhận thức rõ hoàn cảnh này, chúng ta <strong>buộc phải lột xác</strong>. Mục tiêu không phải là làm cho một "nhà máy lắp ráp" bớt lộn xộn hơn, mà là nâng cấp nó thành một <strong>trung tâm sản xuất có tư duy, có hệ thống và tạo ra giá trị cao</strong>.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- PHẦN II: TẦM NHÌN, CẢM HỨNG & TIÊU CHUẨN QUỐC TẾ -->
+                        <div id="phan2-vision" class="phase2-card glass-card hover-lift" style="padding: 2.5rem; border-radius: 14px; background: white; border: 1px solid rgba(0,0,0,0.06); border-top: 4px solid var(--accent-primary); box-shadow: 0 10px 30px rgba(0,0,0,0.04);">
+                            <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem; border-bottom: 2px solid rgba(30,58,138,0.1); padding-bottom: 0.75rem;">
+                                <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--accent-primary); text-transform: uppercase; letter-spacing: 0.5px; margin: 0; display: flex; align-items: center; gap: 10px;">
+                                    <span>🌐</span> PHẦN II: TẦM NHÌN, CẢM HỨNG & TIÊU CHUẨN QUỐC TẾ
+                                </h3>
+                                <span style="font-size: 0.75rem; font-weight: 800; color: var(--accent-primary); background: rgba(30,58,138,0.08); padding: 4px 12px; border-radius: 20px;">GLOBAL STANDARDS</span>
+                            </div>
+                            
+                            <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 1.75rem; font-weight: 600;">
+                                "Chúng ta không bước vào cuộc chiến này với sự sợ hãi, mà với tư duy của những người kiến tạo vĩ đại."
+                            </p>
+
+                            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem;">
+                                
+                                <!-- Hyundai Card -->
+                                <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); color: white; border-radius: 12px; padding: 2rem; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 10px 25px rgba(0,0,0,0.12); position: relative; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between;">
+                                    <div style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, #F59E0B, #D97706);"></div>
+                                    <div>
+                                        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 1.25rem;">
+                                            <span style="background: rgba(245,158,11,0.2); color: #FBBF24; width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; border: 1px solid rgba(251,191,36,0.3);">🚢</span>
+                                            <div>
+                                                <span style="font-size: 0.75rem; font-weight: 800; color: #FBBF24; text-transform: uppercase; letter-spacing: 1px;">Kỳ tích Khởi nghiệp</span>
+                                                <h4 style="font-size: 1.1rem; font-weight: 800; color: white; margin: 0;">Tinh thần Hyundai — Đóng tàu khi chưa có xưởng</h4>
+                                            </div>
+                                        </div>
+                                        
+                                        <p style="font-size: 0.875rem; color: #CBD5E1; line-height: 1.65; margin-bottom: 1.25rem;">
+                                            Hãy nhớ về huyền thoại kinh doanh của <strong>Chung Ju-yung</strong> (Nhà sáng lập Tập đoàn Hyundai). Ở thế kỷ 20, ông đã thuyết phục đối tác đặt đóng tàu và vay vốn ngân hàng quốc tế chỉ bằng cách đưa ra tờ tiền giấy của Hàn Quốc có in hình con tàu gỗ, trong khi lúc đó ông chưa hề có một xưởng đóng tàu nào.
+                                        </p>
+                                    </div>
+
+                                    <div style="background: rgba(245,158,11,0.15); border: 1px solid rgba(245,158,11,0.3); border-radius: 8px; padding: 0.85rem 1rem; color: #FDE68A; font-size: 0.85rem;">
+                                        <strong>📌 Bài học cốt lõi:</strong> Sự táo bạo, tư duy không giới hạn và khả năng thích ứng cực nhanh (Quick Adapt). Không được sợ hãi!
+                                    </div>
+                                </div>
+
+                                <!-- Big Corporates Standard Card -->
+                                <div style="background: white; border: 1px solid rgba(30,58,138,0.1); border-radius: 12px; padding: 2rem; border-top: 4px solid var(--accent-primary); box-shadow: 0 10px 25px rgba(0,0,0,0.03); display: flex; flex-direction: column; justify-content: space-between;">
+                                    <div>
+                                        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 1.25rem;">
+                                            <span style="background: rgba(30,58,138,0.08); color: var(--accent-primary); width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; border: 1px solid rgba(30,58,138,0.15);">🏢</span>
+                                            <div>
+                                                <span style="font-size: 0.75rem; font-weight: 800; color: var(--accent-primary); text-transform: uppercase; letter-spacing: 1px;">Chuẩn mực Quản trị</span>
+                                                <h4 style="font-size: 1.1rem; font-weight: 800; color: var(--text-primary); margin: 0;">Tiêu chuẩn của các "Ông Lớn" (Big Corporates)</h4>
+                                            </div>
+                                        </div>
+
+                                        <p style="font-size: 0.875rem; color: var(--text-secondary); line-height: 1.65; margin-bottom: 1.25rem;">
+                                            Từ kinh nghiệm thực chiến tại <strong>Nike, Samsung, Tata, NTT...</strong> và triết lý tốc độ đột phá của <strong>Nvidia</strong>, tiêu chuẩn làm việc của chúng ta sẽ được định hình lại:
+                                        </p>
+
+                                        <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 1.25rem;">
+                                            <span style="background: rgba(30,58,138,0.08); color: var(--accent-primary); font-weight: 800; font-size: 0.8rem; padding: 4px 10px; border-radius: 6px;">Có tổ chức (Organized)</span>
+                                            <span style="background: rgba(180,83,9,0.08); color: #B45309; font-weight: 800; font-size: 0.8rem; padding: 4px 10px; border-radius: 6px;">Có hệ thống (Systematic)</span>
+                                            <span style="background: rgba(16,185,129,0.08); color: #059669; font-weight: 800; font-size: 0.8rem; padding: 4px 10px; border-radius: 6px;">Chuyên nghiệp tuyệt đối</span>
+                                        </div>
+                                    </div>
+
+                                    <div style="background: rgba(30,58,138,0.04); border-left: 3px solid var(--accent-primary); padding: 0.85rem 1rem; border-radius: 0 8px 8px 0; color: var(--text-primary); font-size: 0.85rem; font-weight: 500;">
+                                        Đừng làm việc theo cảm tính nữa. Hãy xem cách những người chuyên nghiệp thực sự làm việc.
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- PHẦN III: "CON THUYỀN MỚI" - 3 TRỤ CỘT TÁI CẤU TRÚC (S-T-P) -->
+                        <div id="phan3-stp" class="phase2-card glass-card hover-lift" style="padding: 2.5rem; border-radius: 14px; background: white; border: 1px solid rgba(0,0,0,0.06); border-top: 4px solid #059669; box-shadow: 0 10px 30px rgba(0,0,0,0.04);">
+                            <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem; border-bottom: 2px solid rgba(5,150,105,0.1); padding-bottom: 0.75rem;">
+                                <h3 style="font-size: 1.25rem; font-weight: 800; color: #059669; text-transform: uppercase; letter-spacing: 0.5px; margin: 0; display: flex; align-items: center; gap: 10px;">
+                                    <span>⚓</span> PHẦN III: "CON THUYỀN MỚI" — 3 TRỤ CỘT TÁI CẤU TRÚC (S-T-P)
+                                </h3>
+                                <span style="font-size: 0.75rem; font-weight: 800; color: #059669; background: rgba(5,150,105,0.08); padding: 4px 12px; border-radius: 20px;">CORE ARCHITECTURE</span>
+                            </div>
+
+                            <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 1.75rem; font-weight: 500;">
+                                Để vận hành nhà máy ở tiêu chuẩn toàn cầu, cuộc tái cấu trúc sẽ xoay quanh 3 trụ cột (S-T-P):
+                            </p>
+
+                            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
+                                
+                                <!-- S Pillar -->
+                                <div class="hover-lift" style="padding: 1.75rem; border-radius: 12px; background: rgba(30,58,138,0.02); border: 1px solid rgba(30,58,138,0.1); border-top: 4px solid var(--accent-primary); position: relative; display: flex; flex-direction: column; justify-content: space-between;">
+                                    <div>
+                                        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 1rem;">
+                                            <span style="background: var(--accent-primary); color: white; width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; font-weight: 900;">S</span>
+                                            <div>
+                                                <span style="font-size: 0.75rem; font-weight: 800; color: var(--accent-primary); text-transform: uppercase;">System — SOP</span>
+                                                <h4 style="font-size: 1.1rem; font-weight: 800; color: var(--text-primary); margin: 0;">Hệ Thống Quy Trình</h4>
+                                            </div>
+                                        </div>
+                                        <p style="font-size: 0.875rem; color: var(--text-secondary); line-height: 1.6; margin: 0;">
+                                            Thiết lập các chính sách chuẩn hóa. Minh bạch tuyệt đối về <strong>Vai trò & Trách nhiệm (R&R)</strong>. Áp dụng mục tiêu <strong>SMART</strong> để loại bỏ hoàn toàn việc phỏng đoán.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- T Pillar -->
+                                <div class="hover-lift" style="padding: 1.75rem; border-radius: 12px; background: rgba(180,83,9,0.02); border: 1px solid rgba(180,83,9,0.1); border-top: 4px solid #B45309; position: relative; display: flex; flex-direction: column; justify-content: space-between;">
+                                    <div>
+                                        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 1rem;">
+                                            <span style="background: #B45309; color: white; width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; font-weight: 900;">T</span>
+                                            <div>
+                                                <span style="font-size: 0.75rem; font-weight: 800; color: #B45309; text-transform: uppercase;">Tool — App</span>
+                                                <h4 style="font-size: 1.1rem; font-weight: 800; color: var(--text-primary); margin: 0;">Công Cụ Số Hóa</h4>
+                                            </div>
+                                        </div>
+                                        <p style="font-size: 0.875rem; color: var(--text-secondary); line-height: 1.6; margin: 0;">
+                                            Triển khai <strong>MỘT Ứng dụng tập trung duy nhất</strong> để quản trị toàn bộ hệ sinh thái. Sử dụng <em>"đúng công cụ cho đúng việc"</em>, số hóa để đảm bảo mọi hoạt động đều được đo lường.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- P Pillar -->
+                                <div class="hover-lift" style="padding: 1.75rem; border-radius: 12px; background: rgba(5,150,105,0.02); border: 1px solid rgba(5,150,105,0.1); border-top: 4px solid #059669; position: relative; display: flex; flex-direction: column; justify-content: space-between;">
+                                    <div>
+                                        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 1rem;">
+                                            <span style="background: #059669; color: white; width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; font-weight: 900;">P</span>
+                                            <div>
+                                                <span style="font-size: 0.75rem; font-weight: 800; color: #059669; text-transform: uppercase;">People — Special Forces</span>
+                                                <h4 style="font-size: 1.1rem; font-weight: 800; color: var(--text-primary); margin: 0;">Con Người Tinh Nhuệ</h4>
+                                            </div>
+                                        </div>
+                                        <p style="font-size: 0.875rem; color: var(--text-secondary); line-height: 1.6; margin: 0;">
+                                            Xây dựng <strong>Đội đặc nhiệm (Special Forces)</strong> — tinh nhuệ quan trọng hơn đông đúc. Trang bị kỹ năng chuẩn xác, thực thi kỷ luật nghiêm ngặt và tuân thủ tuyệt đối quy trình. Không có ngoại lệ.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- PHẦN IV: "ĐIỀU DUY NHẤT" (THE ONE THING) - ĐÚNG NGƯỜI, ĐÚNG VIỆC -->
+                        <div id="phan4-onething" class="phase2-card glass-card hover-lift" style="padding: 2.5rem; border-radius: 14px; background: white; border: 1px solid rgba(0,0,0,0.06); border-top: 4px solid #7C3AED; box-shadow: 0 10px 30px rgba(0,0,0,0.04);">
+                            <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem; border-bottom: 2px solid rgba(124,58,237,0.1); padding-bottom: 0.75rem;">
+                                <h3 style="font-size: 1.25rem; font-weight: 800; color: #7C3AED; text-transform: uppercase; letter-spacing: 0.5px; margin: 0; display: flex; align-items: center; gap: 10px;">
+                                    <span>🎯</span> PHẦN IV: "ĐIỀU DUY NHẤT" (THE ONE THING) — ĐÚNG NGƯỜI, ĐÚNG VIỆC
+                                </h3>
+                                <span style="font-size: 0.75rem; font-weight: 800; color: #7C3AED; background: rgba(124,58,237,0.08); padding: 4px 12px; border-radius: 20px;">DEPARTMENT MANDATES</span>
+                            </div>
+
+                            <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 1.75rem; font-weight: 500;">
+                                Mỗi phòng ban phải gắn kết chặt chẽ với một thước đo thành công duy nhất, không thể thỏa hiệp nhằm thúc đẩy hiệu suất tối đa:
+                            </p>
+
+                            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.25rem;">
+                                
+                                <!-- Dept 1: Kho Bãi -->
+                                <div style="background: white; border: 1px solid rgba(220,38,38,0.15); border-top: 3px solid #DC2626; border-radius: 10px; padding: 1.5rem; box-shadow: 0 4px 15px rgba(0,0,0,0.02);">
+                                    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem;">
+                                        <strong style="color: #DC2626; font-size: 1rem; font-weight: 800;">1. KHO BÃI (Warehouse)</strong>
+                                        <span style="font-size: 0.7rem; font-weight: 800; color: #DC2626; background: rgba(220,38,38,0.1); padding: 2px 8px; border-radius: 4px;">QUẢN TRỊ TÀI SẢN</span>
+                                    </div>
+                                    <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; list-style-type: disc;">
+                                        <li>Đảm bảo tính toàn vẹn tuyệt đối của tài sản và khả năng kiểm soát theo thời gian thực.</li>
+                                        <li>Duy trì độ chính xác của hàng tồn kho ở mức <strong style="color: #DC2626;">100%</strong>.</li>
+                                        <li>Đảm bảo tuyệt đối không làm gián đoạn dây chuyền sản xuất.</li>
+                                    </ul>
+                                </div>
+
+                                <!-- Dept 2: Thu Mua -->
+                                <div style="background: white; border: 1px solid rgba(30,58,138,0.15); border-top: 3px solid var(--accent-primary); border-radius: 10px; padding: 1.5rem; box-shadow: 0 4px 15px rgba(0,0,0,0.02);">
+                                    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem;">
+                                        <strong style="color: var(--accent-primary); font-size: 1rem; font-weight: 800;">2. THU MUA (Purchasing)</strong>
+                                        <span style="font-size: 0.7rem; font-weight: 800; color: var(--accent-primary); background: rgba(30,58,138,0.1); padding: 2px 8px; border-radius: 4px;">QUẢN TRỊ CHI PHÍ</span>
+                                    </div>
+                                    <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; list-style-type: disc;">
+                                        <li>Đánh giá và phát triển mạng lưới đối tác cung ứng chiến lược để liên tục tối ưu hóa chi phí và đạt chất lượng vượt trội.</li>
+                                        <li>Đào sâu chuyên môn thu mua để thấu hiểu tường tận đặc tính vật tư và hành vi của sản phẩm.</li>
+                                        <li>Xóa bỏ các điểm nghẽn trong chuỗi cung ứng bằng cách đảm bảo nguyên vật liệu đầu vào đúng thời điểm.</li>
+                                    </ul>
+                                </div>
+
+                                <!-- Dept 3: Sản Xuất -->
+                                <div style="background: white; border: 1px solid rgba(5,150,105,0.15); border-top: 3px solid #059669; border-radius: 10px; padding: 1.5rem; box-shadow: 0 4px 15px rgba(0,0,0,0.02);">
+                                    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem;">
+                                        <strong style="color: #059669; font-size: 1rem; font-weight: 800;">3. SẢN XUẤT (Production)</strong>
+                                        <span style="font-size: 0.7rem; font-weight: 800; color: #059669; background: rgba(5,150,105,0.1); padding: 2px 8px; border-radius: 4px;">VẬN HÀNH XUẤT SẮC</span>
+                                    </div>
+                                    <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; list-style-type: disc;">
+                                        <li>Nâng cao năng suất lao động thông qua đào tạo nâng cao tay nghề và phát triển năng lực có chủ đích.</li>
+                                        <li>Thúc đẩy việc cắt giảm triệt để Giá vốn hàng bán (COGS) nhưng vẫn duy trì các tiêu chuẩn chất lượng khắt khe nhất.</li>
+                                        <li>Thực thi nghiêm ngặt tiêu chuẩn Giao hàng Đúng hạn và Đủ số lượng (<strong style="color: #059669;">OTIF — On-Time In-Full</strong>) làm động cơ vận hành cốt lõi.</li>
+                                    </ul>
+                                </div>
+
+                                <!-- Dept 4: Hậu Cần -->
+                                <div style="background: white; border: 1px solid rgba(217,119,6,0.15); border-top: 3px solid #D97706; border-radius: 10px; padding: 1.5rem; box-shadow: 0 4px 15px rgba(0,0,0,0.02);">
+                                    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem;">
+                                        <strong style="color: #D97706; font-size: 1rem; font-weight: 800;">4. HẬU CẦN / VẬN TẢI (Logistics)</strong>
+                                        <span style="font-size: 0.7rem; font-weight: 800; color: #D97706; background: rgba(217,119,6,0.1); padding: 2px 8px; border-radius: 4px;">ĐẢM BẢO TIẾN ĐỘ</span>
+                                    </div>
+                                    <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; list-style-type: disc;">
+                                        <li>Nắm vững và làm chủ lịch trình giao hàng để đảm bảo tỷ lệ hoàn thành đúng hạn 100% và triệt tiêu thời gian "chết".</li>
+                                        <li>Đồng bộ hóa luồng công việc vận tải với sản lượng đầu ra để ngăn chặn mọi sự chậm trễ trong việc xuất hàng.</li>
+                                        <li>Tối ưu hóa các tuyến đường và mạng lưới phân phối để đạt độ tin cậy tối đa và hiệu quả chi phí cao nhất.</li>
+                                    </ul>
+                                </div>
+
+                                <!-- Dept 5: Kế Toán -->
+                                <div style="background: white; border: 1px solid rgba(124,58,237,0.15); border-top: 3px solid #7C3AED; border-radius: 10px; padding: 1.5rem; box-shadow: 0 4px 15px rgba(0,0,0,0.02);">
+                                    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem;">
+                                        <strong style="color: #7C3AED; font-size: 1rem; font-weight: 800;">5. KẾ TOÁN (Accounting)</strong>
+                                        <span style="font-size: 0.7rem; font-weight: 800; color: #7C3AED; background: rgba(124,58,237,0.1); padding: 2px 8px; border-radius: 4px;">TỐI ƯU TÀI CHÍNH</span>
+                                    </div>
+                                    <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; list-style-type: disc;">
+                                        <li>Tối đa hóa hiệu quả dòng tiền và đảm bảo phân bổ nguồn vốn mang tính chiến lược cao.</li>
+                                        <li>Xóa bỏ tận gốc các chi phí gián tiếp không thiết yếu và sự lãng phí trong vận hành để bảo vệ biên lợi nhuận.</li>
+                                        <li>Tận dụng tối đa các chính sách ưu đãi và đòn bẩy tài chính để gia tăng khoản tiết kiệm cho công ty.</li>
+                                    </ul>
+                                </div>
+
+                                <!-- Dept 6: Nhân Sự & Hành Chính -->
+                                <div style="background: white; border: 1px solid rgba(15,23,42,0.15); border-top: 3px solid #0F172A; border-radius: 10px; padding: 1.5rem; box-shadow: 0 4px 15px rgba(0,0,0,0.02);">
+                                    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem;">
+                                        <strong style="color: #0F172A; font-size: 1rem; font-weight: 800;">6. NHÂN SỰ & HÀNH CHÍNH (HR - GA)</strong>
+                                        <span style="font-size: 0.7rem; font-weight: 800; color: #0F172A; background: rgba(15,23,42,0.08); padding: 2px 8px; border-radius: 4px;">NHÂN TÀI & TUÂN THỦ</span>
+                                    </div>
+                                    <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; list-style-type: disc;">
+                                        <li>Cải tổ toàn diện bộ khung hiện tại để thiết lập một nền tảng vận hành gọn nhẹ, minh bạch và có cấu trúc rõ ràng.</li>
+                                        <li>Thực thi hệ thống thưởng - phạt minh bạch, dựa trên hiệu suất (performance-based) để thúc đẩy tinh thần trách nhiệm tuyệt đối.</li>
+                                        <li>Thúc đẩy sự gắn kết nội bộ vững chắc bằng cách nâng cao cả quyền lợi vật chất lẫn sức khỏe tinh thần cho nhân viên.</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- PHẦN V: VĂN HÓA & KỶ LUẬT THỰC THI (SVVIFT WAY) -->
+                        <div id="phan5-culture" class="phase2-card glass-card hover-lift" style="padding: 2.5rem; border-radius: 14px; background: white; border: 1px solid rgba(0,0,0,0.06); border-top: 4px solid #F59E0B; box-shadow: 0 10px 30px rgba(0,0,0,0.04);">
+                            <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem; border-bottom: 2px solid rgba(245,158,11,0.1); padding-bottom: 0.75rem;">
+                                <h3 style="font-size: 1.25rem; font-weight: 800; color: #B45309; text-transform: uppercase; letter-spacing: 0.5px; margin: 0; display: flex; align-items: center; gap: 10px;">
+                                    <span>⚡</span> PHẦN V: VĂN HÓA & KỶ LUẬT THỰC THI (SVVIFT WAY)
+                                </h3>
+                                <span style="font-size: 0.75rem; font-weight: 800; color: #B45309; background: rgba(245,158,11,0.08); padding: 4px 12px; border-radius: 20px;">SVVIFT OPERATING SYSTEM</span>
+                            </div>
+
+                            <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 1.75rem; font-weight: 500;">
+                                Để các phòng ban đạt được "Điều Duy Nhất" của mình, chúng ta cần một bộ não mới – <strong>Hệ điều hành SVVIFT WAY</strong>:
+                            </p>
+
+                            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.25rem;">
+                                
+                                <!-- Rule 1: Speed of Light & Stop Overthinking -->
+                                <div style="background: white; border: 1px solid rgba(30,58,138,0.1); border-top: 3px solid var(--accent-primary); border-radius: 10px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between;">
+                                    <div>
+                                        <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.75rem;">
+                                            <span style="background: rgba(30,58,138,0.1); color: var(--accent-primary); font-weight: 800; font-size: 0.75rem; padding: 2px 8px; border-radius: 4px; text-transform: uppercase;">TỐC ĐỘ</span>
+                                        </div>
+                                        <h4 style="font-size: 1rem; font-weight: 800; color: var(--accent-primary); margin-bottom: 0.5rem;">Speed of Light & Stop Overthinking</h4>
+                                        <p style="font-size: 0.825rem; color: var(--text-secondary); line-height: 1.5; margin: 0;">
+                                            Nếu một việc có thể xong trong 3 giờ, tại sao lại kéo dài 3 ngày? Hãy triệt tiêu mọi độ trễ. Đừng overthinking, hãy bắt tay vào làm và tinh chỉnh trên đường đi. <em>(Nvidia đạt mốc 3k tỷ USD trong 19 tháng bằng tốc độ thực thi)</em>.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- Rule 2: Upgrade your inputs -->
+                                <div style="background: white; border: 1px solid rgba(5,150,105,0.1); border-top: 3px solid #059669; border-radius: 10px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between;">
+                                    <div>
+                                        <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.75rem;">
+                                            <span style="background: rgba(5,150,105,0.1); color: #059669; font-weight: 800; font-size: 0.75rem; padding: 2px 8px; border-radius: 4px; text-transform: uppercase;">CHÍNH XÁC</span>
+                                        </div>
+                                        <h4 style="font-size: 1rem; font-weight: 800; color: #059669; margin-bottom: 0.5rem;">Nâng cấp thông tin đầu vào (Upgrade inputs)</h4>
+                                        <p style="font-size: 0.825rem; color: var(--text-secondary); line-height: 1.5; margin: 0;">
+                                            Hỏi thông minh, đi thẳng vào vấn đề, không giả định (No assumed). Kiểm tra chéo (Double-check) thông tin trước khi đệ trình. Giống như lái xe phải có bằng, bạn phải chịu trách nhiệm 100% về độ chính xác thông tin mình đưa ra.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- Rule 3: 1-3-1 Rule -->
+                                <div style="background: white; border: 1px solid rgba(124,58,237,0.1); border-top: 3px solid #7C3AED; border-radius: 10px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between;">
+                                    <div>
+                                        <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.75rem;">
+                                            <span style="background: rgba(124,58,237,0.1); color: #7C3AED; font-weight: 800; font-size: 0.75rem; padding: 2px 8px; border-radius: 4px; text-transform: uppercase;">GIẢI PHÁP</span>
+                                        </div>
+                                        <h4 style="font-size: 1rem; font-weight: 800; color: #7C3AED; margin-bottom: 0.5rem;">Quy tắc 1-3-1 (Problem Solving)</h4>
+                                        <p style="font-size: 0.825rem; color: var(--text-secondary); line-height: 1.5; margin: 0;">
+                                            Cấm phàn nàn nếu không kèm theo giải pháp. Khi báo cáo, hãy dùng công thức: <strong>1 Vấn đề</strong> (Nhận diện rõ) — <strong>3 Lựa chọn</strong> (Giải pháp khả thi) — <strong>1 Đề xuất</strong> (Lựa chọn khuyên dùng).
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- Rule 4: Intellectual Honesty & Top 5 -->
+                                <div style="background: white; border: 1px solid rgba(180,83,9,0.1); border-top: 3px solid #B45309; border-radius: 10px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between;">
+                                    <div>
+                                        <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.75rem;">
+                                            <span style="background: rgba(180,83,9,0.1); color: #B45309; font-weight: 800; font-size: 0.75rem; padding: 2px 8px; border-radius: 4px; text-transform: uppercase;">TRUNG THỰC</span>
+                                        </div>
+                                        <h4 style="font-size: 1rem; font-weight: 800; color: #B45309; margin-bottom: 0.5rem;">Trung thực trí tuệ & 5 Trọng tâm</h4>
+                                        <p style="font-size: 0.825rem; color: var(--text-secondary); line-height: 1.5; margin: 0;">
+                                            Chấp nhận sự thật dù khó nghe. Tin xấu cần báo về nhanh hơn tin tốt để kịp thời xử lý. Mỗi tuần, chỉ tập trung hoàn thành xuất sắc <strong>Top 5 ưu tiên quan trọng nhất</strong> (bắt đầu bằng động từ). Đừng làm 100 việc dở dang.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- PHẦN VI: CHIẾN DỊCH 12 TUẦN TÁI TẠO TOÀN DIỆN (LỘ TRÌNH ĐẠI PHẪU) -->
+                        <div id="phan6-campaign" class="phase2-card glass-card hover-lift" style="padding: 2.5rem; border-radius: 14px; background: white; border: 1px solid rgba(0,0,0,0.06); border-top: 4px solid #1E3A8A; box-shadow: 0 10px 30px rgba(0,0,0,0.04);">
+                            <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem; border-bottom: 2px solid rgba(30,58,138,0.1); padding-bottom: 0.75rem;">
+                                <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--accent-primary); text-transform: uppercase; letter-spacing: 0.5px; margin: 0; display: flex; align-items: center; gap: 10px;">
+                                    <span>🗓️</span> PHẦN VI: CHIẾN DỊCH 12 TUẦN TÁI TẠO TOÀN DIỆN (LỘ TRÌNH ĐẠI PHẪU)
+                                </h3>
+                                <span style="font-size: 0.75rem; font-weight: 800; color: var(--accent-primary); background: rgba(30,58,138,0.08); padding: 4px 12px; border-radius: 20px;">12 WEEKS TARGET</span>
+                            </div>
+
+                            <!-- Method Summary Banner -->
+                            <div style="background: linear-gradient(135deg, rgba(30,58,138,0.06) 0%, rgba(30,58,138,0.12) 100%); border-left: 4px solid var(--accent-primary); border-radius: 8px; padding: 1.25rem 1.5rem; margin-bottom: 2rem;">
+                                <strong style="color: var(--accent-primary); font-size: 0.95rem; text-transform: uppercase; display: block; margin-bottom: 0.35rem;">🧩 Phương pháp tiếp cận kết hợp (Hybrid Approach)</strong>
+                                <p style="font-size: 0.9rem; color: var(--text-primary); margin: 0; line-height: 1.6;">
+                                    Xây SOP song song với tạo App, bộ phận nào xong lắp ráp và chạy ngay lập tức (Lego Blocks). Dành trọn vẹn 1 tuần để "đại phẫu" triệt để cho 1 phòng ban cụ thể.
+                                </p>
+                            </div>
+
+                            <!-- Timeline Vertical -->
+                            <div style="position: relative; padding-left: 2rem; margin-top: 1.5rem; margin-bottom: 2.5rem;">
+                                <div style="position: absolute; left: 0; top: 0; bottom: 0; width: 2px; background: rgba(0,0,0,0.1); transform: translateX(-50%);"></div>
+
+                                <!-- GIAI ĐOẠN 1: 8 TUẦN XÂY DỰNG NỀN TẢNG -->
+                                <div style="margin-bottom: 2.5rem;">
+                                    <div style="margin-bottom: 1.5rem; display: flex; align-items: center; gap: 10px;">
+                                        <strong style="display: inline-block; background: var(--text-primary); color: white; padding: 6px 16px; border-radius: 4px; font-size: 1.05rem; letter-spacing: 1.5px;">GIAI ĐOẠN 1: 8 TUẦN XÂY DỰNG NỀN TẢNG (THÁNG 8 & THÁNG 9)</strong>
+                                    </div>
+
+                                    <!-- THÁNG 8 -->
+                                    <div style="margin-bottom: 2rem;">
+                                        <span style="font-size: 0.85rem; font-weight: 800; color: var(--accent-primary); background: rgba(30,58,138,0.06); padding: 4px 12px; border-radius: 4px; display: inline-block; margin-bottom: 1rem;">THÁNG 8: Chuỗi Cung ứng & Vận hành Lõi</span>
+
+                                        <!-- Week 1 -->
+                                        <div style="position: relative; margin-bottom: 1.25rem;" class="hover-lift">
+                                            <div style="position: absolute; left: -2rem; width: 16px; height: 16px; border-radius: 50%; background: #DC2626; border: 3px solid white; box-shadow: 0 0 0 1px rgba(0,0,0,0.1); transform: translateX(-50%); top: 8px; z-index: 2;"></div>
+                                            <div style="background: white; border: 1px solid rgba(0,0,0,0.05); padding: 1.25rem 1.5rem; border-radius: 8px; border-left: 4px solid #DC2626; box-shadow: 0 4px 15px rgba(220,38,38,0.06);">
+                                                <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.5rem;">
+                                                    <strong style="color: #DC2626; font-family: monospace; font-size: 1.05rem;">Tuần 1 — Kho bãi (Warehouse)</strong>
+                                                    <span style="font-size: 0.7rem; color: #DC2626; background: rgba(220,38,38,0.1); padding: 2px 8px; border-radius: 20px; font-weight: 800;">ƯU TIÊN TỐI THƯỢNG</span>
                                                 </div>
+                                                <p style="font-size: 0.875rem; color: var(--text-secondary); margin: 0; line-height: 1.5;">Kiểm kê tài sản, độ chính xác tồn kho. Triển khai App Kho. <em>(Nền móng yếu, chuỗi cung ứng sẽ sập)</em>.</p>
+                                            </div>
+                                        </div>
+
+                                        <!-- Week 2 -->
+                                        <div style="position: relative; margin-bottom: 1.25rem;" class="hover-lift">
+                                            <div style="position: absolute; left: -2rem; width: 16px; height: 16px; border-radius: 50%; background: var(--accent-primary); border: 3px solid white; box-shadow: 0 0 0 1px rgba(0,0,0,0.1); transform: translateX(-50%); top: 8px; z-index: 2;"></div>
+                                            <div style="background: var(--bg-surface); border: 1px solid rgba(0,0,0,0.05); padding: 1.25rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--accent-primary);">
+                                                <strong style="color: var(--accent-primary); font-family: monospace; font-size: 1.05rem; display: block; margin-bottom: 0.5rem;">Tuần 2 — Thu mua (Purchasing)</strong>
+                                                <p style="font-size: 0.875rem; color: var(--text-secondary); margin: 0; line-height: 1.5;">Khớp nối vào khối Kho bãi. Tối ưu thời gian giao hàng, chặn đứng tình trạng hụt vật tư/tồn kho ảo.</p>
+                                            </div>
+                                        </div>
+
+                                        <!-- Week 3 -->
+                                        <div style="position: relative; margin-bottom: 1.25rem;" class="hover-lift">
+                                            <div style="position: absolute; left: -2rem; width: 16px; height: 16px; border-radius: 50%; background: #059669; border: 3px solid white; box-shadow: 0 0 0 1px rgba(0,0,0,0.1); transform: translateX(-50%); top: 8px; z-index: 2;"></div>
+                                            <div style="background: var(--bg-surface); border: 1px solid rgba(0,0,0,0.05); padding: 1.25rem 1.5rem; border-radius: 8px; border-left: 4px solid #059669;">
+                                                <strong style="color: #059669; font-family: monospace; font-size: 1.05rem; display: block; margin-bottom: 0.5rem;">Tuần 3 — Sản xuất (Production)</strong>
+                                                <p style="font-size: 0.875rem; color: var(--text-secondary); margin: 0; line-height: 1.5;">Thiết lập SOP, triệt tiêu điểm nghẽn, kiểm soát chất lượng (OTIF). Kết nối đầu vào từ Kho/Thu mua xuống thẳng xưởng.</p>
+                                            </div>
+                                        </div>
+
+                                        <!-- Week 4 -->
+                                        <div style="position: relative; margin-bottom: 1.25rem;" class="hover-lift">
+                                            <div style="position: absolute; left: -2rem; width: 16px; height: 16px; border-radius: 50%; background: #D97706; border: 3px solid white; box-shadow: 0 0 0 1px rgba(0,0,0,0.1); transform: translateX(-50%); top: 8px; z-index: 2;"></div>
+                                            <div style="background: var(--bg-surface); border: 1px solid rgba(0,0,0,0.05); padding: 1.25rem 1.5rem; border-radius: 8px; border-left: 4px solid #D97706;">
+                                                <strong style="color: #D97706; font-family: monospace; font-size: 1.05rem; display: block; margin-bottom: 0.5rem;">Tuần 4 — Hậu cần (Logistics)</strong>
+                                                <p style="font-size: 0.875rem; color: var(--text-secondary); margin: 0; line-height: 1.5;">Chuẩn hóa quy trình đầu ra, đóng gói, vận chuyển. Hoàn thiện luồng hàng hóa vật lý.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- THÁNG 9 -->
+                                    <div>
+                                        <span style="font-size: 0.85rem; font-weight: 800; color: #7C3AED; background: rgba(124,58,237,0.06); padding: 4px 12px; border-radius: 4px; display: inline-block; margin-bottom: 1rem;">THÁNG 9: Tài chính, Con người & Hợp nhất</span>
+
+                                        <!-- Week 5 -->
+                                        <div style="position: relative; margin-bottom: 1.25rem;" class="hover-lift">
+                                            <div style="position: absolute; left: -2rem; width: 16px; height: 16px; border-radius: 50%; background: #7C3AED; border: 3px solid white; box-shadow: 0 0 0 1px rgba(0,0,0,0.1); transform: translateX(-50%); top: 8px; z-index: 2;"></div>
+                                            <div style="background: var(--bg-surface); border: 1px solid rgba(0,0,0,0.05); padding: 1.25rem 1.5rem; border-radius: 8px; border-left: 4px solid #7C3AED;">
+                                                <strong style="color: #7C3AED; font-family: monospace; font-size: 1.05rem; display: block; margin-bottom: 0.5rem;">Tuần 5 — Kế toán (Accounting)</strong>
+                                                <p style="font-size: 0.875rem; color: var(--text-secondary); margin: 0; line-height: 1.5;">Minh bạch tài chính, kiểm soát chi phí. Đưa App Kế toán vào ghi nhận dữ liệu thực từ những thay đổi của Tháng 8.</p>
+                                            </div>
+                                        </div>
+
+                                        <!-- Week 6 -->
+                                        <div style="position: relative; margin-bottom: 1.25rem;" class="hover-lift">
+                                            <div style="position: absolute; left: -2rem; width: 16px; height: 16px; border-radius: 50%; background: #DC2626; border: 3px solid white; box-shadow: 0 0 0 1px rgba(0,0,0,0.1); transform: translateX(-50%); top: 8px; z-index: 2;"></div>
+                                            <div style="background: var(--bg-surface); border: 1px solid rgba(0,0,0,0.05); padding: 1.25rem 1.5rem; border-radius: 8px; border-left: 4px solid #DC2626;">
+                                                <strong style="color: #DC2626; font-family: monospace; font-size: 1.05rem; display: block; margin-bottom: 0.5rem;">Tuần 6 — Nhân sự (HR)</strong>
+                                                <p style="font-size: 0.875rem; color: var(--text-secondary); margin: 0; line-height: 1.5;">Chốt Vai trò & Trách nhiệm (R&R), đánh giá năng lực, thiết lập kỷ luật thép.</p>
+                                            </div>
+                                        </div>
+
+                                        <!-- Week 7 -->
+                                        <div style="position: relative; margin-bottom: 1.25rem;" class="hover-lift">
+                                            <div style="position: absolute; left: -2rem; width: 16px; height: 16px; border-radius: 50%; background: var(--accent-secondary); border: 3px solid white; box-shadow: 0 0 0 1px rgba(0,0,0,0.1); transform: translateX(-50%); top: 8px; z-index: 2;"></div>
+                                            <div style="background: var(--bg-surface); border: 1px solid rgba(0,0,0,0.05); padding: 1.25rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--accent-secondary);">
+                                                <strong style="color: var(--accent-secondary); font-family: monospace; font-size: 1.05rem; display: block; margin-bottom: 0.5rem;">Tuần 7 — Tích hợp Hệ thống (System Integration)</strong>
+                                                <p style="font-size: 0.875rem; color: var(--text-secondary); margin: 0; line-height: 1.5;">Kết nối 6 mảnh ghép Lego. Kiểm thử luồng dữ liệu thông suốt từ Thu mua đến tận Kế toán. Không ai được làm việc như một "ốc đảo".</p>
+                                            </div>
+                                        </div>
+
+                                        <!-- Week 8 -->
+                                        <div style="position: relative; margin-bottom: 1.25rem;" class="hover-lift">
+                                            <div style="position: absolute; left: -2rem; width: 16px; height: 16px; border-radius: 50%; background: var(--text-primary); border: 3px solid white; box-shadow: 0 0 0 1px rgba(0,0,0,0.1); transform: translateX(-50%); top: 8px; z-index: 2;"></div>
+                                            <div style="background: var(--bg-surface); border: 1px solid rgba(0,0,0,0.05); padding: 1.25rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--text-primary);">
+                                                <strong style="color: var(--text-primary); font-family: monospace; font-size: 1.05rem; display: block; margin-bottom: 0.5rem;">Tuần 8 — Đánh giá & Tinh chỉnh (Refinement)</strong>
+                                                <p style="font-size: 0.875rem; color: var(--text-secondary); margin: 0; line-height: 1.5;">Diệt Bug, tối ưu SOP dựa trên thực tiễn. Đảm bảo "Con thuyền mới" chạy tự động.</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
 
+                                <!-- GIAI ĐOẠN 2: 4 TUẦN TĂNG TỐC & NÂNG CHUẨN -->
+                                <div>
+                                    <div style="margin-bottom: 1rem; display: flex; align-items: center; gap: 10px;">
+                                        <strong style="display: inline-block; background: linear-gradient(90deg, #1E3A8A, #3B82F6); color: white; padding: 6px 16px; border-radius: 4px; font-size: 1.05rem; letter-spacing: 1.5px;">GIAI ĐOẠN 2: 4 TUẦN TĂNG TỐC & NÂNG CHUẨN (THÁNG 10)</strong>
+                                    </div>
+
+                                    <div style="position: relative;" class="hover-lift">
+                                        <div style="position: absolute; left: -2rem; width: 16px; height: 16px; border-radius: 50%; background: #10B981; border: 3px solid white; box-shadow: 0 0 0 1px rgba(0,0,0,0.1); transform: translateX(-50%); top: 8px; z-index: 2;"></div>
+                                        <div style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); color: white; border: 1px solid rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 10px; box-shadow: 0 10px 25px rgba(0,0,0,0.15);">
+                                            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem;">
+                                                <strong style="color: #34D399; font-family: monospace; font-size: 1.1rem;">Tuần 9 — Tuần 12: Stress-Test & Vận hành Chuẩn Tập đoàn</strong>
+                                                <span style="font-size: 0.7rem; color: #34D399; background: rgba(52,211,153,0.15); padding: 2px 8px; border-radius: 4px; font-weight: 800;">100% GLOBAL STANDARD</span>
+                                            </div>
+                                            <p style="font-size: 0.9rem; color: #CBD5E1; line-height: 1.65; margin: 0;">
+                                                Vận hành hệ thống mới dưới áp lực cao (Stress-test), huấn luyện tư duy làm việc đa nhiệm và tốc độ, chính thức vận hành 100% theo chuẩn mực của tập đoàn toàn cầu.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+
+                            <hr style="border: 0; height: 1px; background: rgba(0,0,0,0.06); margin: 2.5rem 0;">
+
+                            <!-- CƠ CHẾ KIỂM SOÁT BẮT BUỘC -->
+                            <div>
+                                <h4 style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary); margin-bottom: 1.25rem; display: flex; align-items: center; gap: 8px;">
+                                    <span>🛡️</span> CƠ CHẾ KIỂM SOÁT BẮT BUỘC
+                                </h4>
+
+                                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem;">
+                                    
+                                    <!-- Friday Finish -->
+                                    <div class="hover-lift" style="background: rgba(30,58,138,0.02); border: 1px solid rgba(30,58,138,0.12); border-left: 4px solid var(--accent-primary); border-radius: 8px; padding: 1.25rem 1.5rem;">
+                                        <strong style="display: flex; align-items: center; gap: 8px; font-size: 0.95rem; color: var(--accent-primary); margin-bottom: 0.5rem;">
+                                            📧 Email "The Friday Finish"
+                                        </strong>
+                                        <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; margin: 0;">
+                                            Gửi Thứ 6 hàng tuần <em>(Bắt buộc toàn bộ Lãnh đạo)</em>: Thành tựu tuần — Rủi ro cần tháo gỡ — Top 5 ưu tiên tuần tới.
+                                        </p>
+                                    </div>
+
+                                    <!-- Sync Meetings -->
+                                    <div class="hover-lift" style="background: rgba(180,83,9,0.02); border: 1px solid rgba(180,83,9,0.12); border-left: 4px solid #B45309; border-radius: 8px; padding: 1.25rem 1.5rem;">
+                                        <strong style="display: flex; align-items: center; gap: 8px; font-size: 0.95rem; color: #B45309; margin-bottom: 0.5rem;">
+                                            🤝 Họp Đồng bộ (Sync Cadence)
+                                        </strong>
+                                        <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; margin: 0;">
+                                            <strong>Production Sync:</strong> Lãnh đạo Sản xuất + Thu mua.<br>
+                                            <strong>Office Sync:</strong> Lãnh đạo toàn Khối Văn phòng.
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+
                         </div>
-                    </div>
-                        </div>
+
                     </div>
                 </div>
-            </div>
-        </section>
-        </div> <!-- End of phase-2-content -->
+            </section>
+        </div>
         
         <footer>
             <p>&copy; 2026 Svvift Ltd. | Phase I & II: Action Plan</p>
