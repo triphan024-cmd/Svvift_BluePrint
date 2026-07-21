@@ -135,11 +135,14 @@ section {
 
 /* Hero Section */
 .hero {
-    min-height: auto;
-    padding: 3rem 0 0.5rem 0;
+    min-height: calc(72vh - 100px);
+    padding: 2rem 0 1.5rem 0;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
+    scroll-margin-top: 100px;
 }
 
 .hero-content {
