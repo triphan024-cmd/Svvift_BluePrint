@@ -18,7 +18,7 @@
                 <img src="Svvift%202.png" alt="Svvift Logo" class="logo-img">
                 The <span style="color: var(--text-muted); font-weight: 500;">Blue Print</span>
             </div>
-            <div class="nav-links" id="nav-links-phase1">
+            <div class="nav-links" id="nav-links-phase1" style="display: none;">
                 <a href="#hero">Home</a>
                 <a href="#purpose">Objective</a>
                 <a href="#benefit">Value</a>
@@ -26,7 +26,7 @@
                 <a href="#process">Roadmap</a>
                 <a href="#" class="nav-phase-btn nav-demo-btn" data-target-phase="2">Phase II</a>
             </div>
-            <div class="nav-links" id="nav-links-phase2" style="display: none;">
+            <div class="nav-links" id="nav-links-phase2" style="display: flex;">
                 <a href="#hero">Home</a>
                 <a href="#" class="nav-phase-btn" data-target-phase="1">Phase I</a>
                 <a href="#phase2-actionplan">New Boat</a>
@@ -57,12 +57,12 @@
 
         <!-- Phase Switcher -->
         <div class="phase-switcher-container">
-            <div class="phase-switcher">
-                <button class="phase-btn active" data-phase="1">
+            <div class="phase-switcher phase-2-active">
+                <button class="phase-btn" data-phase="1">
                     <span class="phase-number">Phase I</span>
                     <span class="phase-title">The Blue Print</span>
                 </button>
-                <button class="phase-btn" data-phase="2">
+                <button class="phase-btn active" data-phase="2">
                     <span class="phase-number">Phase II</span>
                     <span class="phase-title">Action Plan</span>
                 </button>
@@ -71,7 +71,7 @@
         </div>
 
         <!-- Phase 1 content wrapper -->
-        <div id="phase-1-content" class="phase-content-wrapper active">
+        <div id="phase-1-content" class="phase-content-wrapper" style="display: none;">
 
         <!-- 1. Purpose -->
         <section id="purpose" class="purpose observe">
@@ -607,7 +607,7 @@
         </div> <!-- End of phase-1-content -->
 
         <!-- Phase 2 content wrapper -->
-        <div id="phase-2-content" class="phase-content-wrapper" style="display: none;">
+        <div id="phase-2-content" class="phase-content-wrapper active" style="display: block;">
             <section class="section phase2-section" id="phase2-section" style="background-color: var(--bg-base); padding-top: 2rem; padding-bottom: 5rem;">
                 <div class="section-container">
                     <div class="phase2-grid" style="max-width: 1000px; margin-inline: auto; display: flex; flex-direction: column; gap: 4rem;">

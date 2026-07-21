@@ -49,29 +49,29 @@ document.addEventListener('DOMContentLoaded', () => {
         if (el) el.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
     });
 
-    // Function to explicitly set Phase I as default on page load
-    function setPhaseIDefault() {
+    // Function to explicitly set Phase II as default on page load
+    function setPhaseIIDefault() {
         phaseBtns.forEach(b => b.classList.remove('active'));
-        const phase1Btn = document.querySelector('.phase-btn[data-phase="1"]');
-        if (phase1Btn) phase1Btn.classList.add('active');
-        if (phaseSwitcher) phaseSwitcher.classList.remove('phase-2-active');
+        const phase2Btn = document.querySelector('.phase-btn[data-phase="2"]');
+        if (phase2Btn) phase2Btn.classList.add('active');
+        if (phaseSwitcher) phaseSwitcher.classList.add('phase-2-active');
 
         if (phase1Content) {
-            phase1Content.style.display = 'block';
-            phase1Content.style.opacity = '1';
-            phase1Content.style.transform = 'translateY(0)';
+            phase1Content.style.display = 'none';
+            phase1Content.style.opacity = '0';
+            phase1Content.style.transform = 'translateY(15px)';
         }
         if (phase2Content) {
-            phase2Content.style.display = 'none';
-            phase2Content.style.opacity = '0';
-            phase2Content.style.transform = 'translateY(15px)';
+            phase2Content.style.display = 'block';
+            phase2Content.style.opacity = '1';
+            phase2Content.style.transform = 'translateY(0)';
         }
-        if (navLinksPhase1) navLinksPhase1.style.display = 'flex';
-        if (navLinksPhase2) navLinksPhase2.style.display = 'none';
+        if (navLinksPhase1) navLinksPhase1.style.display = 'none';
+        if (navLinksPhase2) navLinksPhase2.style.display = 'flex';
     }
 
-    // Always load Phase I as default when entering the website
-    setPhaseIDefault();
+    // Always load Phase II as default when entering the website
+    setPhaseIIDefault();
 
     phaseBtns.forEach(btn => {
         btn.addEventListener('click', () => {
