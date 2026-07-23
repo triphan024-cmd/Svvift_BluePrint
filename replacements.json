@@ -1,0 +1,52 @@
+{
+  "replacements": [
+    {
+      "search": "<li><strong>Bài học cốt lõi:</strong> Sự táo bạo, tư duy không giới hạn. Khả năng thích ứng nhanh. Không sợ hãi</li>",
+      "replace": "<strong>Bài học cốt lõi:</strong>\n                                            <ul style=\"margin-top: 0.25rem; margin-bottom: 0; padding-left: 1.25rem; list-style-type: disc;\">\n                                                <li>Sự táo bạo, tư duy không giới hạn</li>\n                                                <li>Khả năng thích ứng nhanh. Không sợ hãi</li>\n                                            </ul>"
+    },
+    {
+      "search": "<li><strong>Bài học cốt lõi:</strong> Speed of Light & Stop Overthinking — Bắt tay vào làm và tinh chỉnh liên tục!</li>",
+      "replace": "<strong>Bài học cốt lõi:</strong>\n                                            <ul style=\"margin-top: 0.25rem; margin-bottom: 0; padding-left: 1.25rem; list-style-type: disc;\">\n                                                <li>Speed of Light & Stop Overthinking</li>\n                                                <li>Bắt tay vào làm và tinh chỉnh liên tục!</li>\n                                            </ul>"
+    },
+    {
+      "search": "CHIẾN LƯỢC 12 TUẦN NÂNG CẤP TOÀN DIỆN",
+      "replace": "CHIẾN LƯỢC 12 TUẦN NÂNG CẤP<br>TOÀN DIỆN"
+    },
+    {
+      "search": "Tất cả mọi người đều muốn tăng lương, nhưng lại không chịu làm những việc khác đi để xứng đáng với điều đó.",
+      "replace": "Tất cả mọi người đều muốn tăng lương, nhưng lại chưa hành động cụ thể nào để thực hiện việc này."
+    },
+    {
+      "search": "Duy trì tư duy xưởng lắp ráp sẽ làm công ty không thể bứt phá và thu nhập mãi <strong>dậm chân tại chỗ</strong>.",
+      "replace": "Duy trì vận hành như hiện tại thì thu nhập mãi dậm chân tại chỗ."
+    },
+    {
+      "search": "Nâng cấp nhà máy thành một <strong>trung tâm sản xuất có tư duy, có hệ thống và tạo giá trị cao</strong>.",
+      "replace": "Nâng cấp thành một nhà máy sản xuất hiện đại thông minh có tư duy, có hệ thống và tạo ra giá trị cao."
+    },
+    {
+      "search": "PHẦN III — PRACTICAL EXECUTION",
+      "replace": "PHẦN III — CORE VALUES"
+    },
+    {
+      "search": ">ỨNG DỤNG THỰC TẾ<",
+      "replace": ">GIÁ TRỊ CỐT LÕI<"
+    },
+    {
+      "search": "<li>Chính sách chuẩn hóa toàn diện.</li>\n                                                    <li>Minh bạch <strong>Vai trò & Trách nhiệm (R&R)</strong>.</li>\n                                                    <li>Mục tiêu <strong>SMART</strong> loại bỏ phỏng đoán.</li>",
+      "replace": "<li>Thiết lập mới Sơ đồ Tổ chức</li>\n                                                    <li>Vai trò & Trách nhiệm (R&R) rõ ràng</li>"
+    },
+    {
+      "search": "Công Cụ Số Hóa",
+      "replace": "Công Cụ Hiện Đại"
+    },
+    {
+      "search": "<li><strong>1 App tập trung duy nhất</strong> cho toàn công ty.</li>\n                                                    <li>Đúng công cụ cho đúng việc theo phân hệ.</li>\n                                                    <li>Số hóa đo lường 100% hoạt động.</li>",
+      "replace": "<li>1 App tập trung duy nhất</li>\n                                                    <li>Đúng công cụ cho đúng việc theo phân hệ.</li>"
+    },
+    {
+      "search": "<li><strong>Đội đặc nhiệm (Special Forces)</strong> tinh nhuệ.</li>\n                                                    <li>Trang bị kỹ năng & kỷ luật thép.</li>\n                                                    <li>Tuân thủ SOP tuyệt đối không ngoại lệ.</li>",
+      "replace": "<li>Đội đặc nhiệm (Special Forces) tinh nhuệ.</li>\n                                                    <li>Trang bị kỹ năng & kỷ luật thép.</li>"
+    }
+  ]
+}

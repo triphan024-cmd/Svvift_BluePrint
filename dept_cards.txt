@@ -1,0 +1,77 @@
+                                    <!-- Dept 1: Kho Bãi -->
+                                    <div style="background: white; border: 1px solid rgba(220,38,38,0.15); border-top: 3px solid #DC2626; border-radius: 10px; padding: 1.5rem; box-shadow: 0 4px 15px rgba(0,0,0,0.02);">
+                                        <div style="margin-bottom: 0.75rem;">
+                                            <strong style="color: #DC2626; font-size: 1rem; font-weight: 800;">1. KHO (Warehouse)</strong>
+                                            <div style="margin-top: 0.4rem; font-size: 0.75rem; font-weight: 700; color: #DC2626; text-transform: uppercase;">QUẢN TRỊ TÀI SẢN</div>
+                                        </div>
+                                        <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; list-style-type: disc;">
+                                            <li><strong>Chính xác 100%:</strong> Kiểm tra định kỳ và phương án khoa học</li>
+                                            <li><strong>Sẵn sàng:</strong> Kiểm soát theo Thời gian thực</li>
+                                            <li><strong>Liền mạch:</strong> Tuyệt đối không làm gián đoạn dây chuyền sản xuất.</li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- Dept 2: Thu Mua -->
+                                    <div style="background: white; border: 1px solid rgba(30,58,138,0.15); border-top: 3px solid var(--accent-primary); border-radius: 10px; padding: 1.5rem; box-shadow: 0 4px 15px rgba(0,0,0,0.02);">
+                                        <div style="margin-bottom: 0.75rem;">
+                                            <strong style="color: var(--accent-primary); font-size: 1rem; font-weight: 800;">2. THU MUA (Purchasing)</strong>
+                                            <div style="margin-top: 0.4rem; font-size: 0.75rem; font-weight: 700; color: var(--accent-primary); text-transform: uppercase;">QUẢN TRỊ CHI PHÍ</div>
+                                        </div>
+                                        <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; list-style-type: disc;">
+                                            <li><strong>Nhà cung cấp:</strong> Đánh giá và phát triển mạng lưới cung ứng</li>
+                                            <li><strong>Chuyên môn:</strong> Đào tạo chuyên sâu, nắm bắt tính chất sản phẩm</li>
+                                            <li><strong>Đúng hạn:</strong> Đưa vật tư về đúng lúc - đúng lượng</li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- Dept 3: Sản Xuất -->
+                                    <div style="background: white; border: 1px solid rgba(5,150,105,0.15); border-top: 3px solid #059669; border-radius: 10px; padding: 1.5rem; box-shadow: 0 4px 15px rgba(0,0,0,0.02);">
+                                        <div style="margin-bottom: 0.75rem;">
+                                            <strong style="color: #059669; font-size: 1rem; font-weight: 800;">3. SẢN XUẤT (Production)</strong>
+                                            <div style="margin-top: 0.4rem; font-size: 0.75rem; font-weight: 700; color: #059669; text-transform: uppercase;">VẬN HÀNH XUẤT SẮC</div>
+                                        </div>
+                                        <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; list-style-type: disc;">
+                                            <li><strong>OTIF:</strong> Hoàn thành sản xuất Đúng hạn và Đủ số lượng (On Time In Full)</li>
+                                            <li><strong>COGS:</strong> Cắt giảm lãng phí (thời gian ngưng, hao hụt vật tư,..)</li>
+                                            <li><strong>Năng suất:</strong> Nâng cao sản lượng bằng SOP</li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- Dept 4: Hậu Cần -->
+                                    <div style="background: white; border: 1px solid rgba(217,119,6,0.15); border-top: 3px solid #D97706; border-radius: 10px; padding: 1.5rem; box-shadow: 0 4px 15px rgba(0,0,0,0.02);">
+                                        <div style="margin-bottom: 0.75rem;">
+                                            <strong style="color: #D97706; font-size: 1rem; font-weight: 800;">4. HẬU CẦN / VẬN TẢI (Logistics)</strong>
+                                            <div style="margin-top: 0.4rem; font-size: 0.75rem; font-weight: 700; color: #D97706; text-transform: uppercase;">ĐẢM BẢO TIẾN ĐỘ</div>
+                                        </div>
+                                        <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; list-style-type: disc;">
+                                            <li><strong>Lịch trình:</strong> Kiểm soát tuyệt đối để đảm bảo tỷ lệ xuất hàng đúng hạn 100%.</li>
+                                            <li><strong>Đồng bộ:</strong> Khớp nối chặt chẽ luồng vận tải với tiến độ sản xuất, triệt tiêu mọi độ trễ.</li>
+                                            <li><strong>Mạng lưới:</strong> Tối ưu hóa tuyến đường và đối tác để ép giảm tối đa chi phí hậu cần.</li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- Dept 5: Kế Toán -->
+                                    <div style="background: white; border: 1px solid rgba(124,58,237,0.15); border-top: 3px solid #7C3AED; border-radius: 10px; padding: 1.5rem; box-shadow: 0 4px 15px rgba(0,0,0,0.02);">
+                                        <div style="margin-bottom: 0.75rem;">
+                                            <strong style="color: #7C3AED; font-size: 1rem; font-weight: 800;">5. KẾ TOÁN (Accounting)</strong>
+                                            <div style="margin-top: 0.4rem; font-size: 0.75rem; font-weight: 700; color: #7C3AED; text-transform: uppercase;">TỐI ƯU TÀI CHÍNH</div>
+                                        </div>
+                                        <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; list-style-type: disc;">
+                                            <li><strong>Dòng tiền:</strong> Siết chặt chi tiêu, tập trung phân bổ nguồn vốn vào các hạng mục High-ROI.</li>
+                                            <li><strong>Biên lợi nhuận:</strong> Rà soát và cắt giảm tận gốc mọi chi phí ẩn, chi phí gián tiếp không thiết yếu.</li>
+                                            <li><strong>Đòn bẩy:</strong> Tận dụng tối đa các công cụ tài chính, tín dụng để gia tăng dòng tiền dự trữ.</li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- Dept 6: Nhân Sự & Hành Chính -->
+                                    <div style="background: white; border: 1px solid rgba(15,23,42,0.15); border-top: 3px solid #0F172A; border-radius: 10px; padding: 1.5rem; box-shadow: 0 4px 15px rgba(0,0,0,0.02);">
+                                        <div style="margin-bottom: 0.75rem;">
+                                            <strong style="color: #0F172A; font-size: 1rem; font-weight: 800;">6. NHÂN SỰ & HÀNH CHÍNH (HR - GA)</strong>
+                                            <div style="margin-top: 0.4rem; font-size: 0.75rem; font-weight: 700; color: #0F172A; text-transform: uppercase;">NHÂN TÀI & KỶ LUẬT</div>
+                                        </div>
+                                        <ul style="margin: 0; padding-left: 1.25rem; font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; list-style-type: disc;">
+                                            <li><strong>Bộ máy:</strong> Minh bạch ranh giới thẩm quyền qua Sơ đồ Tổ chức (Org Chart), triệt tiêu sự đùn đẩy.</li>
+                                            <li><strong>Thực thi:</strong> Áp dụng thưởng - phạt phân minh hoàn toàn dựa trên hiệu suất (Performance-based).</li>
+                                            <li><strong>Đãi ngộ:</strong> Chuẩn hóa chính sách bám sát thị trường để duy trì và giữ chân lực lượng nòng cốt.</li>
+                                        </ul>
+                                    </div>

@@ -1,0 +1,12 @@
+{
+  "replacements": [
+    {
+      "search": "<ul style=\"margin: 0; padding-left: 1.1rem; list-style-type: disc;\">\n                                            <strong>Bài học cốt lõi:</strong>\n                                            <ul style=\"margin-top: 0.25rem; margin-bottom: 0; padding-left: 1.25rem; list-style-type: disc;\">\n                                                <li>Sự táo bạo, tư duy không giới hạn</li>\n                                                <li>Khả năng thích ứng nhanh. Không sợ hãi</li>\n                                            </ul>\n                                        </ul>",
+      "replace": "<strong style=\"display: block; margin-bottom: 0.25rem;\">Bài học cốt lõi:</strong>\n                                        <ul style=\"margin: 0; padding-left: 1.25rem; list-style-type: disc;\">\n                                            <li>Sự táo bạo, tư duy không giới hạn</li>\n                                            <li>Khả năng thích ứng nhanh. Không sợ hãi</li>\n                                        </ul>"
+    },
+    {
+      "search": "<ul style=\"margin: 0; padding-left: 1.1rem; list-style-type: disc;\">\n                                            <strong>Bài học cốt lõi:</strong>\n                                            <ul style=\"margin-top: 0.25rem; margin-bottom: 0; padding-left: 1.25rem; list-style-type: disc;\">\n                                                <li>Speed of Light & Stop Overthinking</li>\n                                                <li>Bắt tay vào làm và tinh chỉnh liên tục!</li>\n                                            </ul>\n                                        </ul>",
+      "replace": "<strong style=\"display: block; margin-bottom: 0.25rem;\">Bài học cốt lõi:</strong>\n                                        <ul style=\"margin: 0; padding-left: 1.25rem; list-style-type: disc;\">\n                                            <li>Speed of Light & Stop Overthinking</li>\n                                            <li>Bắt tay vào làm và tinh chỉnh liên tục!</li>\n                                        </ul>"
+    }
+  ]
+}

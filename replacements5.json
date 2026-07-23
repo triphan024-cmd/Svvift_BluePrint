@@ -1,0 +1,20 @@
+{
+  "replacements": [
+    {
+      "search": "<div style=\"display: flex; align-items: center; gap: 10px; margin-bottom: 1.25rem;\">\n                                      <span style=\"background: rgba(124,58,237,0.1); color: #7C3AED; padding: 4px 10px; border-radius: 6px; font-size: 0.8rem; font-weight: 800; text-transform: uppercase;\">VAI TRÒ & TRÁCH NHIỆM</span>\n                                      <h4 style=\"font-size: 1.15rem; font-weight: 800; color: #7C3AED; margin: 0;\">\"Điều Duy Nhất\" (The One Thing) — Đúng Người, Đúng Việc </h4>\n                                  </div>",
+      "replace": "<div style=\"display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; margin-bottom: 1.25rem; border-bottom: 2px solid rgba(124,58,237,0.1); padding-bottom: 1rem;\">\n                                      <div>\n                                          <h4 style=\"font-size: 1.25rem; font-weight: 800; color: var(--text-primary); margin: 0 0 0.25rem 0;\">\"Điều Duy Nhất\" (The One Thing)</h4>\n                                          <p style=\"font-size: 0.875rem; color: var(--text-secondary); font-style: italic; margin: 0;\">Đúng Người, Đúng Việc</p>\n                                      </div>\n                                      <span style=\"font-size: 0.75rem; font-weight: 800; color: #7C3AED; background: rgba(124,58,237,0.08); padding: 4px 12px; border-radius: 20px;\">VAI TRÒ & TRÁCH NHIỆM</span>\n                                  </div>"
+    },
+    {
+      "search": "<div style=\"margin-top: 0.4rem;\"><span style=\"font-size: 0.7rem; font-weight: 800; color: #DC2626; background: rgba(220,38,38,0.1); padding: 2px 8px; border-radius: 4px;\">QUẢN TRỊ TÀI SẢN</span></div>",
+      "replace": "<div style=\"margin-top: 0.4rem; font-size: 0.75rem; font-weight: 700; color: #DC2626; text-transform: uppercase;\">QUẢN TRỊ TÀI SẢN</div>"
+    },
+    {
+      "search": "<!-- LỊCH HOẠT ĐỘNG ĐỊNH KỲ -->",
+      "replace": "<!-- CƠ CHẾ KIỂM SOÁT BẮT BUỘC -->"
+    },
+    {
+      "search": "<span>dY\".</span> LỊCH HOẠT ĐỘNG ĐỊNH KỲ",
+      "replace": "<span>⚠️</span> CƠ CHẾ KIỂM SOÁT BẮT BUỘC"
+    }
+  ]
+}

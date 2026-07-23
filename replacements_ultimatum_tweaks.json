@@ -1,0 +1,16 @@
+{
+  "replacements": [
+    {
+      "search": "<span style=\"font-size: 0.7rem; font-weight: 800; color: #FCA5A5; background: rgba(239,68,68,0.15); border: 1px solid rgba(239,68,68,0.3); padding: 4px 12px; border-radius: 20px; text-transform: uppercase;\">Slide kết luận cuối cùng của buổi Training</span>",
+      "replace": ""
+    },
+    {
+      "search": "12 TUẦN ĐỂ LỘT XÁC VÀ CHỨNG MINH",
+      "replace": "12 TUẦN ĐỂ THAY ĐỔI VÀ CHỨNG MINH"
+    },
+    {
+      "search": "<p style=\"font-size: 0.8rem; color: #E2E8F0; margin: 0; line-height: 1.5;\">\n                                            • Stress-Test toàn diện<br>\n                                            • Tăng tốc & Nâng chuẩn<br>\n                                            • <strong style=\"color:#34D399;\">100% Global Standard</strong>\n                                        </p>",
+      "replace": "<p style=\"font-size: 0.8rem; color: #E2E8F0; margin: 0; line-height: 1.5;\">\n                                            • T9: Tối ưu toàn diện<br>\n                                            • T10: Tăng tốc<br>\n                                            • T11: Nâng chuẩn<br>\n                                            • T12: Đánh giá\n                                        </p>"
+    }
+  ]
+}

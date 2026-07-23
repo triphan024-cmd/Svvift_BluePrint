@@ -1,0 +1,36 @@
+{
+  "replacements": [
+    {
+      "search": "Chuyển hóa chiến lược thành hành động thực chiến hàng ngày thông qua Văn hóa Svvift, Tiêu chuẩn SMART và Mệnh lệnh cốt lõi cho từng phòng ban.",
+      "replace": ""
+    },
+    {
+      "search": "MỆNH LỆNH PHÒNG BAN",
+      "replace": "VAI TRÒ & TRÁCH NHIỆM"
+    },
+    {
+      "search": "\"Điều Duy Nhất\" (The One Thing) — Đúng Người, Đúng Việc",
+      "replace": "\"Điều Duy Nhất\" (The One Thing) — Đúng Người, Đúng Việc "
+    },
+    {
+      "search": "MÔ HÌNH VẬN HÀNH \"CON THUYỀN MỚI\"",
+      "replace": "MÔ HÌNH VẬN HÀNH MỚI"
+    },
+    {
+      "search": "Con Người Tinh Nhuệ",
+      "replace": "Đội Ngũ Tinh Nhuệ"
+    },
+    {
+      "search": "NHÂN SỰ & HÀNH CHÍNH (HR - GA)",
+      "replace": "NHÂN SỰ (HR - GA)"
+    },
+    {
+      "search": "NHÂN TÀI & TUÂN THỦ",
+      "replace": "NHÂN TÀI & KỶ LUẬT"
+    },
+    {
+      "search": "Chuẩn mực Quản trị Toàn cầu\n                                    Tiêu chuẩn của các \"Ông Lớn\" (Big Corporates)",
+      "replace": "Tiêu Chuẩn Toàn cầu của các \"Ông Lớn\" (Big Corporates)"
+    }
+  ]
+}

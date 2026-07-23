@@ -1,0 +1,70 @@
+                                  <!-- 1. VĂN HÓA: THE "SVVIFT" FAMILY — MỘT THỂ THỐNG NHẤT -->
+                                  <div class="bg-slate-50/80 rounded-xl p-6 border border-blue-100 mb-8 border-l-4 border-l-blue-600 shadow-sm">
+                                      <div class="flex items-center gap-3 mb-4">
+                                          <div class="w-9 h-9 rounded-lg bg-blue-600 text-white flex items-center justify-center font-black text-base shadow-sm">1</div>
+                                          <div>
+                                              <span class="text-[10px] font-black uppercase tracking-wider text-blue-600 block">THỂ THỐNG NHẤT</span>
+                                              <h4 class="text-base md:text-lg font-black text-slate-800" style="margin:0;">VĂN HÓA: THE "SVVIFT" FAMILY — MỘT THỂ THỐNG NHẤT</h4>
+                                          </div>
+                                      </div>
+                                      <div class="space-y-3 pl-2">
+                                          <div class="bg-white p-3.5 rounded-lg border border-slate-100 shadow-2xs">
+                                              <strong class="text-xs font-bold text-blue-900 block mb-1">🏡 Gia đình thứ hai:</strong>
+                                              <p class="text-xs text-slate-600 leading-relaxed" style="margin:0;">Chúng ta làm việc cùng nhau từ 8 giờ sáng đến 5 giờ chiều. Quỹ thời gian các bạn ở xưởng, ở văn phòng còn nhiều hơn ở nhà. Do đó, đây chính là gia đình thứ hai của mọi người. Hãy đối xử với nhau bằng sự tử tế và tôn trọng. Ở nhà nhẹ nhàng thế nào, đến công ty hãy cư xử như vậy.</p>
+                                          </div>
+                                          <div class="bg-white p-3.5 rounded-lg border border-slate-100 shadow-2xs">
+                                              <strong class="text-xs font-bold text-blue-900 block mb-1">🤝 Xóa bỏ ranh giới:</strong>
+                                              <p class="text-xs text-slate-600 leading-relaxed" style="margin:0;">Sẽ không còn câu chuyện đùn đẩy trách nhiệm: <em>"Cái này của Kế toán"</em>, <em>"Lỗi kia của Sản xuất"</em>. Tương lai của Svvift không có chỗ cho những cuộc chiến nội bộ <em>(No more fighting)</em>.</p>
+                                          </div>
+                                          <div class="bg-white p-3.5 rounded-lg border border-slate-100 shadow-2xs">
+                                              <strong class="text-xs font-bold text-blue-900 block mb-1">🚀 Hành động:</strong>
+                                              <p class="text-xs text-slate-600 leading-relaxed" style="margin:0;">Bỏ lại quá khứ ở sau lưng. Bắt đầu từ hôm nay, chúng ta là một tập thể gắn kết, tập trung toàn lực vào hiện tại và tương lai. Mọi phòng ban là các mắt xích của một cơ thể sống duy nhất.</p>
+                                          </div>
+                                      </div>
+                                  </div>
+
+                                  <!-- 2. TƯ DUY PHÁT TRIỂN (GROWTH MINDSET) -->
+                                  <div class="bg-slate-50/80 rounded-xl p-6 border border-emerald-100 mb-8 border-l-4 border-l-emerald-600 shadow-sm">
+                                      <div class="flex items-center gap-3 mb-4">
+                                          <div class="w-9 h-9 rounded-lg bg-emerald-600 text-white flex items-center justify-center font-black text-base shadow-sm">2</div>
+                                          <div>
+                                              <span class="text-[10px] font-black uppercase tracking-wider text-emerald-600 block">GROWTH MINDSET</span>
+                                              <h4 class="text-base md:text-lg font-black text-slate-800" style="margin:0;">TƯ DUY PHÁT TRIỂN: "KHÔNG" KHÔNG BAO GIỜ LÀ MỘT LỰA CHỌN</h4>
+                                          </div>
+                                      </div>
+                                      <div class="space-y-3 pl-2">
+                                          <div class="bg-white p-3.5 rounded-lg border border-slate-100 shadow-2xs">
+                                              <strong class="text-xs font-bold text-emerald-900 block mb-1">💡 Biến "Không" thành "Có":</strong>
+                                              <p class="text-xs text-slate-600 leading-relaxed" style="margin:0;"><em>"No"</em> chưa bao giờ là lựa chọn. Nhiệm vụ của chúng ta ở đây là đối mặt với khó khăn thử thách và tìm ra giải pháp để xử lý vấn đề.</p>
+                                          </div>
+                                          <div class="bg-white p-3.5 rounded-lg border border-slate-100 shadow-2xs">
+                                              <strong class="text-xs font-bold text-emerald-900 block mb-1">💎 Giá trị bản thân:</strong>
+                                              <p class="text-xs text-slate-600 leading-relaxed" style="margin:0;">Công ty trả lương cho các bạn để mua giá trị giải quyết vấn đề, không phải mua thời gian ngồi cho hết giờ. Hãy nhớ rằng, giới hạn duy nhất của một con người chính là giới hạn do bản thân họ tự đặt ra. Đừng nói không thể làm, hãy hỏi làm thế nào để làm được.</p>
+                                          </div>
+                                      </div>
+                                  </div>
+
+                                  <!-- 3. TÁC PHONG CHUYÊN NGHIỆP: ĐỘI NGŨ TINH NHUỆ & TẬP TRUNG TÀI CHÍNH -->
+                                  <div class="bg-slate-50/80 rounded-xl p-6 border border-purple-100 mb-8 border-l-4 border-l-purple-600 shadow-sm">
+                                      <div class="flex items-center gap-3 mb-4">
+                                          <div class="w-9 h-9 rounded-lg bg-purple-600 text-white flex items-center justify-center font-black text-base shadow-sm">3</div>
+                                          <div>
+                                              <span class="text-[10px] font-black uppercase tracking-wider text-purple-600 block">SPECIAL FORCES</span>
+                                              <h4 class="text-base md:text-lg font-black text-slate-800" style="margin:0;">TÁC PHONG CHUYÊN NGHIỆP: ĐỘI NGŨ TINH NHUỆ & TẬP TRUNG TÀI CHÍNH</h4>
+                                          </div>
+                                      </div>
+                                      <div class="space-y-3 pl-2">
+                                          <div class="bg-white p-3.5 rounded-lg border border-slate-100 shadow-2xs">
+                                              <strong class="text-xs font-bold text-purple-900 block mb-1">💰 Sự thật về thu nhập:</strong>
+                                              <p class="text-xs text-slate-600 leading-relaxed" style="margin:0;">Đi làm là để kiếm tiền, đó là sự thật trần trụi và chính đáng. Vậy thì, hãy đến đây làm việc thực sự để kiếm rất nhiều tiền.</p>
+                                          </div>
+                                          <div class="bg-white p-3.5 rounded-lg border border-slate-100 shadow-2xs">
+                                              <strong class="text-xs font-bold text-purple-900 block mb-1">⚡ Tiêu chuẩn "Triều đại mới":</strong>
+                                              <p class="text-xs text-slate-600 leading-relaxed" style="margin:0;">Thời kỳ làm việc nhởn nhơ, tàn tàn đã chính thức chấm dứt. Mô hình vận hành mới mà tôi xây dựng không có chỗ cho sự nhàn rỗi.</p>
+                                          </div>
+                                          <div class="bg-white p-3.5 rounded-lg border border-slate-100 shadow-2xs">
+                                              <strong class="text-xs font-bold text-purple-900 block mb-1">🎯 Chính sách đãi ngộ:</strong>
+                                              <p class="text-xs text-slate-600 leading-relaxed" style="margin:0;">Tôi sẵn sàng trả mức lương cao hơn thị trường cho một đội ngũ ít người nhưng tinh nhuệ <em>(Special Forces)</em>. Thu nhập xuất sắc sẽ giữ chân nhân tài, giúp các bạn tập trung 100% năng lượng vào công việc thay vì để gánh nặng <em>"cơm áo gạo tiền"</em> làm phân tâm.</p>
+                                          </div>
+                                      </div>
+                                  </div>

@@ -1,0 +1,24 @@
+{
+  "replacements": [
+    {
+      "search": "<span style=\"display: block; color: var(--text-primary); font-weight: 900; margin-bottom: 0.25rem;\">CON THUYỀN MỚI</span>",
+      "replace": "<span style=\"display: block; color: var(--text-primary); font-weight: 900; margin-bottom: 0.25rem;\">MÔ HÌNH VẬN HÀNH MỚI</span>"
+    },
+    {
+      "search": "<div style=\"background: rgba(245,158,11,0.15); border: 1px solid rgba(245,158,11,0.3); border-radius: 8px; padding: 0.85rem 1rem; color: #FDE68A; font-size: 0.85rem;\">\n                                        <ul style=\"margin: 0; padding-left: 1.1rem; list-style-type: disc;\">\n                                            <strong>Bài học cốt lõi:</strong>\n                                            <ul style=\"margin-top: 0.25rem; margin-bottom: 0; padding-left: 1.25rem; list-style-type: disc;\">\n                                                <li>Sự táo bạo, tư duy không giới hạn</li>\n                                                <li>Khả năng thích ứng nhanh. Không sợ hãi</li>\n                                            </ul>\n                                        </ul>\n                                    </div>",
+      "replace": "<div style=\"background: rgba(245,158,11,0.15); border: 1px solid rgba(245,158,11,0.3); border-radius: 8px; padding: 0.85rem 1rem; color: #FDE68A; font-size: 0.85rem;\">\n                                        <strong style=\"display: block; margin-bottom: 0.25rem;\">Bài học cốt lõi:</strong>\n                                        <ul style=\"margin: 0; padding-left: 1.25rem; list-style-type: disc;\">\n                                            <li>Sự táo bạo, tư duy không giới hạn</li>\n                                            <li>Khả năng thích ứng nhanh. Không sợ hãi</li>\n                                        </ul>\n                                    </div>"
+    },
+    {
+      "search": "<div style=\"background: rgba(16,185,129,0.15); border: 1px solid rgba(16,185,129,0.3); border-radius: 8px; padding: 0.85rem 1rem; color: #D1FAE5; font-size: 0.85rem;\">\n                                        <ul style=\"margin: 0; padding-left: 1.1rem; list-style-type: disc;\">\n                                            <strong>Bài học cốt lõi:</strong>\n                                            <ul style=\"margin-top: 0.25rem; margin-bottom: 0; padding-left: 1.25rem; list-style-type: disc;\">\n                                                <li>Speed of Light & Stop Overthinking</li>\n                                                <li>Bắt tay vào làm và tinh chỉnh liên tục!</li>\n                                            </ul>\n                                        </ul>\n                                    </div>",
+      "replace": "<div style=\"background: rgba(16,185,129,0.15); border: 1px solid rgba(16,185,129,0.3); border-radius: 8px; padding: 0.85rem 1rem; color: #D1FAE5; font-size: 0.85rem;\">\n                                        <strong style=\"display: block; margin-bottom: 0.25rem;\">Bài học cốt lõi:</strong>\n                                        <ul style=\"margin: 0; padding-left: 1.25rem; list-style-type: disc;\">\n                                            <li>Speed of Light & Stop Overthinking</li>\n                                            <li>Bắt tay vào làm và tinh chỉnh liên tục!</li>\n                                        </ul>\n                                    </div>"
+    },
+    {
+      "search": "<li>&#272;i vay v&#7889;n &#273;&#7875; &#273;&#243;ng t&#224;u</li>\n                                            <li>V&#7915;a x&#226;y nh&#224; x&#432;&#7903;ng v&#7915;a &#273;&#243;ng t&#224;u</li>",
+      "replace": "<li>Đi vay vốn để đóng tàu</li>\n                                            <li>Vừa xây nhà xưởng vừa đóng tàu</li>"
+    },
+    {
+      "search": "<li>Microsoft (3k t&#7927;): 9 n&#259;m</li>\n                                            <li>Apple (3k t&#7927;): 13 n&#259;m</li>",
+      "replace": "<li>Microsoft (3k tỷ): 9 năm</li>\n                                            <li>Apple (3k tỷ): 13 năm</li>"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "replacements": [
+    {
+      "search": "<div class=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6\">",
+      "replace": "<div class=\"grid grid-cols-1 md:grid-cols-2 gap-6 mb-8\">"
+    },
+    {
+      "search": "<span style=\"font-size: 0.75rem; font-weight: 800; color: #DC2626; text-transform: uppercase; letter-spacing: 2px;\">⚠️ PHẦN I — TRUTH AUDIT</span>",
+      "replace": "<span style=\"font-size: 0.75rem; font-weight: 800; color: #DC2626; text-transform: uppercase; letter-spacing: 2px;\">⚠️ PHẦN I — OUR POSITION</span>"
+    },
+    {
+      "search": "<span style=\"background: linear-gradient(135deg, #DC2626 0%, #B91C1C 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 900;\">I. VỊ THẾ HIỆN TẠI CỦA CHÚNG TA</span>",
+      "replace": "<span style=\"background: linear-gradient(135deg, #DC2626 0%, #B91C1C 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 900;\">VỊ THẾ HIỆN TẠI CỦA CHÚNG TA</span>"
+    },
+    {
+      "search": "<div style=\"display: inline-flex; align-items: center; gap: 8px; background: rgba(220,38,38,0.06); border: 1px solid rgba(220,38,38,0.15); padding: 5px 16px; border-radius: 20px; margin-bottom: 0.5rem;\">",
+      "replace": "<div style=\"display: inline-flex; align-items: center; gap: 8px; background: rgba(220,38,38,0.06); border: 1px solid rgba(220,38,38,0.15); padding: 5px 16px; border-radius: 20px; margin-bottom: 1.25rem;\">"
+    },
+    {
+      "search": "<div style=\"display: inline-flex; align-items: center; gap: 8px; background: rgba(30,58,138,0.06); border: 1px solid rgba(30,58,138,0.15); padding: 5px 16px; border-radius: 20px; margin-bottom: 0.5rem;\">",
+      "replace": "<div style=\"display: inline-flex; align-items: center; gap: 8px; background: rgba(30,58,138,0.06); border: 1px solid rgba(30,58,138,0.15); padding: 5px 16px; border-radius: 20px; margin-bottom: 1.25rem;\">"
+    },
+    {
+      "search": "<div style=\"display: inline-flex; align-items: center; gap: 8px; background: rgba(124,58,237,0.06); border: 1px solid rgba(124,58,237,0.15); padding: 5px 16px; border-radius: 20px; margin-bottom: 0.5rem;\">",
+      "replace": "<div style=\"display: inline-flex; align-items: center; gap: 8px; background: rgba(124,58,237,0.06); border: 1px solid rgba(124,58,237,0.15); padding: 5px 16px; border-radius: 20px; margin-bottom: 1.25rem;\">"
+    },
+    {
+      "search": "<div style=\"display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem; border-bottom: 2px solid rgba(220,38,38,0.1); padding-bottom: 0.75rem;\">\n                                <h3 style=\"font-size: 1.25rem; font-weight: 800; color: #DC2626; text-transform: uppercase; letter-spacing: 0.5px; margin: 0; display: flex; align-items: center; gap: 10px;\">\n                                    <span>🔍</span> I. VỊ THẾ HIỆN TẠI CỦA CHÚNG TA\n                                </h3>\n                                <span style=\"font-size: 0.75rem; font-weight: 800; color: #DC2626; background: rgba(220,38,38,0.08); padding: 4px 12px; border-radius: 20px;\">TRUTH AUDIT</span>\n                            </div>",
+      "replace": ""
+    },
+    {
+      "search": "<div style=\"display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem; border-bottom: 2px solid rgba(30,58,138,0.1); padding-bottom: 0.75rem;\">\n                                <h3 style=\"font-size: 1.25rem; font-weight: 800; color: var(--accent-primary); text-transform: uppercase; letter-spacing: 0.5px; margin: 0; display: flex; align-items: center; gap: 10px;\">\n                                    <span>🌐</span> TẦM NHÌN, CẢM HỨNG & TIÊU CHUẨN QUỐC TẾ\n                                </h3>\n                                <span style=\"font-size: 0.75rem; font-weight: 800; color: var(--accent-primary); background: rgba(30,58,138,0.08); padding: 4px 12px; border-radius: 20px;\">GLOBAL STANDARDS</span>\n                            </div>",
+      "replace": ""
+    }
+  ]
+}

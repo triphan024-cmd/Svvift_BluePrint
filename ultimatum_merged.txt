@@ -1,0 +1,101 @@
+                        <!-- TỐI HẬU THƯ (THE ULTIMATUM) — BAO GỒM ROADMAP RÚT GỌN -->
+                        <div id="ultimatum-slide" class="hover-lift" style="margin-top: 2rem; background: linear-gradient(135deg, #0F172A 0%, #1E1B4B 50%, #0F172A 100%); color: white; border-radius: 16px; padding: 2.5rem; border: 1px solid rgba(255,255,255,0.12); box-shadow: 0 20px 50px rgba(15,23,42,0.4); position: relative; overflow: hidden;">
+                            
+                            <!-- Background Ambient Glow -->
+                            <div style="position: absolute; top: -50px; right: -50px; width: 250px; height: 250px; background: radial-gradient(circle, rgba(220,38,38,0.15) 0%, rgba(0,0,0,0) 70%); pointer-events: none;"></div>
+                            <div style="position: absolute; bottom: -50px; left: -50px; width: 250px; height: 250px; background: radial-gradient(circle, rgba(124,58,237,0.15) 0%, rgba(0,0,0,0) 70%); pointer-events: none;"></div>
+
+                            <!-- Header Tag -->
+                            <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 0.75rem;">
+                                <div style="display: flex; align-items: center; gap: 8px;">
+                                    <span style="font-size: 1.2rem;">🔥</span>
+                                    <strong style="font-size: 1.1rem; color: #F8FAFC; letter-spacing: 1px; font-weight: 900;">TỐI HẬU THƯ (THE ULTIMATUM)</strong>
+                                </div>
+                                <span style="font-size: 0.7rem; font-weight: 800; color: #FCA5A5; background: rgba(239,68,68,0.15); border: 1px solid rgba(239,68,68,0.3); padding: 4px 12px; border-radius: 20px; text-transform: uppercase;">Slide kết luận cuối cùng của buổi Training</span>
+                            </div>
+
+                            <!-- Integrated Ultra-Concise Roadmap Timeline -->
+                            <div style="background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 1.25rem; margin-bottom: 1.75rem;">
+                                <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 1rem;">
+                                    <span style="font-size: 0.9rem;">🗺️</span>
+                                    <strong style="font-size: 0.85rem; font-weight: 800; color: #38BDF8; text-transform: uppercase; letter-spacing: 1px;">ROADMAP LỘ TRÌNH 12 TUẦN TARGET</strong>
+                                </div>
+
+                                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem;">
+                                    <!-- Tháng 8 -->
+                                    <div style="background: rgba(30,58,138,0.25); border: 1px solid rgba(59,130,246,0.3); border-radius: 8px; padding: 0.85rem;">
+                                        <span style="font-size: 0.75rem; font-weight: 800; color: #60A5FA; display: block; margin-bottom: 0.4rem;">THÁNG 8 (Tuần 1 — 4)</span>
+                                        <p style="font-size: 0.8rem; color: #E2E8F0; margin: 0; line-height: 1.5;">
+                                            • T1: Kho bãi <span style="color:#FCA5A5; font-weight:700;">(Top 1)</span><br>
+                                            • T2: Thu mua<br>
+                                            • T3: Sản xuất<br>
+                                            • T4: Xuất nhập khẩu
+                                        </p>
+                                    </div>
+
+                                    <!-- Tháng 9 -->
+                                    <div style="background: rgba(124,58,237,0.25); border: 1px solid rgba(167,139,250,0.3); border-radius: 8px; padding: 0.85rem;">
+                                        <span style="font-size: 0.75rem; font-weight: 800; color: #C084FC; display: block; margin-bottom: 0.4rem;">THÁNG 9 (Tuần 5 — 8)</span>
+                                        <p style="font-size: 0.8rem; color: #E2E8F0; margin: 0; line-height: 1.5;">
+                                            • T5: Kế toán<br>
+                                            • T6: Nhân sự<br>
+                                            • T7: Tích hợp hệ thống<br>
+                                            • T8: Đánh giá & Tinh chỉnh
+                                        </p>
+                                    </div>
+
+                                    <!-- Tháng 10 -->
+                                    <div style="background: rgba(16,185,129,0.2); border: 1px solid rgba(52,211,153,0.3); border-radius: 8px; padding: 0.85rem;">
+                                        <span style="font-size: 0.75rem; font-weight: 800; color: #34D399; display: block; margin-bottom: 0.4rem;">THÁNG 10 (Tuần 9 — 12)</span>
+                                        <p style="font-size: 0.8rem; color: #E2E8F0; margin: 0; line-height: 1.5;">
+                                            • Stress-Test toàn diện<br>
+                                            • Tăng tốc & Nâng chuẩn<br>
+                                            • <strong style="color:#34D399;">100% Global Standard</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Big Title -->
+                            <div style="margin-bottom: 1.5rem;">
+                                <h3 style="font-size: clamp(1.4rem, 2.5vw, 2rem); font-weight: 900; color: #F1F5F9; letter-spacing: 0.5px; margin: 0 0 0.75rem 0;">
+                                    12 TUẦN ĐỂ LỘT XÁC VÀ CHỨNG MINH
+                                </h3>
+                                <p style="font-size: 0.925rem; color: #94A3B8; line-height: 1.7; margin: 0;">
+                                    Tất cả những lý thuyết, tiêu chuẩn và hệ thống (S-T-P) này sẽ vô nghĩa nếu không có sự thực thi. Kể từ giây phút này, đồng hồ đã bắt đầu đếm ngược. Các bạn có đúng <strong style="color: #F8FAFC; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 4px;">12 TUẦN (12 Weeks Target)</strong> để chứng minh năng lực với tôi và với chính bản thân các bạn.
+                                </p>
+                            </div>
+
+                            <!-- 2 Options Grid -->
+                            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem; margin-bottom: 1.75rem;">
+                                
+                                <!-- Option 1 -->
+                                <div style="background: rgba(16,185,129,0.08); border: 1px solid rgba(16,185,129,0.3); border-left: 4px solid #10B981; border-radius: 12px; padding: 1.25rem;">
+                                    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.5rem;">
+                                        <span style="background: #10B981; color: white; width: 22px; height: 22px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.75rem; font-weight: 900;">✓</span>
+                                        <strong style="color: #34D399; font-size: 0.95rem; font-weight: 800;">Lựa chọn 1:</strong>
+                                    </div>
+                                    <p style="font-size: 0.875rem; color: #E2E8F0; line-height: 1.6; margin: 0;">
+                                        Thay đổi, thích nghi, nâng cấp bản thân để cùng công ty phát triển, tiến vào hàng ngũ tinh nhuệ và nhận mức đãi ngộ xứng đáng.
+                                    </p>
+                                </div>
+
+                                <!-- Option 2 -->
+                                <div style="background: rgba(239,68,68,0.08); border: 1px solid rgba(239,68,68,0.3); border-left: 4px solid #EF4444; border-radius: 12px; padding: 1.25rem;">
+                                    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.5rem;">
+                                        <span style="background: #EF4444; color: white; width: 22px; height: 22px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.75rem; font-weight: 900;">✕</span>
+                                        <strong style="color: #FCA5A5; font-size: 0.95rem; font-weight: 800;">Lựa chọn 2:</strong>
+                                    </div>
+                                    <p style="font-size: 0.875rem; color: #E2E8F0; line-height: 1.6; margin: 0;">
+                                        Từ chối thay đổi và bị đào thải, nhường chỗ cho những người khác phù hợp hơn, khao khát hơn.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Bottom Golden Quote Callout -->
+                            <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(251,191,36,0.4); border-radius: 10px; padding: 1.25rem; text-align: center;">
+                                <p style="font-size: 1rem; font-weight: 800; color: #FBBF24; margin: 0; font-style: italic; letter-spacing: 0.3px;">
+                                    "Không có vùng xám. Không có sự thỏa hiệp. 12 tuần để quyết định vị thế của bạn tại Svvift."
+                                </p>
+                            </div>
+                        </div>

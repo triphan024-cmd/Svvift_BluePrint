@@ -1,0 +1,12 @@
+﻿                .card-benefit {
+                    border: 1px solid rgba(16, 185, 129, 0.15);
+                    background: rgba(255, 255, 255, 0.9);
+                    margin-top: 2rem;
+                }
+                .card-benefit:hover {
+                    box-shadow: 0 25px 50px -5px rgba(16, 185, 129, 0.15);
+                }
+                .card-benefit::before {
+                    background: linear-gradient(135deg, #10b981, #059669);
+                }
+                @media (max-width: 768px) {

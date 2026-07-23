@@ -1,0 +1,16 @@
+{
+  "replacements": [
+    {
+      "search": "<span class=\"text-[10px] font-black uppercase tracking-wider text-purple-600 block\" style=\"margin-bottom:0.2rem;\">VĂN HÓA</span>",
+      "replace": "<span class=\"text-[10px] font-black uppercase tracking-wider text-purple-600 block\" style=\"margin-bottom:0.2rem;\">THÔNG TIN</span>"
+    },
+    {
+      "search": "<h4 class=\"text-base md:text-lg font-black text-slate-800\" style=\"margin:0;\">2. TƯ DUY PHÁT TRIỂN (GROWTH MINDSET): \"KHÔNG\" KHÔNG BAO GIỜ LÀ MỘT LỰA CHỌN</h4>",
+      "replace": "<h4 class=\"text-base md:text-lg font-black text-slate-800\" style=\"margin:0;\">TƯ DUY PHÁT TRIỂN (GROWTH MINDSET): \"KHÔNG\" CHƯA BAO GIỜ LÀ MỘT LỰA CHỌN</h4>"
+    },
+    {
+      "search": "<h4 class=\"text-base md:text-lg font-black text-slate-800\" style=\"margin:0;\">3. TÁC PHONG CHUYÊN NGHIỆP: ĐỘI NGŨ TINH NHUỆ & TẬP TRUNG TÀI CHÍNH</h4>",
+      "replace": "<h4 class=\"text-base md:text-lg font-black text-slate-800\" style=\"margin:0;\">TÁC PHONG CHUYÊN NGHIỆP & ĐỘI NGŨ TINH NHUỆ</h4>"
+    }
+  ]
+}
